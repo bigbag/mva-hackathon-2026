@@ -1,7 +1,8 @@
 ## Track 1 submission — ready to upload
 
-**File:** `analysis/candidates/draft_submission_track1.csv` — copy it to
-`<your-HF-username>_bub1b-panel-scan-v1.csv` before upload (naming convention from the challenge).
+**GitHub URL for the form:** `https://github.com/bigbag/mva-hackathon-2026/` (SSH remote; content under `track1/`)
+
+**Upload files:** CSV = `analysis/candidates/bigbag_bub1b-panel-scan-v1.csv` · Report = `analysis/candidates/UPLOAD_ME_track1_report.md` (Simplified Technical English methods report)
 
 **How to submit:**
 1. Open https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space → tab **Submit - Track 1**
