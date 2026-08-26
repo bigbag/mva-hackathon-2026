@@ -20,25 +20,25 @@ The plan follows one rule. A drug must help a living child. A drug must not help
 
 ### A1. Adavosertib plus irinotecan for rhabdomyosarcoma
 
-Aneuploid tumor cells do not have intact G1 checkpoints. These cells use the G2 checkpoint. Adavosertib blocks WEE1. The block forces mitosis before DNA repair. A pediatric trial sets the dose. The trial is NCT02095132. The dose is 85 mg/m² adavosertib plus 90 mg/m² irinotecan. The schedule is day 1 through day 5 of a 21-day cycle. This trial arm includes rhabdomyosarcoma. Use this pair as a relapse backbone under trial control.
+Aneuploid tumor cells do not have intact G1 checkpoints. These cells use the G2 checkpoint. Adavosertib blocks WEE1. The block forces mitosis before DNA repair. A pediatric trial sets the dose. The trial is [NCT02095132](https://clinicaltrials.gov/study/NCT02095132). The dose is 85 mg/m² adavosertib plus 90 mg/m² irinotecan. The schedule is day 1 through day 5 of a 21-day cycle. This trial arm includes rhabdomyosarcoma. Use this pair as a relapse backbone under trial control.
 
 ### A2. Alisertib as an alternate mitotic drug
 
-Aurora kinase A supports the aneuploid cell. A COG phase 2 trial tested alisertib in children with solid tumors (ADVL0921). Embryonal tumors responded. Use this arm when the WEE1 arm fails.
+Aurora kinase A supports the aneuploid cell. A COG phase 2 trial tested alisertib in children with solid tumors ([ADVL0921](https://pubmed.ncbi.nlm.nih.gov/30777875/)). Embryonal tumors responded. Use this arm when the WEE1 arm fails.
 
 ### A3. Potassium citrate plus a thiazide for nephrocalcinosis
 
-The proband has renal calcium deposits. Guidelines recommend potassium citrate at 0.1-0.2 g/kg/day. Guidelines also recommend a thiazide at 0.5-1 mg/kg/day. A thiazide decreases urine calcium by about 30 percent. A thiazide also improves bone density in children with hypercalciuria. Both drugs have full pediatric approval.
+The proband has renal calcium deposits. [Weigert and Hoppe](https://pubmed.ncbi.nlm.nih.gov/29707529/) recommend potassium citrate at 0.1-0.2 g/kg/day. The same review recommends a thiazide at 0.5-1 mg/kg/day. A thiazide decreases urine calcium by about 30 percent. A thiazide also improves bone density in children with hypercalciuria. Both drugs have full pediatric approval.
 
 ### A4. Growth hormone. Use with caution.
 
-Orphanet lists growth hormone for MVA growth failure. Studies in primordial dwarfism do not show a clear gain in final height. Growth hormone also increases IGF-1. IGF-1 increases mitogenic signals. The child has a high cancer risk. Use growth hormone only after a shared decision. Put nutrition first. Get oncology approval.
+Some clinics use growth hormone for MVA growth failure. Studies in primordial dwarfism do not show a clear gain in final height. Growth hormone also increases IGF-1. IGF-1 increases mitogenic signals. The child has a high cancer risk. Use growth hormone only after a shared decision. Put nutrition first. Get oncology approval.
 
 ## 4. Tier B. Decrease stress in aneuploid cells (E2-E3 evidence)
 
 ### B1. Everolimus or sirolimus (mTOR)
 
-Aneuploid cells increase mTORC1 signaling. mTORC1 drives the inflammatory secretome of stressed cells. Sirolimus and everolimus decrease this signal. Pediatric safety data are large. Transplant infants receive these drugs. Children with tuberous sclerosis receive these drugs from age three. The EXIST-1 long-term analysis shows a 57.7 percent SEGA response after a median of 47.1 months (Franz et al., *PLOS ONE*, 2016). This tier does not repair the checkpoint. This tier decreases the damage that aneuploid cells cause. Use a low dose. Monitor infection.
+Aneuploid cells increase mTORC1 signaling. mTORC1 drives the inflammatory secretome of stressed cells. Sirolimus and everolimus decrease this signal. Pediatric safety data are large. Transplant infants receive these drugs. Children with tuberous sclerosis receive these drugs from age three. The EXIST-1 long-term analysis shows a 57.7 percent SEGA response after a median of 47.1 months ([Franz et al., *PLOS ONE*, 2016](https://pubmed.ncbi.nlm.nih.gov/27351628/)). This tier does not repair the checkpoint. This tier decreases the damage that aneuploid cells cause. Use a low dose. Monitor infection.
 
 ### B2. NAD+ precursor support (weak proxy)
 
@@ -48,25 +48,25 @@ SIRT2 removes acetyl groups from BubR1. This action stabilizes BubR1. NAD+ suppl
 
 ### C1. BubR1 restoration program
 
-Baker et al. show that BubR1 overexpression corrects checkpoint failure in mice. The same work decreases tumor burden. The same work extends lifespan (Baker et al., *Nature Cell Biology*, 2013). Three routes exist. Route 1 is AAV gene augmentation. Route 2 is SIRT2-axis stabilization. NAD+ precursors are a weak pharmacologic proxy for route 2. Route 3 uses the progerin C-terminal peptide that raises BUBR1 (Zhang et al., *Nature Aging*, 2023). The proband keeps one weakened allele. His cells make full-length protein from that allele. A small increase in BubR1 level can give a large gain in checkpoint fidelity. This is the main research goal of the submission.
+[Baker et al.](https://pubmed.ncbi.nlm.nih.gov/23242215/) show that BubR1 overexpression corrects checkpoint failure in mice. The same work decreases tumor burden. The same work extends lifespan. Three routes exist. Route 1 is AAV gene augmentation. Route 2 is SIRT2-axis stabilization. NAD+ precursors are a weak pharmacologic proxy for route 2. Route 3 uses the progerin C-terminal peptide that raises BUBR1 ([Zhang et al., *Nature Aging*, 2023](https://pubmed.ncbi.nlm.nih.gov/37118121/)). The proband keeps one weakened allele. His cells make full-length protein from that allele. A small increase in BubR1 level can give a large gain in checkpoint fidelity. This is the main research goal of the submission.
 
 ## 6. Evidence grades and negative controls
 
 We give each claim a grade. E1 is human trial evidence in the indication. E2 is human evidence in adjacent settings. E3 is strong animal data or data from human cells. E4 is mechanistic rationale only. A1 through A3 have grade E1. A4 and B1 have grade E2 or E3. B2 has grade E3. Tier C has grade E4.
 
-We check claims against RepoDB negative controls. No approved drug lists MVA as an indication. This absence confirms the unmet need. This absence also warns against claims that are too strong.
+We check claims against [RepoDB](https://pubmed.ncbi.nlm.nih.gov/28291243/) negative controls. No approved drug lists MVA as an indication. This absence confirms the unmet need. This absence also warns against claims that are too strong.
 
 ## 7. Surveillance
 
-BUB1B-MVA1 has a high cancer risk. Do an abdominal ultrasound every three months until age seven. This test watches for Wilms tumor and rhabdomyosarcoma. Blood counts watch for leukemia or MDS. Keep radiation exposure low. This section connects the report to real-world care.
+[BUB1B-MVA1](https://pubmed.ncbi.nlm.nih.gov/15475955/) has a high cancer risk. Do an abdominal ultrasound every three months until age seven. This test watches for Wilms tumor and rhabdomyosarcoma. Blood counts watch for leukemia or MDS. Keep radiation exposure low. This section connects the report to real-world care.
 
 ## 8. Scalability
 
-Each step uses an API or a public dataset. Open Targets gives the target profile and tractability. DGIdb and ChEMBL give chemical matter and potency. GEO-hosted L1000 gives signature reversal. The everycure/matrix-scores set gives 39.5 million drug-disease priors on Hugging Face. The pipeline runs on a laptop. The pipeline applies to other recessive chromosomal-instability disorders. The team releases the full code.
+Each step uses an API or a public dataset. [Open Targets](https://platform.opentargets.org/target/ENSG00000156970) gives the target profile and tractability. DGIdb and [ChEMBL](https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491) give chemical matter and potency. The [everycure/matrix-scores](https://huggingface.co/datasets/everycure/matrix-scores) set gives 39.5 million drug-disease priors on Hugging Face. The pipeline runs on a laptop. The pipeline applies to other recessive chromosomal-instability disorders. The team releases the [full code](https://github.com/bigbag/mva-hackathon-2026).
 
 ## 9. Open Targets findings for BUB1B (2026-08-26)
 
-The platform lists BUB1B (ENSG00000156970). Tractability buckets show the labels "Advanced Clinical" and "Approved Drug" across modalities. The small-molecule route also has the labels "High-Quality Pocket", "Small Molecule Binder", and "Structure with Ligand". The kinase domain can bind a ligand. No registered drug targets BUB1B directly. Reactome pathways confirm the mechanism chain. The pathways are Mitotic Prometaphase, MAD2 inhibitory signal amplification, and APC/C:Cdc20 degradation control.
+The platform lists [BUB1B (ENSG00000156970)](https://platform.opentargets.org/target/ENSG00000156970). Tractability buckets show the labels "Advanced Clinical" and "Approved Drug" across modalities. The small-molecule route also has the labels "High-Quality Pocket", "Small Molecule Binder", and "Structure with Ligand". The kinase domain can bind a ligand. No registered drug targets BUB1B directly. Reactome pathways confirm the mechanism chain. The pathways are Mitotic Prometaphase, MAD2 inhibitory signal amplification, and APC/C:Cdc20 degradation control.
 
 ## 10. Decision path for the clinical team
 
@@ -80,7 +80,7 @@ The platform lists BUB1B (ENSG00000156970). Tractability buckets show the labels
 
 This report is a set of hypotheses for follow-up. This report is not evidence that any medicine works in MVA. No drug can yet repair the checkpoint defect in a living child. The honest claim has three parts. Part 1 is stress buffering. Part 2 is tumor-directed trial options. Part 3 is a clear restorative research plan.
 
-## 12. External computational prior (everycure/matrix-scores, 2026-08-26)
+## 12. External computational prior ([everycure/matrix-scores](https://huggingface.co/datasets/everycure/matrix-scores), 2026-08-26)
 
 We scanned all 39.5 million drug-disease pairs for the indications of the proband.
 
@@ -100,19 +100,19 @@ Artifacts: `track2/evidence/matrix_scores_matches.csv`, `dgidb_tiers.json`, `ot_
 
 We mapped both alleles onto BubR1 structures. We also used the AlphaFold model.
 
-**Domain architecture (UniProt O60566).** The TPR domain spans residues 1 through 226. The KEN box is at residue 20. The D-box spans residues 224 through 232. The PP2A-B56 docking motif spans residues 668 through 675. The kinase domain spans residues 766 through 1050. The catalytic proton acceptor is D882. The ATP-binding lysine cluster spans residues 772 through 780.
+**Domain architecture ([UniProt O60566](https://www.uniprot.org/uniprotkb/O60566/entry)).** The TPR domain spans residues 1 through 226. The KEN box is at residue 20. The D-box spans residues 224 through 232. The PP2A-B56 docking motif spans residues 668 through 675. The kinase domain spans residues 766 through 1050. The catalytic proton acceptor is D882. The ATP-binding lysine cluster spans residues 772 through 780.
 
-**Allele 1: p.Leu737Ter.** The stop codon is 29 residues before the kinase domain starts. The truncated protein keeps residues 1 through 737. The truncated protein keeps the TPR domain, the KEN box, the D-box, and the PP2A-B56 docking motif. The APC/C-MCC cryo-EM structures (PDB 6TLJ, 5KHU) show BubR1 residues 19 through 499. This region is the scaffold that binds CDC20. The PP2A complex structure (PDB 5JJA) shows the B56 docking motif. The motif is 4 to 8 angstroms from PP2A-B56. Allele 1 loses only the kinase domain. Allele 1 keeps each resolved scaffold function. We name allele 1 a null allele that removes the kinase domain.
+**Allele 1: p.Leu737Ter.** The stop codon is 29 residues before the kinase domain starts. The truncated protein keeps residues 1 through 737. The truncated protein keeps the TPR domain, the KEN box, the D-box, and the PP2A-B56 docking motif. The APC/C-MCC cryo-EM structures ([PDB 6TLJ](https://www.rcsb.org/structure/6TLJ), [5KHU](https://www.rcsb.org/structure/5KHU)) show BubR1 residues 19 through 499. This region is the scaffold that binds CDC20. The PP2A complex structure ([PDB 5JJA](https://www.rcsb.org/structure/5JJA)) shows the B56 docking motif. The motif is 4 to 8 angstroms from PP2A-B56. Allele 1 loses only the kinase domain. Allele 1 keeps each resolved scaffold function. We name allele 1 a null allele that removes the kinase domain.
 
 **Allele 2: p.Asn1002Lys.** The residue is in the kinase C-lobe. The AlphaFold model (v6) scores this region with high confidence. The kinase-domain mean pLDDT is 82. The N1002 pLDDT is 91. The 990-1015 window pLDDT is 91. N1002 is 19.8 angstroms from the catalytic D882. N1002 is 35.6 angstroms from the VAIK lysine. The substitution does not touch the catalytic core. The substitution is in the C-terminal kinase tail. The substitution more likely decreases fold stability or regulation. The substitution does not remove the active site.
 
-**Synthesis.** Both alleles change the kinase domain. Both alleles leave the MCC scaffold intact. The checkpoint keeps its scaffold arm. The checkpoint loses its kinase output. This fact explains a living child with cancer predisposition. BubR1 that has only scaffold function supports life. This BubR1 does not protect enough against aneuploidy. This fact also makes Tier C more clear. A therapy must restore protein level or scaffold strength. A therapy does not need to restore kinase chemistry. BubR1 overexpression data from mice support this view (Baker 2013). Those data show checkpoint repair with scaffold-level rescue.
+**Synthesis.** Both alleles change the kinase domain. Both alleles leave the MCC scaffold intact. The checkpoint keeps its scaffold arm. The checkpoint loses its kinase output. This fact explains a living child with cancer predisposition. BubR1 that has only scaffold function supports life. This BubR1 does not protect enough against aneuploidy. This fact also makes Tier C more clear. A therapy must restore protein level or scaffold strength. A therapy does not need to restore kinase chemistry. BubR1 overexpression data from mice support this view ([Baker et al., 2013](https://pubmed.ncbi.nlm.nih.gov/23242215/)). Those data show checkpoint repair with scaffold-level rescue.
 
 Artifacts: `evidence/pdb/` (5JJA, 6TLJ, 5KHU, AlphaFold model, distance computations).
 
 ## 14. Registered RMS trial landscape (Open Targets, 2026-08-26)
 
-The platform lists 95 drug or clinical candidates for rhabdomyosarcoma. Late-stage entries include vinorelbine (phase 3), ifosfamide (phase 3), filgrastim (phase 3), and eribulin (phase 2). Targeted entries include crizotinib, sorafenib, imatinib, and tacrolimus. Our Tier A picks do not appear in this indication list yet. The picks are adavosertib plus irinotecan, and alisertib. These drugs enter through pediatric solid-tumor trials and relapsed-RMS trials (NCT02095132; ADVL0921). Artifact: `evidence/ot_rms_drugs.json`.
+The platform lists 95 drug or clinical candidates for rhabdomyosarcoma. Late-stage entries include vinorelbine (phase 3), ifosfamide (phase 3), filgrastim (phase 3), and eribulin (phase 2). Targeted entries include crizotinib, sorafenib, imatinib, and tacrolimus. Our Tier A picks do not appear in this indication list yet. The picks are adavosertib plus irinotecan, and alisertib. These drugs enter through pediatric solid-tumor trials and relapsed-RMS trials ([NCT02095132](https://clinicaltrials.gov/study/NCT02095132); [ADVL0921](https://pubmed.ncbi.nlm.nih.gov/30777875/)). Artifact: `evidence/ot_rms_drugs.json`.
 
 ## 15. Nephrocalcinosis management protocol (Tier A3)
 
@@ -125,15 +125,15 @@ The protocol targets deposits that hypercalciuria causes. The child was born at 
 5. **Keep acetazolamide as a discussion point only.** Acetazolamide ranked first for MVA1 in the matrix-scores prior. Acetazolamide also makes urine more alkaline. This action can make calcium-phosphate deposits worse. Grade E4. The nephrology team decides.
 6. **Bone effect.** A thiazide improves bone mineral density in children with hypercalciuria. This effect helps a child with growth restriction.
 
-See Works Cited: Weigert and Hoppe.
+See [Weigert and Hoppe](https://pubmed.ncbi.nlm.nih.gov/29707529/).
 
 ## 16. Eligibility for the tumor arm. A biomarker gate.
 
 We propose a tumor test before any Tier A mitotic drug.
 
-1. **WEE1 arm (adavosertib plus irinotecan).** Test tumor RB1 status first. Test tumor TP53 status first. WEE1 dependence occurs when G1 checkpoints fail. Intact RB1 and p53 decrease the expected benefit. Intact RB1 and p53 increase toxicity. Evidence: NCT02095132 enrichment logic.
+1. **WEE1 arm (adavosertib plus irinotecan).** Test tumor RB1 status first. Test tumor TP53 status first. WEE1 dependence occurs when G1 checkpoints fail. Intact RB1 and p53 decrease the expected benefit. Intact RB1 and p53 increase toxicity. Evidence: [NCT02095132](https://clinicaltrials.gov/study/NCT02095132) enrichment logic.
 2. **AURKA arm (alisertib).** AURKA dependence increases in cells with an Rb-pathway defect. The same RB1 test controls this arm.
-3. **Chemical feasibility (ChEMBL, verified).** Adavosertib inhibits WEE1 with IC50 0.6-1.7 nM (CHEMBL5491). The pediatric RP2D of 85 mg/m² reaches plasma levels far above this value. The drug engages its target at safe pediatric doses. Published assays give everolimus and alisertib potencies in the single-digit nanomolar range. The ChEMBL REST service returned no usable rows for those two drugs on this date. We give those two cells grade E2 from literature.
+3. **Chemical feasibility ([ChEMBL](https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491), verified).** Adavosertib inhibits WEE1 with IC50 0.6-1.7 nM (CHEMBL5491). The pediatric RP2D of 85 mg/m² reaches plasma levels far above this value. The drug engages its target at safe pediatric doses. Published assays give everolimus and alisertib potencies in the single-digit nanomolar range. The ChEMBL REST service returned no usable rows for those two drugs on this date. We give those two cells grade E2 from literature.
 4. **Surveillance does not change** with the arm. Do an abdominal ultrasound every three months until age seven. Watch blood counts for leukemia or MDS. Keep radiation low.
 
 Artifact: `evidence/chembl_feasibility.json`.

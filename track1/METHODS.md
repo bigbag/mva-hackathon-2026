@@ -4,11 +4,11 @@ Team bigbag · Proband PROBAND01 · Result: **full match, 100.0 rank points, F-m
 
 ## Pipeline (all code in `analysis/`, runs on a laptop)
 
-1. **Phenotype → gene prior.** HPO terms from the clinical document matched to the curated MVA gene series (Malumbres & Villarroya-Beltri, Nat Rev Genet 2024: BUB1B, CEP57, TRIP13, CENATAC, SLF2, SMC5, MAD1L1, MAD2L1BP, CEP192, BUB1, TUBGCP4/6) plus a wider 122-gene chromosomal-instability / RMS-predisposition / nephrocalcinosis panel. BUB1B was the only gene carrying both embryonal RMS and universal prenatal growth restriction as signature features with documented compound-heterozygous architecture.
+1. **Phenotype → gene prior.** HPO terms from the clinical document matched to the curated MVA gene series ([Malumbres and Villarroya-Beltri, *Nat Rev Genet* 2024](https://pubmed.ncbi.nlm.nih.gov/39169218/): BUB1B, CEP57, TRIP13, CENATAC, SLF2, SMC5, MAD1L1, MAD2L1BP, CEP192, BUB1, TUBGCP4/6) plus a wider 122-gene chromosomal-instability / RMS-predisposition / nephrocalcinosis panel. BUB1B was the only gene carrying both embryonal RMS and universal prenatal growth restriction as signature features with documented compound-heterozygous architecture.
 2. **Exhaustive panel extraction** (`scan_panel2.py`): all variant classes (incl. intronic/synonymous/UTR) across full gene spans ±5 kb from the provided single-sample Sentieon VCF; GENCODE v44 spans; merged-interval bisect lookup; 11,835 non-ref alleles in 11 s.
 3. **Local consequence annotation** (`annotate_panel.py`): MANE-transcript classifier (GTF + GRCh38 no-alt FASTA, pyfaidx) labeling stop-gain/frameshift/splice/missense; VEP-REST cross-verified on every final candidate (canonical ENST00000287598.11).
-4. **Frequency + clinical status** (`af_lookup.py` + `netutil.py`): gnomAD v4, ClinVar, AlphaMissense with a rate-limit-aware client (429/Retry-After/backoff/jitter, response cache).
-5. **Splice assessment**: SpliceAI 1.3.1, distance 1000, unmasked — all BUB1B candidates ≤0.03; the novel deep-intronic c.2679-1026A>G scored 0.00.
+4. **Frequency + clinical status** (`af_lookup.py` + `netutil.py`): [gnomAD v4](https://gnomad.broadinstitute.org/variant/15-40209701-T-G?dataset=gnomad_r4), [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/), [AlphaMissense](https://pubmed.ncbi.nlm.nih.gov/37733863/) with a rate-limit-aware client (429/Retry-After/backoff/jitter, response cache).
+5. **Splice assessment**: [SpliceAI](https://pubmed.ncbi.nlm.nih.gov/30661751/) 1.3.1, distance 1000, unmasked — all BUB1B candidates ≤0.03; the novel deep-intronic c.2679-1026A>G scored 0.00.
 6. **Confounder screens**:
    - PGT/PID physical-phasing mining — 52 read-backed in-trans groups genome-wide in-panel, all common-variant clusters; no competing recessive pair.
    - Whole-genome BAF mosaic-aneuploidy screen (`baf_screen.py`, 2.89M het SNPs): all autosomes unimodal BAF≈0.5 → no blood-DNA whole-chromosome mosaicism ≥~10% cell fraction; male karyotype confirmed.
@@ -20,12 +20,12 @@ Team bigbag · Proband PROBAND01 · Result: **full match, 100.0 rank points, F-m
 
 | Allele | Locus (GRCh38) | HGVS (NM_001211.6) | Evidence |
 |---|---|---|---|
-| 1 | chr15:40209701 T>G | c.2210T>G p.Leu737Ter | ClinVar VCV000533901.9 P/LP; gnomAD AF 7.9e-05 |
-| 2 | chr15:40220612 T>G | c.3006T>G p.Asn1002Lys | gnomAD singleton (1/1.46M); SIFT 0.01; PolyPhen 0.997; AlphaMissense 0.9229; BubR1 kinase domain |
+| 1 | chr15:40209701 T>G | c.2210T>G p.Leu737Ter | [ClinVar VCV000533901](https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/) P/LP; [gnomAD](https://gnomad.broadinstitute.org/variant/15-40209701-T-G?dataset=gnomad_r4) AF 7.9e-05 |
+| 2 | chr15:40220612 T>G | c.3006T>G p.Asn1002Lys | gnomAD singleton (1/1.46M); SIFT 0.01; PolyPhen 0.997; [AlphaMissense](https://pubmed.ncbi.nlm.nih.gov/37733863/) 0.9229; BubR1 kinase domain |
 
 ## Method-design rationale (CAGI lessons applied)
 
-Five-pillar integration per the CAGI6 RGP assessment (Stenton et al. 2024): call quality + population AF + deleteriousness + segregation logic + phenotype match. We submitted the compound-het PAIR on row 1 (wrong-partner = zero in CAGI6), kept single-allele rows for CAGI7-style partial credit, flagged the incidental LZTR1 finding as `secondary`, and normalized representation exactly as the provided VCF (chrN, GRCh38, biallelic SNVs).
+Five-pillar integration per the CAGI6 RGP assessment ([Stenton, 2022](https://gregorconsortium.org/node/120)): call quality + population AF + deleteriousness + segregation logic + phenotype match. We submitted the compound-het PAIR on row 1 (wrong-partner = zero in CAGI6), kept single-allele rows for CAGI7-style partial credit, flagged the incidental LZTR1 finding as `secondary`, and normalized representation exactly as the provided VCF (chrN, GRCh38, biallelic SNVs).
 
 ## Post-submission deep verification (2026-08-26)
 
@@ -33,7 +33,7 @@ Five-pillar integration per the CAGI6 RGP assessment (Stenton et al. 2024): call
 
 We ran Exomiser genome-wide on the full 5.0M-variant VCF with only the eight HPO terms (hiPhive, PASS_ONLY, no gene panel). Runtime: 94 seconds.
 
-- **Rank 1: BUB1B (combined 0.650); Rank 2: BUB1B AR (0.550, phenotype score 0.813).** OMIM:257300 matched, including `Premature birth -> Premature chromatid separation` and `Rhabdomyosarcoma -> Embryonal rhabdomyosarcoma`.
+- **Rank 1: BUB1B (combined 0.650); Rank 2: BUB1B AR (0.550, phenotype score 0.813).** [OMIM:257300](https://omim.org/entry/257300) matched, including `Premature birth -> Premature chromatid separation` and `Rhabdomyosarcoma -> Embryonal rhabdomyosarcoma`.
 - The contributing variants are exactly our pair: `15-40209701-T-G` (ClinVar whitelist) and `15-40220612-T-G` (variant score 0.85).
 - Rank 3: FANCD2 — the common-polymorphism cluster our scan already excluded (AF 0.45). Rank 11: LZTR1 — our flagged secondary finding, independently surfaced.
 

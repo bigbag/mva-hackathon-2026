@@ -388,17 +388,17 @@ def build_pptx(out: Path, figs: dict) -> None:
     _add_title(s, "Tier A. Treat the signs that we see today.")
     _tier_block(
         s, 1.25, "Adavosertib plus irinotecan",
-        "A pediatric trial sets the dose (NCT02095132). The trial has a rhabdomyosarcoma arm.",
+        "A pediatric trial sets the dose. NCT02095132. https://clinicaltrials.gov/study/NCT02095132",
         RGBColor(0x16, 0x65, 0x34),
     )
     _tier_block(
         s, 2.85, "Potassium citrate plus a thiazide",
-        "Standard care for nephrocalcinosis. Safe in children. Protects bone.",
+        "Standard care for nephrocalcinosis. Weigert and Hoppe. https://pubmed.ncbi.nlm.nih.gov/29707529/",
         RGBColor(0x16, 0x65, 0x34),
     )
     _tier_block(
         s, 4.45, "Alisertib",
-        "Alternate mitotic drug. COG phase 2 trial ADVL0921.",
+        "Alternate mitotic drug. COG ADVL0921. https://pubmed.ncbi.nlm.nih.gov/30777875/",
         RGBColor(0x16, 0x65, 0x34),
     )
 
@@ -411,7 +411,7 @@ def build_pptx(out: Path, figs: dict) -> None:
     )
     _tier_block(
         s, 2.85, "Everolimus decreases that signal.",
-        "Pediatric safety data are large. EXIST-1. Transplant infants.",
+        "Pediatric safety data are large. EXIST-1 long-term. https://pubmed.ncbi.nlm.nih.gov/27351628/",
         RGBColor(0x1D, 0x4E, 0x89),
     )
     _tier_block(
@@ -424,7 +424,7 @@ def build_pptx(out: Path, figs: dict) -> None:
     _add_title(s, "Tier C. Restore the protein.")
     _tier_block(
         s, 1.25, "Mouse data (Baker 2013)",
-        "More BubR1 repairs the checkpoint. More BubR1 extends lifespan.",
+        "More BubR1 repairs the checkpoint. https://pubmed.ncbi.nlm.nih.gov/23242215/",
         RGBColor(0x9A, 0x34, 0x12),
     )
     _tier_block(
@@ -571,17 +571,17 @@ def build_html(out: Path) -> None:
 <img src="fig_mechanism.png" alt="Flow from genotype to three drug tiers"></section>
 
 <section class="slide"><h1>Tier A. Treat the signs that we see today.</h1>
-<div class="tier a"><b>Adavosertib plus irinotecan.</b> A pediatric trial sets the dose (NCT02095132). The trial has a rhabdomyosarcoma arm.</div>
-<div class="tier a"><b>Potassium citrate plus a thiazide.</b> Standard care for nephrocalcinosis. Safe in children. Protects bone.</div>
-<div class="tier a"><b>Alisertib.</b> Alternate mitotic drug. COG phase 2 trial ADVL0921.</div></section>
+<div class="tier a"><b>Adavosertib plus irinotecan.</b> A pediatric trial sets the dose (<a href="https://clinicaltrials.gov/study/NCT02095132">NCT02095132</a>). The trial has a rhabdomyosarcoma arm.</div>
+<div class="tier a"><b>Potassium citrate plus a thiazide.</b> Standard care for nephrocalcinosis (<a href="https://pubmed.ncbi.nlm.nih.gov/29707529/">Weigert and Hoppe</a>). Safe in children. Protects bone.</div>
+<div class="tier a"><b>Alisertib.</b> Alternate mitotic drug. COG phase 2 trial <a href="https://pubmed.ncbi.nlm.nih.gov/30777875/">ADVL0921</a>.</div></section>
 
 <section class="slide"><h1>Tier B. Decrease the stress.</h1>
 <div class="tier b">Aneuploid cells increase mTOR. These cells release inflammatory signals.</div>
-<div class="tier b"><b>Everolimus</b> decreases that signal. Pediatric safety data are large (EXIST-1, transplant).</div>
+<div class="tier b"><b>Everolimus</b> decreases that signal. Pediatric safety data are large (<a href="https://pubmed.ncbi.nlm.nih.gov/27351628/">EXIST-1</a>, transplant).</div>
 <div class="tier b">Honest claim: <em>this drug decreases damage. This drug does not repair the checkpoint.</em></div></section>
 
 <section class="slide"><h1>Tier C. Restore the protein.</h1>
-<div class="tier c">In mice, more BubR1 repairs the checkpoint and extends lifespan (Baker 2013).</div>
+<div class="tier c">In mice, more BubR1 repairs the checkpoint and extends lifespan (<a href="https://pubmed.ncbi.nlm.nih.gov/23242215/">Baker 2013</a>).</div>
 <div class="tier c">This child still makes weakened BubR1 from the missense allele.</div>
 <div class="tier c">Three routes: <b>AAV augmentation. SIRT2-axis stabilization. Peptide rescue.</b></div></section>
 

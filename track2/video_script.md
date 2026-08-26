@@ -45,3 +45,19 @@ Thank you.
 ---
 
 Delivery notes. Speak at about 140 words per minute. Rehearse to 2:55. Keep one visual idea on each slide. End with the acknowledgement that the rules require.
+
+## Works Cited
+
+Baker, Darren J., et al. *Nature Cell Biology*, 2013. https://pubmed.ncbi.nlm.nih.gov/23242215/
+
+Franz, David Neal, et al. EXIST-1 long-term. *PLOS ONE*, 2016. https://pubmed.ncbi.nlm.nih.gov/27351628/
+
+Mossé, Yaël P., et al. ADVL0921. *Clinical Cancer Research*, 2019. https://pubmed.ncbi.nlm.nih.gov/30777875/
+
+National Cancer Institute. NCT02095132. https://clinicaltrials.gov/study/NCT02095132
+
+Sage Bionetworks. Rare Disease, Real Kid: MVA Hackathon 2026. https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/
+
+Weigert, Alexander, and Bernd Hoppe. *Frontiers in Pediatrics*, 2018. https://pubmed.ncbi.nlm.nih.gov/29707529/
+
+Zhang, Na, et al. *Nature Aging*, 2023. https://pubmed.ncbi.nlm.nih.gov/37118121/
