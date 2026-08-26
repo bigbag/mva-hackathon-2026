@@ -15,6 +15,9 @@ datasets:
 - SageBio/mva-hackathon-2026-data
 ---
 
+> Team note: this file is a snapshot of the public challenge Space, not the bigbag writeup. Scoring: [`evaluation.py`](evaluation.py). Ground truth loader: [`groundtruth.py`](groundtruth.py). Team docs: [`../../README.md`](../../README.md).
+
+
 <h1 align="center">
 
   🧬 Rare Disease, Real Kid: The MVA Hackathon 2026

@@ -75,7 +75,23 @@ The dataset has no parent samples. Read-backed phasing cannot span the 10.9 kb b
 
 ## 9. Reproducibility
 
-The repository holds all pipeline code. The code covers panel extraction, annotation, API clients, the BAF screen, the [SpliceAI](https://doi.org/10.1016/j.cell.2018.12.015) run, and the scoring simulator. The simulator imports the challenge evaluator. We delete all genomic data within 30 days after the challenge closes.
+Each step is a file in this repository. Paths are from the repository root. Click a path to open the file.
+
+| Step | File | Writes |
+|---|---|---|
+| Gene panel (122 symbols) | [`track1/analysis/scan_panel.py`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/analysis/scan_panel.py) | `PANEL` used by the extractor |
+| Panel extraction | [`track1/analysis/scan_panel2.py`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/analysis/scan_panel2.py) | [`track1/analysis/candidates/panel_variants.tsv`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/analysis/candidates/panel_variants.tsv) (11,835 alleles) |
+| Consequence labels | [`track1/analysis/annotate_panel.py`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/analysis/annotate_panel.py) | [`track1/analysis/candidates/panel_annotated.tsv`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/analysis/candidates/panel_annotated.tsv) |
+| gnomAD / ClinVar / VEP | [`track1/analysis/af_lookup.py`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/analysis/af_lookup.py), [`track1/analysis/netutil.py`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/analysis/netutil.py) | [`track1/analysis/candidates/priority_annotated.tsv`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/analysis/candidates/priority_annotated.tsv), [`gnomad_priority.tsv`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/analysis/candidates/gnomad_priority.tsv) |
+| SpliceAI 1.3.1 | CLI on [`spliceai_input.vcf`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/analysis/candidates/spliceai_input.vcf) | [`spliceai_out.vcf`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/analysis/candidates/spliceai_out.vcf) |
+| BAF mosaic screen | [`track1/analysis/baf_screen.py`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/analysis/baf_screen.py) | [`mosaic_baf_screen.tsv`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/analysis/candidates/mosaic_baf_screen.tsv), [`track1/figures/baf_deviation_per_chrom.png`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/figures/baf_deviation_per_chrom.png) |
+| Score check | [`track1/analysis/submission_sim.py`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/analysis/submission_sim.py) imports [`track1/challenge_src/evaluation.py`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/challenge_src/evaluation.py) | format OK; 100 rank points and F-max 1.000 on the primary pair |
+| Submitted CSV | [`track1/submissions/bigbag_bub1b-panel-scan-v1/predictions.csv`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/submissions/bigbag_bub1b-panel-scan-v1/predictions.csv) | live score 100.0 / 1.000, full match |
+| Genome-wide check | [`track1/analysis/exomiser/proband_analysis.yml`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/analysis/exomiser/proband_analysis.yml) | [`PROBAND01_genomewide.genes.tsv`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/analysis/exomiser/PROBAND01_genomewide.genes.tsv) |
+| Depth at BUB1B | mosdepth on the mini-locus BAM (BAM not in git) | [`track1/figures/bub1b_depth_profile.png`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/figures/bub1b_depth_profile.png) |
+| Full methods | [`track1/METHODS.md`](https://github.com/bigbag/mva-hackathon-2026/blob/main/track1/METHODS.md) | this report plus post-submission checks |
+
+The input VCF and FASTQ stay outside git ([`.gitignore`](https://github.com/bigbag/mva-hackathon-2026/blob/main/.gitignore)). We delete all genomic data within 30 days after the challenge closes.
 
 ## Works Cited
 
