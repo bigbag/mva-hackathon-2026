@@ -318,6 +318,17 @@ def _add_caption(slide, text, top=6.85):
     return box
 
 
+def _add_refs(slide, items, top=1.05, size=12):
+    box = slide.shapes.add_textbox(Inches(0.55), Inches(top), Inches(12.2), Inches(6.2))
+    tf = box.text_frame
+    tf.word_wrap = True
+    for i, item in enumerate(items):
+        p = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
+        p.space_after = Pt(4)
+        _set_run(p.add_run(), item, size=size, color=INK_RGB)
+    return box
+
+
 def _tier_block(slide, y, title, body, color):
     shape = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.7), Inches(y), Inches(11.9), Inches(1.35))
     shape.fill.solid()
@@ -465,17 +476,53 @@ def build_pptx(out: Path, figs: dict) -> None:
     )
 
     s = prs.slides.add_slide(blank)
+    _add_title(s, "Works Cited (MLA)")
+    _add_refs(
+        s,
+        [
+            "Baker, Darren J., et al. Nature Cell Biology, vol. 15, no. 1, 2013, pp. 96-102. https://doi.org/10.1038/ncb2643",
+            "Franz, David Neal, et al. The Lancet, vol. 381, no. 9861, 2013, pp. 125-32. https://doi.org/10.1016/S0140-6736(12)61134-9",
+            "Franz, David Neal, et al. PLOS ONE, vol. 11, no. 6, 2016, e0158476. https://doi.org/10.1371/journal.pone.0158476",
+            "Hanks, Sandra, et al. Nature Genetics, vol. 36, no. 11, 2004, pp. 1159-61. https://doi.org/10.1038/ng1449",
+            "Malumbres, Marcos, and Carolina Villarroya-Beltri. Nature Reviews Genetics, vol. 25, 2024, pp. 864-78. https://doi.org/10.1038/s41576-024-00762-6",
+            "Mossé, Yaël P., et al. Clinical Cancer Research, vol. 25, no. 11, 2019, pp. 3229-38. https://doi.org/10.1158/1078-0432.CCR-18-2675",
+            "National Cancer Institute. NCT02095132. https://clinicaltrials.gov/study/NCT02095132",
+            "Sage Bionetworks. Rare Disease, Real Kid: MVA Hackathon 2026. https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/",
+            "Sage Bionetworks. mva-hackathon-2026-data. https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data",
+        ],
+        size=13,
+    )
+
+    s = prs.slides.add_slide(blank)
+    _add_title(s, "Works Cited (MLA), continued")
+    _add_refs(
+        s,
+        [
+            "Weigert, Alexander, and Bernd Hoppe. Frontiers in Pediatrics, vol. 6, 2018, article 98. https://doi.org/10.3389/fped.2018.00098",
+            "Yost, Shawn, et al. Nature Genetics, vol. 49, no. 7, 2017, pp. 1148-51. https://doi.org/10.1038/ng.3883",
+            "Zhang, Na, et al. Nature Aging, vol. 3, 2023, pp. 185-201. https://doi.org/10.1038/s43587-023-00361-w",
+            "Villarroya-Beltri, Carolina, et al. Science Advances, vol. 8, no. 44, 2022, eabq5914. https://doi.org/10.1126/sciadv.abq5914",
+            "Cole, Kristina A., et al. Cancer, vol. 129, no. 14, 2023, pp. 2245-55. https://doi.org/10.1002/cncr.34786",
+            "Open Targets. BUB1B ENSG00000156970. https://platform.opentargets.org/target/ENSG00000156970",
+            "ClinVar. VCV000533901. https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/",
+            "bigbag. mva-hackathon-2026. GitHub. https://github.com/bigbag/mva-hackathon-2026",
+        ],
+        size=13,
+    )
+
+    s = prs.slides.add_slide(blank)
     _add_title(s, "Thank you")
     _add_bullets(
         s,
         [
-            "Team bigbag. github.com/bigbag/mva-hackathon-2026",
-            "Organizers: Sage Bionetworks, MVA Society, Hugging Face, BEACON.",
-            "Sponsors: AWS and Anthropic.",
+            "Team bigbag. https://github.com/bigbag/mva-hackathon-2026",
+            "Hackathon: https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/",
+            "Data: https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data",
+            "Organizers: Sage Bionetworks, MVA Society, Hugging Face, BEACON. Sponsors: AWS and Anthropic.",
             "Above all, the family.",
         ],
-        top=1.8,
-        size=22,
+        top=1.5,
+        size=18,
     )
 
     prs.save(out)
@@ -561,13 +608,39 @@ def build_html(out: Path) -> None:
 <li>This family shared the genome of their child. We give them a clear plan.</li>
 </ul></section>
 
+<section class="slide"><h1>Works Cited (MLA)</h1>
+<ul style="font-size:16px;line-height:1.35">
+<li>Baker, Darren J., et al. <em>Nature Cell Biology</em>, vol. 15, no. 1, 2013, pp. 96-102. https://doi.org/10.1038/ncb2643</li>
+<li>Franz, David Neal, et al. <em>The Lancet</em>, vol. 381, no. 9861, 2013, pp. 125-32. https://doi.org/10.1016/S0140-6736(12)61134-9</li>
+<li>Franz, David Neal, et al. <em>PLOS ONE</em>, vol. 11, no. 6, 2016, e0158476. https://doi.org/10.1371/journal.pone.0158476</li>
+<li>Hanks, Sandra, et al. <em>Nature Genetics</em>, vol. 36, no. 11, 2004, pp. 1159-61. https://doi.org/10.1038/ng1449</li>
+<li>Malumbres, Marcos, and Carolina Villarroya-Beltri. <em>Nature Reviews Genetics</em>, vol. 25, 2024, pp. 864-78. https://doi.org/10.1038/s41576-024-00762-6</li>
+<li>Mossé, Yaël P., et al. <em>Clinical Cancer Research</em>, vol. 25, no. 11, 2019, pp. 3229-38. https://doi.org/10.1158/1078-0432.CCR-18-2675</li>
+<li>National Cancer Institute. NCT02095132. https://clinicaltrials.gov/study/NCT02095132</li>
+<li>Sage Bionetworks. Rare Disease, Real Kid: MVA Hackathon 2026. https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/</li>
+<li>Sage Bionetworks. mva-hackathon-2026-data. https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data</li>
+</ul></section>
+
+<section class="slide"><h1>Works Cited (MLA), continued</h1>
+<ul style="font-size:16px;line-height:1.35">
+<li>Weigert, Alexander, and Bernd Hoppe. <em>Frontiers in Pediatrics</em>, vol. 6, 2018, article 98. https://doi.org/10.3389/fped.2018.00098</li>
+<li>Yost, Shawn, et al. <em>Nature Genetics</em>, vol. 49, no. 7, 2017, pp. 1148-51. https://doi.org/10.1038/ng.3883</li>
+<li>Zhang, Na, et al. <em>Nature Aging</em>, vol. 3, 2023, pp. 185-201. https://doi.org/10.1038/s43587-023-00361-w</li>
+<li>Villarroya-Beltri, Carolina, et al. <em>Science Advances</em>, vol. 8, no. 44, 2022, eabq5914. https://doi.org/10.1126/sciadv.abq5914</li>
+<li>Cole, Kristina A., et al. <em>Cancer</em>, vol. 129, no. 14, 2023, pp. 2245-55. https://doi.org/10.1002/cncr.34786</li>
+<li>Open Targets. BUB1B ENSG00000156970. https://platform.opentargets.org/target/ENSG00000156970</li>
+<li>ClinVar. VCV000533901. https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/</li>
+<li>bigbag. mva-hackathon-2026. GitHub. https://github.com/bigbag/mva-hackathon-2026</li>
+</ul></section>
+
 <section class="slide"><h1>Thank you</h1>
 <ul>
-<li>Team bigbag. github.com/bigbag/mva-hackathon-2026</li>
+<li>Team bigbag. <a href="https://github.com/bigbag/mva-hackathon-2026">github.com/bigbag/mva-hackathon-2026</a></li>
+<li>Hackathon: <a href="https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/">sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space</a></li>
+<li>Data: <a href="https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data">huggingface.co/datasets/SageBio/mva-hackathon-2026-data</a></li>
 <li>Organizers: Sage Bionetworks, MVA Society, Hugging Face, BEACON. Sponsors: AWS and Anthropic.</li>
 <li>Above all, <em>the family</em>.</li>
 </ul></section>
-
 </body>
 </html>
 """

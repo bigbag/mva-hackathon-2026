@@ -38,7 +38,7 @@ Orphanet lists growth hormone for MVA growth failure. Studies in primordial dwar
 
 ### B1. Everolimus or sirolimus (mTOR)
 
-Aneuploid cells increase mTORC1 signaling. mTORC1 drives the inflammatory secretome of stressed cells. Sirolimus and everolimus decrease this signal. Pediatric safety data are large. Transplant infants receive these drugs. Children with tuberous sclerosis receive these drugs from age three. The EXIST-1 trial shows a 58 percent SEGA response over four years. This tier does not repair the checkpoint. This tier decreases the damage that aneuploid cells cause. Use a low dose. Monitor infection.
+Aneuploid cells increase mTORC1 signaling. mTORC1 drives the inflammatory secretome of stressed cells. Sirolimus and everolimus decrease this signal. Pediatric safety data are large. Transplant infants receive these drugs. Children with tuberous sclerosis receive these drugs from age three. The EXIST-1 long-term analysis shows a 57.7 percent SEGA response after a median of 47.1 months (Franz et al., *PLOS ONE*, 2016). This tier does not repair the checkpoint. This tier decreases the damage that aneuploid cells cause. Use a low dose. Monitor infection.
 
 ### B2. NAD+ precursor support (weak proxy)
 
@@ -48,7 +48,7 @@ SIRT2 removes acetyl groups from BubR1. This action stabilizes BubR1. NAD+ suppl
 
 ### C1. BubR1 restoration program
 
-Baker et al. show that BubR1 overexpression corrects checkpoint failure in mice. The same work decreases tumor burden. The same work extends lifespan (Nat Cell Biol 15:96, 2013). Three routes exist. Route 1 is AAV gene augmentation. Route 2 is SIRT2-axis stabilization. NAD+ precursors are a weak pharmacologic proxy for route 2. Route 3 uses the progerin-peptide rescue pattern (Nat Aging 2023) on BubR1. The proband keeps one weakened allele. His cells make full-length protein from that allele. A small increase in BubR1 level can give a large gain in checkpoint fidelity. This is the main research goal of the submission.
+Baker et al. show that BubR1 overexpression corrects checkpoint failure in mice. The same work decreases tumor burden. The same work extends lifespan (Baker et al., *Nature Cell Biology*, 2013). Three routes exist. Route 1 is AAV gene augmentation. Route 2 is SIRT2-axis stabilization. NAD+ precursors are a weak pharmacologic proxy for route 2. Route 3 uses the progerin C-terminal peptide that raises BUBR1 (Zhang et al., *Nature Aging*, 2023). The proband keeps one weakened allele. His cells make full-length protein from that allele. A small increase in BubR1 level can give a large gain in checkpoint fidelity. This is the main research goal of the submission.
 
 ## 6. Evidence grades and negative controls
 
@@ -79,10 +79,6 @@ The platform lists BUB1B (ENSG00000156970). Tractability buckets show the labels
 ## 11. Limitations
 
 This report is a set of hypotheses for follow-up. This report is not evidence that any medicine works in MVA. No drug can yet repair the checkpoint defect in a living child. The honest claim has three parts. Part 1 is stress buffering. Part 2 is tumor-directed trial options. Part 3 is a clear restorative research plan.
-
-## References
-
-Baker DJ et al. Nat Cell Biol 15:96 (2013). Villarroya-Beltri C et al. Sci Adv 8:eabq5914 (2022). Yost S et al. Nat Genet 49:1148 (2017). Malumbres M et al. Nat Rev Genet (2024). NCT02095132 (adavosertib, pediatric). Mossé JM et al. Clin Cancer Res 25:3229 (2019, alisertib). Weigert A, Hoppe B. Front Pediatr 6:98 (2018, nephrocalcinosis). Franz DN et al. EXIST-1 (everolimus). Zhang W et al. Nat Aging (2023, progerin peptide). Open Targets Platform API v4, ENSG00000156970. RepoDB. everycure/matrix-scores (Hugging Face).
 
 ## 12. External computational prior (everycure/matrix-scores, 2026-08-26)
 
@@ -129,7 +125,7 @@ The protocol targets deposits that hypercalciuria causes. The child was born at 
 5. **Keep acetazolamide as a discussion point only.** Acetazolamide ranked first for MVA1 in the matrix-scores prior. Acetazolamide also makes urine more alkaline. This action can make calcium-phosphate deposits worse. Grade E4. The nephrology team decides.
 6. **Bone effect.** A thiazide improves bone mineral density in children with hypercalciuria. This effect helps a child with growth restriction.
 
-References: Weigert and Hoppe, Front Pediatr 6:98 (2018). Pediatric hypercalciuria reviews in Section 3.A3.
+See Works Cited: Weigert and Hoppe.
 
 ## 16. Eligibility for the tumor arm. A biomarker gate.
 
@@ -141,3 +137,52 @@ We propose a tumor test before any Tier A mitotic drug.
 4. **Surveillance does not change** with the arm. Do an abdominal ultrasound every three months until age seven. Watch blood counts for leukemia or MDS. Keep radiation low.
 
 Artifact: `evidence/chembl_feasibility.json`.
+
+## Works Cited
+
+Baker, Darren J., et al. "Increased Expression of BubR1 Protects against Aneuploidy and Cancer and Extends Healthy Lifespan." *Nature Cell Biology*, vol. 15, no. 1, 2013, pp. 96-102. https://doi.org/10.1038/ncb2643.
+
+bigbag. "mva-hackathon-2026." *GitHub*, 2026, https://github.com/bigbag/mva-hackathon-2026.
+
+Brown, Adam S., and Chirag J. Patel. "A Standard Database for Drug Repositioning." *Scientific Data*, vol. 4, 2017, article 170029. https://doi.org/10.1038/sdata.2017.29.
+
+ChEMBL. "CHEMBL5491. WEE1." EMBL-EBI, https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL5491/.
+
+Cole, Kristina A., et al. "Pediatric Phase 2 Trial of a WEE1 Inhibitor, Adavosertib (AZD1775), and Irinotecan for Relapsed Neuroblastoma, Medulloblastoma, and Rhabdomyosarcoma." *Cancer*, vol. 129, no. 14, 2023, pp. 2245-55. https://doi.org/10.1002/cncr.34786.
+
+everycure. "matrix-scores." *Hugging Face*, https://huggingface.co/datasets/everycure/matrix-scores.
+
+Franz, David Neal, et al. "Efficacy and Safety of Everolimus for Subependymal Giant Cell Astrocytomas Associated with Tuberous Sclerosis Complex (EXIST-1): A Multicentre, Randomised, Placebo-Controlled Phase 3 Trial." *The Lancet*, vol. 381, no. 9861, 2013, pp. 125-32. https://doi.org/10.1016/S0140-6736(12)61134-9.
+
+Franz, David Neal, et al. "Long-Term Use of Everolimus in Patients with Tuberous Sclerosis Complex: Final Results from the EXIST-1 Study." *PLOS ONE*, vol. 11, no. 6, 2016, e0158476. https://doi.org/10.1371/journal.pone.0158476.
+
+Hanks, Sandra, et al. "Constitutional Aneuploidy and Cancer Predisposition Caused by Biallelic Mutations in BUB1B." *Nature Genetics*, vol. 36, no. 11, 2004, pp. 1159-61. https://doi.org/10.1038/ng1449.
+
+Malumbres, Marcos, and Carolina Villarroya-Beltri. "Mosaic Variegated Aneuploidy in Development, Ageing and Cancer." *Nature Reviews Genetics*, vol. 25, 2024, pp. 864-78. https://doi.org/10.1038/s41576-024-00762-6.
+
+Mossé, Yaël P., et al. "A Phase II Study of Alisertib in Children with Recurrent/Refractory Solid Tumors or Leukemia: Children's Oncology Group Phase I and Pilot Consortium (ADVL0921)." *Clinical Cancer Research*, vol. 25, no. 11, 2019, pp. 3229-38. https://doi.org/10.1158/1078-0432.CCR-18-2675.
+
+National Cancer Institute. "Adavosertib and Irinotecan Hydrochloride in Treating Younger Patients with Relapsed or Refractory Solid Tumors." *ClinicalTrials.gov*, NCT02095132, https://clinicaltrials.gov/study/NCT02095132.
+
+Open Targets Platform. "BUB1B (ENSG00000156970)." https://platform.opentargets.org/target/ENSG00000156970.
+
+RCSB PDB. "5JJA. Crystal Structure of a PP2A B56gamma/BubR1 Complex." https://www.rcsb.org/structure/5JJA.
+
+RCSB PDB. "5KHU." https://www.rcsb.org/structure/5KHU.
+
+RCSB PDB. "6TLJ." https://www.rcsb.org/structure/6TLJ.
+
+Sage Bionetworks. "mva-hackathon-2026-data." *Hugging Face Datasets*, 2026, https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data.
+
+Sage Bionetworks. "Rare Disease, Real Kid: MVA Hackathon 2026." *Hugging Face Spaces*, 2026, https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/.
+
+UniProt Consortium. "BUB1B_HUMAN (O60566)." https://www.uniprot.org/uniprotkb/O60566/entry.
+
+Villarroya-Beltri, Carolina, et al. "Biallelic Germline Mutations in MAD1L1 Induce a Syndrome of Aneuploidy with High Tumor Susceptibility." *Science Advances*, vol. 8, no. 44, 2022, eabq5914. https://doi.org/10.1126/sciadv.abq5914.
+
+Weigert, Alexander, and Bernd Hoppe. "Nephrolithiasis and Nephrocalcinosis in Childhood—Risk Factor-Related Current and Future Treatment Options." *Frontiers in Pediatrics*, vol. 6, 2018, article 98. https://doi.org/10.3389/fped.2018.00098.
+
+Yost, Shawn, et al. "Biallelic TRIP13 Mutations Predispose to Wilms Tumor and Chromosome Missegregation." *Nature Genetics*, vol. 49, no. 7, 2017, pp. 1148-51. https://doi.org/10.1038/ng.3883.
+
+Zhang, Na, et al. "Unique Progerin C-Terminal Peptide Ameliorates Hutchinson–Gilford Progeria Syndrome Phenotype by Rescuing BUBR1." *Nature Aging*, vol. 3, Feb. 2023, pp. 185-201. https://doi.org/10.1038/s43587-023-00361-w.
+

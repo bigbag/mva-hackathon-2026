@@ -77,6 +77,32 @@ The dataset has no parent samples. Read-backed phasing cannot span the 10.9 kb b
 
 The repository holds all pipeline code. The code covers panel extraction, annotation, API clients, the BAF screen, the SpliceAI run, and the scoring simulator. The simulator imports the challenge evaluator. We delete all genomic data within 30 days after the challenge closes.
 
-## 10. References
+## Works Cited
 
-Stenton SL et al. Human Genomics 18:44 (2024). Malumbres M, Villarroya-Beltri C. Nature Reviews Genetics (2024), doi 10.1038/s41576-024-00762-6. Rio Frio L et al. NEJM 363:2628 (2010). Cheng J et al. Cell 173:1583 (2019). Cheng J et al. Science 381:eadg7492 (2023). Chen S et al. NEJM (2024), gnomAD v4. ClinVar VCV000533901.9.
+Chen, Siwei, et al. "A Genomic Mutational Constraint Map Using Variation in 76,156 Human Genomes." *Nature*, vol. 625, 2024. https://doi.org/10.1038/s41586-023-06045-0.
+
+Cheng, Jun, et al. "Accurate Proteome-Wide Missense Variant Effect Prediction with AlphaMissense." *Science*, vol. 381, no. 6664, 2023, eadg7492. https://doi.org/10.1126/science.adg7492.
+
+ClinVar. "VCV000533901. NM_001211.6(BUB1B):c.2210T>G (p.Leu737Ter)." NCBI, https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/.
+
+gnomAD. "15-40209701-T-G." *Genome Aggregation Database*, v4, https://gnomad.broadinstitute.org/variant/15-40209701-T-G?dataset=gnomad_r4.
+
+Hanks, Sandra, et al. "Constitutional Aneuploidy and Cancer Predisposition Caused by Biallelic Mutations in BUB1B." *Nature Genetics*, vol. 36, no. 11, 2004, pp. 1159-61. https://doi.org/10.1038/ng1449.
+
+Jaganathan, Kishore, et al. "Predicting Splicing from Primary Sequence with Deep Learning." *Cell*, vol. 176, no. 3, 2019, pp. 535-48. https://doi.org/10.1016/j.cell.2018.12.015.
+
+Malumbres, Marcos, and Carolina Villarroya-Beltri. "Mosaic Variegated Aneuploidy in Development, Ageing and Cancer." *Nature Reviews Genetics*, vol. 25, 2024, pp. 864-78. https://doi.org/10.1038/s41576-024-00762-6.
+
+OMIM. "257300. Mosaic Variegated Aneuploidy Syndrome 1; MVA1." https://www.omim.org/entry/257300.
+
+Rio Frio, Thomas, et al. "Homozygous BUB1B Mutation and Susceptibility to Gastrointestinal Neoplasia." *The New England Journal of Medicine*, vol. 363, no. 27, 2010, pp. 2628-37. https://doi.org/10.1056/NEJMoa1006565.
+
+Sage Bionetworks. "mva-hackathon-2026-data." *Hugging Face Datasets*, 2026, https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data.
+
+Sage Bionetworks. "Rare Disease, Real Kid: MVA Hackathon 2026." *Hugging Face Spaces*, 2026, https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/.
+
+Stenton, Sarah L. "Performance of Diagnostic Methods in Identifying Disease-Causing Variants: Assessment of the Rare Genomes Project CAGI Challenge." American Society of Human Genetics Annual Meeting, 25-29 Oct. 2022. Conference presentation. https://gregorconsortium.org/node/120.
+
+UniProt Consortium. "BUB1B_HUMAN (O60566)." https://www.uniprot.org/uniprotkb/O60566/entry.
+
+Yost, Shawn, et al. "Biallelic TRIP13 Mutations Predispose to Wilms Tumor and Chromosome Missegregation." *Nature Genetics*, vol. 49, no. 7, 2017, pp. 1148-51. https://doi.org/10.1038/ng.3883.
