@@ -12,7 +12,7 @@ resources/
 .mamba/
 __pycache__/
 *.pyc
-analysis/candidates/.cache/
+.cache/
 .netutil_cache/
 .gradio/
 
