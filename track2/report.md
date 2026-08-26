@@ -92,3 +92,21 @@ We scanned all 39.5 million drug-disease pairs for the proband's indications.
 **DGIdb v5 (same day).** BUB1B returns zero drug interactions. MTOR returns 177 interactions with 38 approved drugs, everolimus among them. WEE1 and AURKA return investigational agents only. The database layer supports the tier structure exactly: no direct BUB1B drug exists; the approved lever sits at mTOR; the tumor levers sit in trial space.
 
 Artifacts: `track2/evidence/matrix_scores_matches.csv`, `dgidb_tiers.json`, `ot_bub1b_profile.json`, `chebi_names.json`.
+
+## 13. Structural mechanism (new, 2026-08-26)
+
+We mapped both alleles onto BubR1 structures and the AlphaFold model.
+
+**Domain architecture (UniProt O60566).** The TPR domain spans residues 1-226. The KEN box sits at residue 20. The D-box spans 224-232. The PP2A-B56 docking motif spans 668-675. The kinase domain spans 766-1050. The catalytic proton acceptor is D882. The ATP-binding lysine cluster spans 772-780.
+
+**Allele 1: p.Leu737Ter.** The stop codon sits 29 residues before the kinase domain starts. The truncated protein keeps residues 1-737. It keeps the TPR domain, the KEN box, the D-box, and the PP2A-B56 docking motif. The APC/C-MCC cryo-EM structures (PDB 6TLJ, 5KHU) resolve BubR1 residues 19-499 — the CDC20-binding scaffold. The PP2A complex structure (PDB 5JJA) resolves the B56 docking motif in direct contact, 4-8 angstroms from PP2A-B56. Allele 1 therefore loses the kinase domain alone. It keeps every resolved scaffold function. We call it a kinase-domain-specific null.
+
+**Allele 2: p.Asn1002Lys.** The residue lies in the kinase C-lobe. The AlphaFold model (v6) scores this region confidently: kinase-domain mean pLDDT 82, N1002 pLDDT 91, the 990-1015 window pLDDT 91. N1002 sits 19.8 angstroms from the catalytic D882 and 35.6 angstroms from the VAIK lysine. The substitution does not touch the catalytic core directly. It sits in the C-terminal kinase tail, where it more likely destabilizes fold or regulation than remove the active site.
+
+**Synthesis.** Both alleles attack the kinase domain. Both leave the MCC scaffold intact. The checkpoint therefore retains its scaffold arm and loses its kinase output. This explains a viable child with cancer predisposition: scaffold-only BubR1 supports life but under-protects against aneuploidy. The synthesis also sharpens Tier C. A therapy needs to restore protein level or scaffold strength, not kinase chemistry. BubR1 overexpression data from mice support exactly this (Baker 2013: checkpoint repair with scaffold-level rescue).
+
+Artifacts: `evidence/pdb/` (5JJA, 6TLJ, 5KHU, AlphaFold model, distance computations).
+
+## 14. Registered RMS trial landscape (Open Targets, 2026-08-26)
+
+The platform lists 95 drug or clinical candidates for rhabdomyosarcoma. Late-stage entries include vinorelbine (phase 3), ifosfamide (phase 3), filgrastim (phase 3), and eribulin (phase 2). Targeted entries include crizotinib, sorafenib, imatinib, and tacrolimus. Our Tier-A picks (adavosertib plus irinotecan; alisertib) do not appear in this indication list yet. They enter through pediatric solid-tumor and relapsed-RMS trials instead (NCT02095132; ADVL0921). Artifact: `evidence/ot_rms_drugs.json`.

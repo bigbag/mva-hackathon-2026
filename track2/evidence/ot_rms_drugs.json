@@ -1,0 +1,1926 @@
+[
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "BUSULFAN"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "PEMETREXED"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "PEXASTIMOGENE DEVACIREPVEC"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "SORAFENIB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1_2",
+  "drug": {
+   "name": "PEN-866"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "SUSPENDED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "VINORELBINE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "NOT_YET_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "UNKNOWN"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "NOT_YET_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "UNKNOWN"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "TACROLIMUS"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "TERMINATED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "IMATINIB MESYLATE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "FILGRASTIM"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "ENOBLITUZUMAB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "TEPROTUMUMAB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "TERMINATED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "IVONESCIMAB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "ERIBULIN MESYLATE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "IFOSFAMIDE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "UNKNOWN"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "CRIZOTINIB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "PACLITAXEL"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1_2",
+  "drug": {
+   "name": "CAPECITABINE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "OLAPARIB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1_2",
+  "drug": {
+   "name": "PUCOTENLIMAB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "VALSARTAN"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "MELPHALAN"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "TRETINOIN"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "NOT_YET_RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "DACTINOMYCIN"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "UNKNOWN"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "NOT_YET_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "UNKNOWN"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "CELECOXIB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "MYCOPHENOLATE MOFETIL"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "TERMINATED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1_2",
+  "drug": {
+   "name": "INCOMPLETE FREUND'S ADJUVANT"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "VINORELBINE TARTRATE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "UNKNOWN"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "GEMCITABINE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "CATEQUENTINIB HYDROCHLORIDE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "NOT_YET_RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1_2",
+  "drug": {
+   "name": "ADAVOSERTIB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "DECITABINE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "LORVOTUZUMAB MERTANSINE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "LIPEGFILGRASTIM"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "THIOTEPA"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "PLERIXAFOR"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "TIRAPAZAMINE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "TEMOZOLOMIDE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "SUSPENDED"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "TERMINATED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "EXATECAN MESYLATE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "METFORMIN"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1_2",
+  "drug": {
+   "name": "REGORAFENIB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "ALISERTIB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1_2",
+  "drug": {
+   "name": "PATRITUMAB DERUXTECAN"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "TROCULEUCEL"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "TERMINATED"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1_2",
+  "drug": {
+   "name": "NIVOLUMAB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "DOCETAXEL"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "PROPRANOLOL"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "UNKNOWN"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "EVEROLIMUS"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "UNKNOWN"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "EPIRUBICIN HYDROCHLORIDE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "CYCLOPHOSPHAMIDE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "UNKNOWN"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "NOT_YET_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "UNKNOWN"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "TERMINATED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "NOT_YET_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "SUSPENDED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "ANTILYMPHOCYTE IMMUNOGLOBULIN (HORSE)"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "CIXUTUMUMAB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "TOPOTECAN HYDROCHLORIDE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "UNKNOWN"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "VINBLASTINE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "FLUDARABINE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "TERMINATED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "GALLIUM NITRATE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "TROFOSFAMIDE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "SARGRAMOSTIM"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "REBECCAMYCIN"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "CARBOPLATIN"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "UNKNOWN"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "LENVATINIB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "CABOZANTINIB S-MALATE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1_2",
+  "drug": {
+   "name": "INTERLEUKIN-7"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "METHOTREXATE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "IRINOTECAN HYDROCHLORIDE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "TEMSIROLIMUS"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "DEXRAZOXANE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "DOXORUBICIN"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "TERMINATED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "WITHDRAWN"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "VALPROIC ACID"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "SIMVASTATIN"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "BEVACIZUMAB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "CISPLATIN"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "SORAFENIB TOSYLATE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "LEXATUMUMAB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "TERMINATED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1_2",
+  "drug": {
+   "name": "SURUFATINIB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "PAZOPANIB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "TRABECTEDIN"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "UNKNOWN"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "TOPOTECAN"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "SUSPENDED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "TERMINATED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "TALADEGIB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "WITHDRAWN"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "VINCRISTINE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "NOT_YET_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "UNKNOWN"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "NOT_YET_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "SUSPENDED"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1_2",
+  "drug": {
+   "name": "AFATINIB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "IDARUBICIN"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "ETOPOSIDE PHOSPHATE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "MOCETINOSTAT"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "VINCRISTINE SULFATE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "UNKNOWN"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1_2",
+  "drug": {
+   "name": "ATEZOLIZUMAB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "IRINOTECAN"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "NOT_YET_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "INTERFERON GAMMA-1B"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "TERMINATED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "ETOPOSIDE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "UNKNOWN"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "ACTIVE_NOT_RECRUITING"
+   },
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1_2",
+  "drug": {
+   "name": "IPILIMUMAB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "DOXORUBICIN HYDROCHLORIDE"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "UNKNOWN"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   },
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1",
+  "drug": {
+   "name": "RIBOCICLIB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1",
+    "trialOverallStatus": "TERMINATED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1_2",
+  "drug": {
+   "name": "RIVOCERANIB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "UNKNOWN"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_3",
+  "drug": {
+   "name": "DINUTUXIMAB BETA"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE3",
+    "trialOverallStatus": "RECRUITING"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_1_2",
+  "drug": {
+   "name": "PREXASERTIB"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE1/PHASE2",
+    "trialOverallStatus": "COMPLETED"
+   }
+  ]
+ },
+ {
+  "maxClinicalStage": "PHASE_2",
+  "drug": {
+   "name": "SIROLIMUS"
+  },
+  "clinicalReports": [
+   {
+    "trialPhase": "PHASE2",
+    "trialOverallStatus": "TERMINATED"
+   }
+  ]
+ }
+]
