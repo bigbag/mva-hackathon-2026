@@ -388,17 +388,17 @@ def build_pptx(out: Path, figs: dict) -> None:
     _add_title(s, "Tier A. Treat the signs that we see today.")
     _tier_block(
         s, 1.25, "Adavosertib plus irinotecan",
-        "A pediatric trial sets the dose (Cole et al.; National Cancer Institute).",
+        "Cole et al. https://doi.org/10.1002/cncr.34786. National Cancer Institute https://clinicaltrials.gov/study/NCT02095132.",
         RGBColor(0x16, 0x65, 0x34),
     )
     _tier_block(
         s, 2.85, "Potassium citrate plus a thiazide",
-        "Standard care for nephrocalcinosis (Weigert and Hoppe). Safe in children. Protects bone.",
+        "Weigert and Hoppe. https://doi.org/10.3389/fped.2018.00098. Safe in children. Protects bone.",
         RGBColor(0x16, 0x65, 0x34),
     )
     _tier_block(
         s, 4.45, "Alisertib",
-        "Alternate mitotic drug. COG phase 2 trial (Mossé et al.).",
+        "Mossé et al. https://doi.org/10.1158/1078-0432.CCR-18-2675.",
         RGBColor(0x16, 0x65, 0x34),
     )
 
@@ -411,7 +411,7 @@ def build_pptx(out: Path, figs: dict) -> None:
     )
     _tier_block(
         s, 2.85, "Everolimus decreases that signal.",
-        "Pediatric safety data are large (Franz et al., \"Long-Term Use\"). Transplant infants.",
+        "Franz et al. https://doi.org/10.1371/journal.pone.0158476.",
         RGBColor(0x1D, 0x4E, 0x89),
     )
     _tier_block(
@@ -434,7 +434,7 @@ def build_pptx(out: Path, figs: dict) -> None:
     )
     _tier_block(
         s, 4.45, "Three routes. One goal.",
-        "AAV gene augmentation. SIRT2-axis stabilization. Peptide rescue (Zhang et al.).",
+        "AAV. SIRT2-axis. Peptide rescue. Zhang et al. https://doi.org/10.1038/s43587-023-00361-w.",
         RGBColor(0x9A, 0x34, 0x12),
     )
 
@@ -452,10 +452,10 @@ def build_pptx(out: Path, figs: dict) -> None:
     _add_bullets(
         s,
         [
-            "Open Targets. DGIdb. ChEMBL. everycure/matrix-scores (39.5 million pairs). All public APIs.",
+            "Open Targets https://platform.opentargets.org/target/ENSG00000156970. DGIdb https://www.dgidb.org/. ChEMBL https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491. everycure/matrix-scores https://huggingface.co/datasets/everycure/matrix-scores.",
             "Full pipeline: about 6 hours and 1 USD of electricity. Genome-wide check: 94 seconds.",
             "The method applies to other recessive chromosomal-instability disorders.",
-            "Code and evidence: github.com/bigbag/mva-hackathon-2026",
+            "Code: https://github.com/bigbag/mva-hackathon-2026",
         ],
         top=1.7,
         size=22,
@@ -594,7 +594,7 @@ def build_html(out: Path) -> None:
 <li><a href="https://platform.opentargets.org/target/ENSG00000156970">Open Targets</a>. <a href="https://www.dgidb.org/">DGIdb</a>. <a href="https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491">ChEMBL</a>. <a href="https://huggingface.co/datasets/everycure/matrix-scores">everycure/matrix-scores</a> (39.5 million pairs). All public APIs.</li>
 <li>Full pipeline: about 6 hours and 1 USD of electricity. Genome-wide check: 94 seconds.</li>
 <li>The method applies to other recessive chromosomal-instability disorders.</li>
-<li>Code and evidence: github.com/bigbag/mva-hackathon-2026</li>
+<li>Code and evidence: <a href="https://github.com/bigbag/mva-hackathon-2026">github.com/bigbag/mva-hackathon-2026</a></li>
 </ul></section>
 
 <section class="slide"><h1>The request</h1>

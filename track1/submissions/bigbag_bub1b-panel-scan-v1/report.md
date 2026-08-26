@@ -30,11 +30,11 @@ We write a local classifier. It uses MANE transcripts from GENCODE v44 and the G
 
 ### 3.4 Frequency and clinical status
 
-We query the [Genome Aggregation Database](https://gnomad.broadinstitute.org/variant/15-40209701-T-G?dataset=gnomad_r4) for each candidate allele. We query [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/) for each candidate allele. We query AlphaMissense for each missense allele ([Cheng et al.](https://doi.org/10.1126/science.adg7492)). The client respects rate limits. The client retries on HTTP 429 and 5xx. It obeys Retry-After headers. It caches all responses.
+We query the [Genome Aggregation Database](https://gnomad.broadinstitute.org/variant/15-40209701-T-G?dataset=gnomad_r4) for each candidate allele. We query [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/) for each candidate allele. We query [AlphaMissense](https://doi.org/10.1126/science.adg7492) for each missense allele ([Cheng et al.](https://doi.org/10.1126/science.adg7492)). The client respects rate limits. The client retries on HTTP 429 and 5xx. It obeys Retry-After headers. It caches all responses.
 
 ### 3.5 Splice test
 
-We run SpliceAI 1.3.1 on the BUB1B candidates ([Jaganathan et al.](https://doi.org/10.1016/j.cell.2018.12.015)). We set the distance window to 1000 base pairs. We disable masking. All scores stay at or below 0.03. No BUB1B candidate disrupts splicing.
+We run [SpliceAI](https://doi.org/10.1016/j.cell.2018.12.015) 1.3.1 on the BUB1B candidates ([Jaganathan et al.](https://doi.org/10.1016/j.cell.2018.12.015)). We set the distance window to 1000 base pairs. We disable masking. All scores stay at or below 0.03. No BUB1B candidate disrupts splicing.
 
 ### 3.6 Confounder screens
 
@@ -49,7 +49,7 @@ We predict a BUB1B compound heterozygous pair.
 | Allele | Locus (GRCh38) | HGVS | Key evidence |
 |---|---|---|---|
 | 1 | chr15:40209701 T>G | c.2210T>G p.Leu737Ter | Stop-gain. [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/) lists Pathogenic/Likely pathogenic (VCV000533901). [gnomAD](https://gnomad.broadinstitute.org/variant/15-40209701-T-G?dataset=gnomad_r4) frequency is 7.9e-05. Genotype is heterozygous, PASS, allele depth 21/25, GQ 99. |
-| 2 | chr15:40220612 T>G | c.3006T>G p.Asn1002Lys | Missense. The [Genome Aggregation Database](https://gnomad.broadinstitute.org/) holds one allele in 1.46 million exomes. SIFT scores 0.01. PolyPhen-2 scores 0.997. AlphaMissense scores 0.9229 (likely pathogenic) ([Cheng et al.](https://doi.org/10.1126/science.adg7492)). The residue sits in the BubR1 kinase domain. Genotype is heterozygous, PASS, allele depth 15/13, GQ 99. |
+| 2 | chr15:40220612 T>G | c.3006T>G p.Asn1002Lys | Missense. The [Genome Aggregation Database](https://gnomad.broadinstitute.org/) holds one allele in 1.46 million exomes. SIFT scores 0.01. PolyPhen-2 scores 0.997. [AlphaMissense](https://doi.org/10.1126/science.adg7492) scores 0.9229 (likely pathogenic) ([Cheng et al.](https://doi.org/10.1126/science.adg7492)). The residue sits in the BubR1 kinase domain. Genotype is heterozygous, PASS, allele depth 15/13, GQ 99. |
 
 ## 5. Reasoning
 
@@ -63,7 +63,7 @@ No other panel gene holds two rare damaging heterozygotes. We verify each rival 
 
 ## 6. Reserve rows
 
-Row 2 pairs p.Leu737Ter with a new deep-intronic variant (chr15:40216470 A>G, c.2679-1026A>G). The [Genome Aggregation Database](https://gnomad.broadinstitute.org/) does not hold this variant. SpliceAI gives it zero scores ([Jaganathan et al.](https://doi.org/10.1016/j.cell.2018.12.015)). Row 3 and row 4 hold each coding allele alone. These rows earn partial credit if only one allele is correct.
+Row 2 pairs p.Leu737Ter with a new deep-intronic variant (chr15:40216470 A>G, c.2679-1026A>G). The [Genome Aggregation Database](https://gnomad.broadinstitute.org/) does not hold this variant. [SpliceAI](https://doi.org/10.1016/j.cell.2018.12.015) gives it zero scores ([Jaganathan et al.](https://doi.org/10.1016/j.cell.2018.12.015)). Row 3 and row 4 hold each coding allele alone. These rows earn partial credit if only one allele is correct.
 
 ## 7. Secondary finding
 
@@ -75,22 +75,22 @@ The dataset has no parent samples. Read-backed phasing cannot span the 10.9 kb b
 
 ## 9. Reproducibility
 
-The repository holds all pipeline code. The code covers panel extraction, annotation, API clients, the BAF screen, the SpliceAI run, and the scoring simulator. The simulator imports the challenge evaluator. We delete all genomic data within 30 days after the challenge closes.
+The repository holds all pipeline code. The code covers panel extraction, annotation, API clients, the BAF screen, the [SpliceAI](https://doi.org/10.1016/j.cell.2018.12.015) run, and the scoring simulator. The simulator imports the challenge evaluator. We delete all genomic data within 30 days after the challenge closes.
 
 ## Works Cited
 
-Cheng, Jun, et al. "Accurate Proteome-Wide Missense Variant Effect Prediction with AlphaMissense." *Science*, vol. 381, no. 6664, 2023, eadg7492. https://doi.org/10.1126/science.adg7492.
+Cheng, Jun, et al. "Accurate Proteome-Wide Missense Variant Effect Prediction with AlphaMissense." *Science*, vol. 381, no. 6664, 2023, eadg7492. [https://doi.org/10.1126/science.adg7492](https://doi.org/10.1126/science.adg7492).
 
-ClinVar. "VCV000533901. NM_001211.6(BUB1B):c.2210T>G (p.Leu737Ter)." *ClinVar*, National Center for Biotechnology Information, https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/.
+ClinVar. "VCV000533901. NM_001211.6(BUB1B):c.2210T>G (p.Leu737Ter)." *ClinVar*, National Center for Biotechnology Information, [https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/](https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/).
 
-Genome Aggregation Database. "15-40209701-T-G." *gnomAD*, version 4, Broad Institute, https://gnomad.broadinstitute.org/variant/15-40209701-T-G?dataset=gnomad_r4.
+Genome Aggregation Database. "15-40209701-T-G." *gnomAD*, version 4, Broad Institute, [https://gnomad.broadinstitute.org/variant/15-40209701-T-G?dataset=gnomad_r4](https://gnomad.broadinstitute.org/variant/15-40209701-T-G?dataset=gnomad_r4).
 
-Hanks, Sandra, et al. "Constitutional Aneuploidy and Cancer Predisposition Caused by Biallelic Mutations in BUB1B." *Nature Genetics*, vol. 36, no. 11, 2004, pp. 1159-61. https://doi.org/10.1038/ng1449.
+Hanks, Sandra, et al. "Constitutional Aneuploidy and Cancer Predisposition Caused by Biallelic Mutations in BUB1B." *Nature Genetics*, vol. 36, no. 11, 2004, pp. 1159-61. [https://doi.org/10.1038/ng1449](https://doi.org/10.1038/ng1449).
 
-Jaganathan, Kishore, et al. "Predicting Splicing from Primary Sequence with Deep Learning." *Cell*, vol. 176, no. 3, 2019, pp. 535-48. https://doi.org/10.1016/j.cell.2018.12.015.
+Jaganathan, Kishore, et al. "Predicting Splicing from Primary Sequence with Deep Learning." *Cell*, vol. 176, no. 3, 2019, pp. 535-48. [https://doi.org/10.1016/j.cell.2018.12.015](https://doi.org/10.1016/j.cell.2018.12.015).
 
-Malumbres, Marcos, and Carolina Villarroya-Beltri. "Mosaic Variegated Aneuploidy in Development, Ageing and Cancer." *Nature Reviews Genetics*, vol. 25, no. 12, 2024, pp. 864-78. https://doi.org/10.1038/s41576-024-00762-6.
+Malumbres, Marcos, and Carolina Villarroya-Beltri. "Mosaic Variegated Aneuploidy in Development, Ageing and Cancer." *Nature Reviews Genetics*, vol. 25, no. 12, 2024, pp. 864-78. [https://doi.org/10.1038/s41576-024-00762-6](https://doi.org/10.1038/s41576-024-00762-6).
 
-OMIM. "Mosaic Variegated Aneuploidy Syndrome 1; MVA1." *OMIM*, Johns Hopkins University, https://omim.org/entry/257300.
+OMIM. "Mosaic Variegated Aneuploidy Syndrome 1; MVA1." *OMIM*, Johns Hopkins University, [https://omim.org/entry/257300](https://omim.org/entry/257300).
 
-Rio Frio, Thomas, et al. "Homozygous BUB1B Mutation and Susceptibility to Gastrointestinal Neoplasia." *The New England Journal of Medicine*, vol. 363, no. 27, 2010, pp. 2628-37. https://doi.org/10.1056/NEJMoa1006565.
+Rio Frio, Thomas, et al. "Homozygous BUB1B Mutation and Susceptibility to Gastrointestinal Neoplasia." *The New England Journal of Medicine*, vol. 363, no. 27, 2010, pp. 2628-37. [https://doi.org/10.1056/NEJMoa1006565](https://doi.org/10.1056/NEJMoa1006565).

@@ -38,7 +38,7 @@ Some clinics use growth hormone for MVA growth failure. Studies in primordial dw
 
 ### B1. Everolimus or sirolimus (mTOR)
 
-Aneuploid cells increase mTORC1 signaling. mTORC1 drives the inflammatory secretome of stressed cells. Sirolimus and everolimus decrease this signal. Pediatric safety data are large. Transplant infants receive these drugs. Children with tuberous sclerosis receive these drugs from age three. The EXIST-1 long-term analysis shows a 57.7 percent SEGA response after a median of 47.1 months ([Franz et al., "Long-Term Use"](https://doi.org/10.1371/journal.pone.0158476)). This tier does not repair the checkpoint. This tier decreases the damage that aneuploid cells cause. Use a low dose. Monitor infection.
+Aneuploid cells increase mTORC1 signaling. mTORC1 drives the inflammatory secretome of stressed cells. Sirolimus and everolimus decrease this signal. Pediatric safety data are large. Transplant infants receive these drugs. Children with tuberous sclerosis receive these drugs from age three. The [EXIST-1](https://doi.org/10.1371/journal.pone.0158476) long-term analysis shows a 57.7 percent SEGA response after a median of 47.1 months ([Franz et al., "Long-Term Use"](https://doi.org/10.1371/journal.pone.0158476)). This tier does not repair the checkpoint. This tier decreases the damage that aneuploid cells cause. Use a low dose. Monitor infection.
 
 ### B2. NAD+ precursor support (weak proxy)
 
@@ -54,7 +54,7 @@ SIRT2 removes acetyl groups from BubR1. This action stabilizes BubR1. NAD+ suppl
 
 We give each claim a grade. E1 is human trial evidence in the indication. E2 is human evidence in adjacent settings. E3 is strong animal data or data from human cells. E4 is mechanistic rationale only. A1 through A3 have grade E1. A4 and B1 have grade E2 or E3. B2 has grade E3. Tier C has grade E4.
 
-We check claims against RepoDB negative controls ([Brown and Patel](https://doi.org/10.1038/sdata.2017.29)). No approved drug lists MVA as an indication. This absence confirms the unmet need. This absence also warns against claims that are too strong.
+We check claims against [RepoDB](https://doi.org/10.1038/sdata.2017.29) negative controls ([Brown and Patel](https://doi.org/10.1038/sdata.2017.29)). No approved drug lists MVA as an indication. This absence confirms the unmet need. This absence also warns against claims that are too strong.
 
 ## 7. Surveillance
 
@@ -62,11 +62,11 @@ BUB1B-MVA1 has a high cancer risk ([Hanks et al.](https://doi.org/10.1038/ng1449
 
 ## 8. Scalability
 
-Each step uses an API or a public dataset. [Open Targets](https://platform.opentargets.org/target/ENSG00000156970) gives the target profile and tractability. [DGIdb](https://www.dgidb.org/) and [ChEMBL](https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491) give chemical matter and potency. The [everycure/matrix-scores](https://huggingface.co/datasets/everycure/matrix-scores) set gives 39.5 million drug-disease priors on Hugging Face. The pipeline runs on a laptop. The pipeline applies to other recessive chromosomal-instability disorders. The team releases the [full code](https://github.com/bigbag/mva-hackathon-2026).
+Each step uses an API or a public dataset. [Open Targets](https://platform.opentargets.org/target/ENSG00000156970) gives the target profile and tractability. [DGIdb](https://www.dgidb.org/) and [ChEMBL](https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491) give chemical matter and potency. The [everycure/matrix-scores](https://huggingface.co/datasets/everycure/matrix-scores) set gives 39.5 million drug-disease priors on [Hugging Face](https://huggingface.co/datasets/everycure/matrix-scores). The pipeline runs on a laptop. The pipeline applies to other recessive chromosomal-instability disorders. The team releases the [full code](https://github.com/bigbag/mva-hackathon-2026).
 
-## 9. Open Targets findings for BUB1B (2026-08-26)
+## 9. [Open Targets](https://platform.opentargets.org/target/ENSG00000156970) findings for BUB1B (2026-08-26)
 
-The platform lists [BUB1B (ENSG00000156970)](https://platform.opentargets.org/target/ENSG00000156970). Tractability buckets show the labels "Advanced Clinical" and "Approved Drug" across modalities. The small-molecule route also has the labels "High-Quality Pocket", "Small Molecule Binder", and "Structure with Ligand". The kinase domain can bind a ligand. No registered drug targets BUB1B directly. Reactome pathways confirm the mechanism chain. The pathways are Mitotic Prometaphase, MAD2 inhibitory signal amplification, and APC/C:Cdc20 degradation control.
+The platform lists [BUB1B (ENSG00000156970)](https://platform.opentargets.org/target/ENSG00000156970). Tractability buckets show the labels "Advanced Clinical" and "Approved Drug" across modalities. The small-molecule route also has the labels "High-Quality Pocket", "Small Molecule Binder", and "Structure with Ligand". The kinase domain can bind a ligand. No registered drug targets BUB1B directly. [Reactome](https://reactome.org/) pathways confirm the mechanism chain. The pathways are Mitotic Prometaphase, MAD2 inhibitory signal amplification, and APC/C:Cdc20 degradation control.
 
 ## 10. Decision path for the clinical team
 
@@ -133,50 +133,52 @@ We propose a tumor test before any Tier A mitotic drug.
 
 1. **WEE1 arm (adavosertib plus irinotecan).** Test tumor RB1 status first. Test tumor TP53 status first. WEE1 dependence occurs when G1 checkpoints fail. Intact RB1 and p53 decrease the expected benefit. Intact RB1 and p53 increase toxicity. Evidence: [Cole et al.](https://doi.org/10.1002/cncr.34786); [National Cancer Institute](https://clinicaltrials.gov/study/NCT02095132).
 2. **AURKA arm (alisertib).** AURKA dependence increases in cells with an Rb-pathway defect. The same RB1 test controls this arm.
-3. **Chemical feasibility ([ChEMBL](https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491), verified).** Adavosertib inhibits WEE1 with IC50 0.6-1.7 nM (CHEMBL5491). The pediatric RP2D of 85 mg/m² reaches plasma levels far above this value. The drug engages its target at safe pediatric doses. Published assays give everolimus and alisertib potencies in the single-digit nanomolar range. The ChEMBL REST service returned no usable rows for those two drugs on this date. We give those two cells grade E2 from literature.
+3. **Chemical feasibility ([ChEMBL](https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491), verified).** Adavosertib inhibits WEE1 with IC50 0.6-1.7 nM ([CHEMBL5491](https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491)). The pediatric RP2D of 85 mg/m² reaches plasma levels far above this value. The drug engages its target at safe pediatric doses. Published assays give everolimus and alisertib potencies in the single-digit nanomolar range. The [ChEMBL](https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491) REST service returned no usable rows for those two drugs on this date. We give those two cells grade E2 from literature.
 4. **Surveillance does not change** with the arm. Do an abdominal ultrasound every three months until age seven. Watch blood counts for leukemia or MDS. Keep radiation low.
 
 Artifact: `evidence/chembl_feasibility.json`.
 
 ## Works Cited
 
-AlphaFold Database. "O60566 (BUB1B_HUMAN)." *AlphaFold Protein Structure Database*, EMBL-EBI / Google DeepMind, https://alphafold.ebi.ac.uk/entry/O60566.
+AlphaFold Database. "O60566 (BUB1B_HUMAN)." *AlphaFold Protein Structure Database*, EMBL-EBI / Google DeepMind, [https://alphafold.ebi.ac.uk/entry/O60566](https://alphafold.ebi.ac.uk/entry/O60566).
 
-Baker, Darren J., et al. "Increased Expression of BubR1 Protects against Aneuploidy and Cancer and Extends Healthy Lifespan." *Nature Cell Biology*, vol. 15, no. 1, 2013, pp. 96-102. https://doi.org/10.1038/ncb2643.
+Baker, Darren J., et al. "Increased Expression of BubR1 Protects against Aneuploidy and Cancer and Extends Healthy Lifespan." *Nature Cell Biology*, vol. 15, no. 1, 2013, pp. 96-102. [https://doi.org/10.1038/ncb2643](https://doi.org/10.1038/ncb2643).
 
-bigbag. "mva-hackathon-2026." *GitHub*, 2026, https://github.com/bigbag/mva-hackathon-2026.
+bigbag. "mva-hackathon-2026." *GitHub*, 2026, [https://github.com/bigbag/mva-hackathon-2026](https://github.com/bigbag/mva-hackathon-2026).
 
-Brown, Adam S., and Chirag J. Patel. "A Standard Database for Drug Repositioning." *Scientific Data*, vol. 4, 2017, 170029. https://doi.org/10.1038/sdata.2017.29.
+Brown, Adam S., and Chirag J. Patel. "A Standard Database for Drug Repositioning." *Scientific Data*, vol. 4, 2017, 170029. [https://doi.org/10.1038/sdata.2017.29](https://doi.org/10.1038/sdata.2017.29).
 
-ChEMBL. "Wee1-like Protein Kinase (CHEMBL5491)." *ChEMBL*, EMBL-EBI, https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491.
+ChEMBL. "Wee1-like Protein Kinase (CHEMBL5491)." *ChEMBL*, EMBL-EBI, [https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491](https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491).
 
-Cole, Kristina A., et al. "Pediatric Phase 2 Trial of a WEE1 Inhibitor, Adavosertib (AZD1775), and Irinotecan for Relapsed Neuroblastoma, Medulloblastoma, and Rhabdomyosarcoma." *Cancer*, vol. 129, no. 14, 2023, pp. 2245-55. https://doi.org/10.1002/cncr.34786.
+Cole, Kristina A., et al. "Pediatric Phase 2 Trial of a WEE1 Inhibitor, Adavosertib (AZD1775), and Irinotecan for Relapsed Neuroblastoma, Medulloblastoma, and Rhabdomyosarcoma." *Cancer*, vol. 129, no. 14, 2023, pp. 2245-55. [https://doi.org/10.1002/cncr.34786](https://doi.org/10.1002/cncr.34786).
 
-DGIdb. *The Drug Gene Interaction Database*, Washington University School of Medicine, https://www.dgidb.org/.
+DGIdb. *The Drug Gene Interaction Database*, Washington University School of Medicine, [https://www.dgidb.org/](https://www.dgidb.org/).
 
-everycure. "matrix-scores." *Hugging Face*, https://huggingface.co/datasets/everycure/matrix-scores.
+everycure. "matrix-scores." *Hugging Face*, [https://huggingface.co/datasets/everycure/matrix-scores](https://huggingface.co/datasets/everycure/matrix-scores).
 
-Franz, David Neal, et al. "Long-Term Use of Everolimus in Patients with Tuberous Sclerosis Complex: Final Results from the EXIST-1 Study." *PLOS ONE*, vol. 11, no. 6, 2016, e0158476. https://doi.org/10.1371/journal.pone.0158476.
+Franz, David Neal, et al. "Long-Term Use of Everolimus in Patients with Tuberous Sclerosis Complex: Final Results from the EXIST-1 Study." *PLOS ONE*, vol. 11, no. 6, 2016, e0158476. [https://doi.org/10.1371/journal.pone.0158476](https://doi.org/10.1371/journal.pone.0158476).
 
-Hanks, Sandra, et al. "Constitutional Aneuploidy and Cancer Predisposition Caused by Biallelic Mutations in BUB1B." *Nature Genetics*, vol. 36, no. 11, 2004, pp. 1159-61. https://doi.org/10.1038/ng1449.
+Hanks, Sandra, et al. "Constitutional Aneuploidy and Cancer Predisposition Caused by Biallelic Mutations in BUB1B." *Nature Genetics*, vol. 36, no. 11, 2004, pp. 1159-61. [https://doi.org/10.1038/ng1449](https://doi.org/10.1038/ng1449).
 
-Malumbres, Marcos, and Carolina Villarroya-Beltri. "Mosaic Variegated Aneuploidy in Development, Ageing and Cancer." *Nature Reviews Genetics*, vol. 25, no. 12, 2024, pp. 864-78. https://doi.org/10.1038/s41576-024-00762-6.
+Malumbres, Marcos, and Carolina Villarroya-Beltri. "Mosaic Variegated Aneuploidy in Development, Ageing and Cancer." *Nature Reviews Genetics*, vol. 25, no. 12, 2024, pp. 864-78. [https://doi.org/10.1038/s41576-024-00762-6](https://doi.org/10.1038/s41576-024-00762-6).
 
-Mossé, Yaël P., et al. "A Phase II Study of Alisertib in Children with Recurrent/Refractory Solid Tumors or Leukemia: Children's Oncology Group Phase I and Pilot Consortium (ADVL0921)." *Clinical Cancer Research*, vol. 25, no. 11, 2019, pp. 3229-38. https://doi.org/10.1158/1078-0432.CCR-18-2675.
+Mossé, Yaël P., et al. "A Phase II Study of Alisertib in Children with Recurrent/Refractory Solid Tumors or Leukemia: Children's Oncology Group Phase I and Pilot Consortium (ADVL0921)." *Clinical Cancer Research*, vol. 25, no. 11, 2019, pp. 3229-38. [https://doi.org/10.1158/1078-0432.CCR-18-2675](https://doi.org/10.1158/1078-0432.CCR-18-2675).
 
-National Cancer Institute. "Adavosertib and Irinotecan Hydrochloride in Treating Younger Patients with Relapsed or Refractory Solid Tumors." *ClinicalTrials.gov*, NCT02095132, U.S. National Library of Medicine, https://clinicaltrials.gov/study/NCT02095132.
+National Cancer Institute. "Adavosertib and Irinotecan Hydrochloride in Treating Younger Patients with Relapsed or Refractory Solid Tumors." *ClinicalTrials.gov*, NCT02095132, U.S. National Library of Medicine, [https://clinicaltrials.gov/study/NCT02095132](https://clinicaltrials.gov/study/NCT02095132).
 
-Open Targets Platform. "BUB1B (ENSG00000156970)." *Open Targets*, https://platform.opentargets.org/target/ENSG00000156970.
+Open Targets Platform. "BUB1B (ENSG00000156970)." *Open Targets*, [https://platform.opentargets.org/target/ENSG00000156970](https://platform.opentargets.org/target/ENSG00000156970).
 
-RCSB PDB. "5JJA: Crystal Structure of a PP2A B56gamma/BubR1 Complex." *RCSB Protein Data Bank*, https://www.rcsb.org/structure/5JJA.
+RCSB PDB. "5JJA: Crystal Structure of a PP2A B56gamma/BubR1 Complex." *RCSB Protein Data Bank*, [https://www.rcsb.org/structure/5JJA](https://www.rcsb.org/structure/5JJA).
 
-———. "5KHU: Human APC/C-CDC20-MCC (APC15 Deletion Mutant)." *RCSB Protein Data Bank*, https://www.rcsb.org/structure/5KHU.
+———. "5KHU: Human APC/C-CDC20-MCC (APC15 Deletion Mutant)." *RCSB Protein Data Bank*, [https://www.rcsb.org/structure/5KHU](https://www.rcsb.org/structure/5KHU).
 
-———. "6TLJ: Cryo-EM Structure of APC/C-MCC at 3.8 Å." *RCSB Protein Data Bank*, https://www.rcsb.org/structure/6TLJ.
+———. "6TLJ: Cryo-EM Structure of APC/C-MCC at 3.8 Å." *RCSB Protein Data Bank*, [https://www.rcsb.org/structure/6TLJ](https://www.rcsb.org/structure/6TLJ).
 
-UniProt Consortium. "BUB1B_HUMAN (O60566)." *UniProtKB*, https://www.uniprot.org/uniprotkb/O60566/entry.
+Reactome. *Reactome Pathway Database*, [https://reactome.org/](https://reactome.org/).
 
-Weigert, Alexander, and Bernd Hoppe. "Nephrolithiasis and Nephrocalcinosis in Childhood—Risk Factor-Related Current and Future Treatment Options." *Frontiers in Pediatrics*, vol. 6, 2018, p. 98. https://doi.org/10.3389/fped.2018.00098.
+UniProt Consortium. "BUB1B_HUMAN (O60566)." *UniProtKB*, [https://www.uniprot.org/uniprotkb/O60566/entry](https://www.uniprot.org/uniprotkb/O60566/entry).
 
-Zhang, Na, et al. "Unique Progerin C-Terminal Peptide Ameliorates Hutchinson-Gilford Progeria Syndrome Phenotype by Rescuing BUBR1." *Nature Aging*, vol. 3, no. 2, 2023, pp. 185-201. https://doi.org/10.1038/s43587-023-00361-w.
+Weigert, Alexander, and Bernd Hoppe. "Nephrolithiasis and Nephrocalcinosis in Childhood—Risk Factor-Related Current and Future Treatment Options." *Frontiers in Pediatrics*, vol. 6, 2018, p. 98. [https://doi.org/10.3389/fped.2018.00098](https://doi.org/10.3389/fped.2018.00098).
+
+Zhang, Na, et al. "Unique Progerin C-Terminal Peptide Ameliorates Hutchinson-Gilford Progeria Syndrome Phenotype by Rescuing BUBR1." *Nature Aging*, vol. 3, no. 2, 2023, pp. 185-201. [https://doi.org/10.1038/s43587-023-00361-w](https://doi.org/10.1038/s43587-023-00361-w).
 

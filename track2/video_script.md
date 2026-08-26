@@ -48,16 +48,16 @@ Delivery notes. Speak at about 140 words per minute. Rehearse to 2:55. Keep one 
 
 ## Works Cited
 
-Baker, Darren J., et al. "Increased Expression of BubR1 Protects against Aneuploidy and Cancer and Extends Healthy Lifespan." *Nature Cell Biology*, vol. 15, no. 1, 2013, pp. 96-102. https://doi.org/10.1038/ncb2643.
+Baker, Darren J., et al. "Increased Expression of BubR1 Protects against Aneuploidy and Cancer and Extends Healthy Lifespan." *Nature Cell Biology*, vol. 15, no. 1, 2013, pp. 96-102. [https://doi.org/10.1038/ncb2643](https://doi.org/10.1038/ncb2643).
 
-ChEMBL. "Wee1-like Protein Kinase (CHEMBL5491)." *ChEMBL*, EMBL-EBI, https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491.
+ChEMBL. "Wee1-like Protein Kinase (CHEMBL5491)." *ChEMBL*, EMBL-EBI, [https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491](https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491).
 
-DGIdb. *The Drug Gene Interaction Database*, Washington University School of Medicine, https://www.dgidb.org/.
+DGIdb. *The Drug Gene Interaction Database*, Washington University School of Medicine, [https://www.dgidb.org/](https://www.dgidb.org/).
 
-everycure. "matrix-scores." *Hugging Face*, https://huggingface.co/datasets/everycure/matrix-scores.
+everycure. "matrix-scores." *Hugging Face*, [https://huggingface.co/datasets/everycure/matrix-scores](https://huggingface.co/datasets/everycure/matrix-scores).
 
-Franz, David Neal, et al. "Long-Term Use of Everolimus in Patients with Tuberous Sclerosis Complex: Final Results from the EXIST-1 Study." *PLOS ONE*, vol. 11, no. 6, 2016, e0158476. https://doi.org/10.1371/journal.pone.0158476.
+Franz, David Neal, et al. "Long-Term Use of Everolimus in Patients with Tuberous Sclerosis Complex: Final Results from the EXIST-1 Study." *PLOS ONE*, vol. 11, no. 6, 2016, e0158476. [https://doi.org/10.1371/journal.pone.0158476](https://doi.org/10.1371/journal.pone.0158476).
 
-Open Targets Platform. "BUB1B (ENSG00000156970)." *Open Targets*, https://platform.opentargets.org/target/ENSG00000156970.
+Open Targets Platform. "BUB1B (ENSG00000156970)." *Open Targets*, [https://platform.opentargets.org/target/ENSG00000156970](https://platform.opentargets.org/target/ENSG00000156970).
 
-Zhang, Na, et al. "Unique Progerin C-Terminal Peptide Ameliorates Hutchinson-Gilford Progeria Syndrome Phenotype by Rescuing BUBR1." *Nature Aging*, vol. 3, no. 2, 2023, pp. 185-201. https://doi.org/10.1038/s43587-023-00361-w.
+Zhang, Na, et al. "Unique Progerin C-Terminal Peptide Ameliorates Hutchinson-Gilford Progeria Syndrome Phenotype by Rescuing BUBR1." *Nature Aging*, vol. 3, no. 2, 2023, pp. 185-201. [https://doi.org/10.1038/s43587-023-00361-w](https://doi.org/10.1038/s43587-023-00361-w).
