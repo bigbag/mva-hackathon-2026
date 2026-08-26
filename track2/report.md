@@ -140,27 +140,27 @@ Artifact: `evidence/chembl_feasibility.json`.
 
 ## Works Cited
 
-Baker, Darren J., et al. "Increased Expression of BubR1 Protects against Aneuploidy and Cancer and Extends Healthy Lifespan." *Nature Cell Biology*, vol. 15, no. 1, 2013, pp. 96-102. https://doi.org/10.1038/ncb2643.
+Baker, Darren J., et al. "Increased Expression of BubR1 Protects against Aneuploidy and Cancer and Extends Healthy Lifespan." *Nature Cell Biology*, vol. 15, no. 1, 2013, pp. 96-102. https://doi.org/10.1038/ncb2643. https://pubmed.ncbi.nlm.nih.gov/23242215/.
 
 bigbag. "mva-hackathon-2026." *GitHub*, 2026, https://github.com/bigbag/mva-hackathon-2026.
 
-Brown, Adam S., and Chirag J. Patel. "A Standard Database for Drug Repositioning." *Scientific Data*, vol. 4, 2017, article 170029. https://doi.org/10.1038/sdata.2017.29.
+Brown, Adam S., and Chirag J. Patel. "A Standard Database for Drug Repositioning." *Scientific Data*, vol. 4, 2017, article 170029. https://doi.org/10.1038/sdata.2017.29. https://pubmed.ncbi.nlm.nih.gov/28291243/.
 
-ChEMBL. "CHEMBL5491. WEE1." EMBL-EBI, https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL5491/.
+ChEMBL. "Target: Wee1-like protein kinase (CHEMBL5491)." EMBL-EBI, https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491.
 
-Cole, Kristina A., et al. "Pediatric Phase 2 Trial of a WEE1 Inhibitor, Adavosertib (AZD1775), and Irinotecan for Relapsed Neuroblastoma, Medulloblastoma, and Rhabdomyosarcoma." *Cancer*, vol. 129, no. 14, 2023, pp. 2245-55. https://doi.org/10.1002/cncr.34786.
+Cole, Kristina A., et al. "Pediatric Phase 2 Trial of a WEE1 Inhibitor, Adavosertib (AZD1775), and Irinotecan for Relapsed Neuroblastoma, Medulloblastoma, and Rhabdomyosarcoma." *Cancer*, vol. 129, no. 14, 2023, pp. 2245-55. https://doi.org/10.1002/cncr.34786. https://pubmed.ncbi.nlm.nih.gov/37081608/.
 
 everycure. "matrix-scores." *Hugging Face*, https://huggingface.co/datasets/everycure/matrix-scores.
 
-Franz, David Neal, et al. "Efficacy and Safety of Everolimus for Subependymal Giant Cell Astrocytomas Associated with Tuberous Sclerosis Complex (EXIST-1): A Multicentre, Randomised, Placebo-Controlled Phase 3 Trial." *The Lancet*, vol. 381, no. 9861, 2013, pp. 125-32. https://doi.org/10.1016/S0140-6736(12)61134-9.
+Franz, David Neal, et al. "Efficacy and Safety of Everolimus for Subependymal Giant Cell Astrocytomas Associated with Tuberous Sclerosis Complex (EXIST-1): A Multicentre, Randomised, Placebo-Controlled Phase 3 Trial." *The Lancet*, vol. 381, no. 9861, 2013, pp. 125-32. https://doi.org/10.1016/S0140-6736(12)61134-9. https://pubmed.ncbi.nlm.nih.gov/23158522/.
 
-Franz, David Neal, et al. "Long-Term Use of Everolimus in Patients with Tuberous Sclerosis Complex: Final Results from the EXIST-1 Study." *PLOS ONE*, vol. 11, no. 6, 2016, e0158476. https://doi.org/10.1371/journal.pone.0158476.
+Franz, David Neal, et al. "Long-Term Use of Everolimus in Patients with Tuberous Sclerosis Complex: Final Results from the EXIST-1 Study." *PLOS ONE*, vol. 11, no. 6, 2016, e0158476. https://doi.org/10.1371/journal.pone.0158476. https://pubmed.ncbi.nlm.nih.gov/27351628/.
 
-Hanks, Sandra, et al. "Constitutional Aneuploidy and Cancer Predisposition Caused by Biallelic Mutations in BUB1B." *Nature Genetics*, vol. 36, no. 11, 2004, pp. 1159-61. https://doi.org/10.1038/ng1449.
+Hanks, Sandra, et al. "Constitutional Aneuploidy and Cancer Predisposition Caused by Biallelic Mutations in BUB1B." *Nature Genetics*, vol. 36, no. 11, 2004, pp. 1159-61. https://doi.org/10.1038/ng1449. https://pubmed.ncbi.nlm.nih.gov/15475955/.
 
-Malumbres, Marcos, and Carolina Villarroya-Beltri. "Mosaic Variegated Aneuploidy in Development, Ageing and Cancer." *Nature Reviews Genetics*, vol. 25, 2024, pp. 864-78. https://doi.org/10.1038/s41576-024-00762-6.
+Malumbres, Marcos, and Carolina Villarroya-Beltri. "Mosaic Variegated Aneuploidy in Development, Ageing and Cancer." *Nature Reviews Genetics*, vol. 25, 2024, pp. 864-78. https://doi.org/10.1038/s41576-024-00762-6. https://pubmed.ncbi.nlm.nih.gov/39169218/.
 
-Mossé, Yaël P., et al. "A Phase II Study of Alisertib in Children with Recurrent/Refractory Solid Tumors or Leukemia: Children's Oncology Group Phase I and Pilot Consortium (ADVL0921)." *Clinical Cancer Research*, vol. 25, no. 11, 2019, pp. 3229-38. https://doi.org/10.1158/1078-0432.CCR-18-2675.
+Mossé, Yaël P., et al. "A Phase II Study of Alisertib in Children with Recurrent/Refractory Solid Tumors or Leukemia: Children's Oncology Group Phase I and Pilot Consortium (ADVL0921)." *Clinical Cancer Research*, vol. 25, no. 11, 2019, pp. 3229-38. https://doi.org/10.1158/1078-0432.CCR-18-2675. https://pubmed.ncbi.nlm.nih.gov/30777875/.
 
 National Cancer Institute. "Adavosertib and Irinotecan Hydrochloride in Treating Younger Patients with Relapsed or Refractory Solid Tumors." *ClinicalTrials.gov*, NCT02095132, https://clinicaltrials.gov/study/NCT02095132.
 
@@ -168,9 +168,9 @@ Open Targets Platform. "BUB1B (ENSG00000156970)." https://platform.opentargets.o
 
 RCSB PDB. "5JJA. Crystal Structure of a PP2A B56gamma/BubR1 Complex." https://www.rcsb.org/structure/5JJA.
 
-RCSB PDB. "5KHU." https://www.rcsb.org/structure/5KHU.
+RCSB PDB. "5KHU. Human APC/C-CDC20-MCC (APC15 Deletion Mutant)." https://www.rcsb.org/structure/5KHU.
 
-RCSB PDB. "6TLJ." https://www.rcsb.org/structure/6TLJ.
+RCSB PDB. "6TLJ. Cryo-EM Structure of APC/C-MCC at 3.8 Å." https://www.rcsb.org/structure/6TLJ.
 
 Sage Bionetworks. "mva-hackathon-2026-data." *Hugging Face Datasets*, 2026, https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data.
 
@@ -178,11 +178,11 @@ Sage Bionetworks. "Rare Disease, Real Kid: MVA Hackathon 2026." *Hugging Face Sp
 
 UniProt Consortium. "BUB1B_HUMAN (O60566)." https://www.uniprot.org/uniprotkb/O60566/entry.
 
-Villarroya-Beltri, Carolina, et al. "Biallelic Germline Mutations in MAD1L1 Induce a Syndrome of Aneuploidy with High Tumor Susceptibility." *Science Advances*, vol. 8, no. 44, 2022, eabq5914. https://doi.org/10.1126/sciadv.abq5914.
+Villarroya-Beltri, Carolina, et al. "Biallelic Germline Mutations in MAD1L1 Induce a Syndrome of Aneuploidy with High Tumor Susceptibility." *Science Advances*, vol. 8, no. 44, 2022, eabq5914. https://doi.org/10.1126/sciadv.abq5914. https://pubmed.ncbi.nlm.nih.gov/36322655/.
 
-Weigert, Alexander, and Bernd Hoppe. "Nephrolithiasis and Nephrocalcinosis in Childhood—Risk Factor-Related Current and Future Treatment Options." *Frontiers in Pediatrics*, vol. 6, 2018, article 98. https://doi.org/10.3389/fped.2018.00098.
+Weigert, Alexander, and Bernd Hoppe. "Nephrolithiasis and Nephrocalcinosis in Childhood—Risk Factor-Related Current and Future Treatment Options." *Frontiers in Pediatrics*, vol. 6, 2018, article 98. https://doi.org/10.3389/fped.2018.00098. https://pubmed.ncbi.nlm.nih.gov/29707529/.
 
-Yost, Shawn, et al. "Biallelic TRIP13 Mutations Predispose to Wilms Tumor and Chromosome Missegregation." *Nature Genetics*, vol. 49, no. 7, 2017, pp. 1148-51. https://doi.org/10.1038/ng.3883.
+Yost, Shawn, et al. "Biallelic TRIP13 Mutations Predispose to Wilms Tumor and Chromosome Missegregation." *Nature Genetics*, vol. 49, no. 7, 2017, pp. 1148-51. https://doi.org/10.1038/ng.3883. https://pubmed.ncbi.nlm.nih.gov/28553959/.
 
-Zhang, Na, et al. "Unique Progerin C-Terminal Peptide Ameliorates Hutchinson–Gilford Progeria Syndrome Phenotype by Rescuing BUBR1." *Nature Aging*, vol. 3, Feb. 2023, pp. 185-201. https://doi.org/10.1038/s43587-023-00361-w.
+Zhang, Na, et al. "Unique Progerin C-Terminal Peptide Ameliorates Hutchinson–Gilford Progeria Syndrome Phenotype by Rescuing BUBR1." *Nature Aging*, vol. 3, Feb. 2023, pp. 185-201. https://doi.org/10.1038/s43587-023-00361-w. https://pubmed.ncbi.nlm.nih.gov/37118121/.
 

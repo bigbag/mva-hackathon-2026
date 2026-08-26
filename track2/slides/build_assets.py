@@ -480,15 +480,15 @@ def build_pptx(out: Path, figs: dict) -> None:
     _add_refs(
         s,
         [
-            "Baker, Darren J., et al. Nature Cell Biology, vol. 15, no. 1, 2013, pp. 96-102. https://doi.org/10.1038/ncb2643",
-            "Franz, David Neal, et al. The Lancet, vol. 381, no. 9861, 2013, pp. 125-32. https://doi.org/10.1016/S0140-6736(12)61134-9",
-            "Franz, David Neal, et al. PLOS ONE, vol. 11, no. 6, 2016, e0158476. https://doi.org/10.1371/journal.pone.0158476",
-            "Hanks, Sandra, et al. Nature Genetics, vol. 36, no. 11, 2004, pp. 1159-61. https://doi.org/10.1038/ng1449",
-            "Malumbres, Marcos, and Carolina Villarroya-Beltri. Nature Reviews Genetics, vol. 25, 2024, pp. 864-78. https://doi.org/10.1038/s41576-024-00762-6",
-            "Mossé, Yaël P., et al. Clinical Cancer Research, vol. 25, no. 11, 2019, pp. 3229-38. https://doi.org/10.1158/1078-0432.CCR-18-2675",
+            "Baker et al. Nat Cell Biol 2013. https://doi.org/10.1038/ncb2643  https://pubmed.ncbi.nlm.nih.gov/23242215/",
+            "Franz et al. Lancet 2013 EXIST-1. https://doi.org/10.1016/S0140-6736(12)61134-9  https://pubmed.ncbi.nlm.nih.gov/23158522/",
+            "Franz et al. PLOS ONE 2016 EXIST-1 long-term. https://doi.org/10.1371/journal.pone.0158476  https://pubmed.ncbi.nlm.nih.gov/27351628/",
+            "Hanks et al. Nat Genet 2004. https://doi.org/10.1038/ng1449  https://pubmed.ncbi.nlm.nih.gov/15475955/",
+            "Malumbres and Villarroya-Beltri. Nat Rev Genet 2024. https://doi.org/10.1038/s41576-024-00762-6  https://pubmed.ncbi.nlm.nih.gov/39169218/",
+            "Mossé et al. Clin Cancer Res 2019 ADVL0921. https://doi.org/10.1158/1078-0432.CCR-18-2675  https://pubmed.ncbi.nlm.nih.gov/30777875/",
             "National Cancer Institute. NCT02095132. https://clinicaltrials.gov/study/NCT02095132",
-            "Sage Bionetworks. Rare Disease, Real Kid: MVA Hackathon 2026. https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/",
-            "Sage Bionetworks. mva-hackathon-2026-data. https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data",
+            "Sage Bionetworks. Hackathon. https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/",
+            "Sage Bionetworks. Data. https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data",
         ],
         size=13,
     )
@@ -498,14 +498,14 @@ def build_pptx(out: Path, figs: dict) -> None:
     _add_refs(
         s,
         [
-            "Weigert, Alexander, and Bernd Hoppe. Frontiers in Pediatrics, vol. 6, 2018, article 98. https://doi.org/10.3389/fped.2018.00098",
-            "Yost, Shawn, et al. Nature Genetics, vol. 49, no. 7, 2017, pp. 1148-51. https://doi.org/10.1038/ng.3883",
-            "Zhang, Na, et al. Nature Aging, vol. 3, 2023, pp. 185-201. https://doi.org/10.1038/s43587-023-00361-w",
-            "Villarroya-Beltri, Carolina, et al. Science Advances, vol. 8, no. 44, 2022, eabq5914. https://doi.org/10.1126/sciadv.abq5914",
-            "Cole, Kristina A., et al. Cancer, vol. 129, no. 14, 2023, pp. 2245-55. https://doi.org/10.1002/cncr.34786",
-            "Open Targets. BUB1B ENSG00000156970. https://platform.opentargets.org/target/ENSG00000156970",
+            "Weigert and Hoppe. Front Pediatr 2018. https://doi.org/10.3389/fped.2018.00098  https://pubmed.ncbi.nlm.nih.gov/29707529/",
+            "Yost et al. Nat Genet 2017. https://doi.org/10.1038/ng.3883  https://pubmed.ncbi.nlm.nih.gov/28553959/",
+            "Zhang et al. Nat Aging 2023. https://doi.org/10.1038/s43587-023-00361-w  https://pubmed.ncbi.nlm.nih.gov/37118121/",
+            "Villarroya-Beltri et al. Sci Adv 2022. https://doi.org/10.1126/sciadv.abq5914  https://pubmed.ncbi.nlm.nih.gov/36322655/",
+            "Cole et al. Cancer 2023. https://doi.org/10.1002/cncr.34786  https://pubmed.ncbi.nlm.nih.gov/37081608/",
+            "Open Targets. BUB1B. https://platform.opentargets.org/target/ENSG00000156970",
             "ClinVar. VCV000533901. https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/",
-            "bigbag. mva-hackathon-2026. GitHub. https://github.com/bigbag/mva-hackathon-2026",
+            "bigbag. Code. https://github.com/bigbag/mva-hackathon-2026",
         ],
         size=13,
     )
@@ -610,27 +610,27 @@ def build_html(out: Path) -> None:
 
 <section class="slide"><h1>Works Cited (MLA)</h1>
 <ul style="font-size:16px;line-height:1.35">
-<li>Baker, Darren J., et al. <em>Nature Cell Biology</em>, vol. 15, no. 1, 2013, pp. 96-102. https://doi.org/10.1038/ncb2643</li>
-<li>Franz, David Neal, et al. <em>The Lancet</em>, vol. 381, no. 9861, 2013, pp. 125-32. https://doi.org/10.1016/S0140-6736(12)61134-9</li>
-<li>Franz, David Neal, et al. <em>PLOS ONE</em>, vol. 11, no. 6, 2016, e0158476. https://doi.org/10.1371/journal.pone.0158476</li>
-<li>Hanks, Sandra, et al. <em>Nature Genetics</em>, vol. 36, no. 11, 2004, pp. 1159-61. https://doi.org/10.1038/ng1449</li>
-<li>Malumbres, Marcos, and Carolina Villarroya-Beltri. <em>Nature Reviews Genetics</em>, vol. 25, 2024, pp. 864-78. https://doi.org/10.1038/s41576-024-00762-6</li>
-<li>Mossé, Yaël P., et al. <em>Clinical Cancer Research</em>, vol. 25, no. 11, 2019, pp. 3229-38. https://doi.org/10.1158/1078-0432.CCR-18-2675</li>
-<li>National Cancer Institute. NCT02095132. https://clinicaltrials.gov/study/NCT02095132</li>
-<li>Sage Bionetworks. Rare Disease, Real Kid: MVA Hackathon 2026. https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/</li>
-<li>Sage Bionetworks. mva-hackathon-2026-data. https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data</li>
+<li>Baker et al. <em>Nat Cell Biol</em> 2013. <a href="https://pubmed.ncbi.nlm.nih.gov/23242215/">PubMed 23242215</a> · <a href="https://doi.org/10.1038/ncb2643">doi:10.1038/ncb2643</a></li>
+<li>Franz et al. EXIST-1. <em>Lancet</em> 2013. <a href="https://pubmed.ncbi.nlm.nih.gov/23158522/">PubMed 23158522</a></li>
+<li>Franz et al. EXIST-1 long-term. <em>PLOS ONE</em> 2016. <a href="https://pubmed.ncbi.nlm.nih.gov/27351628/">PubMed 27351628</a></li>
+<li>Hanks et al. <em>Nat Genet</em> 2004. <a href="https://pubmed.ncbi.nlm.nih.gov/15475955/">PubMed 15475955</a></li>
+<li>Malumbres and Villarroya-Beltri. <em>Nat Rev Genet</em> 2024. <a href="https://pubmed.ncbi.nlm.nih.gov/39169218/">PubMed 39169218</a></li>
+<li>Mossé et al. ADVL0921. <em>Clin Cancer Res</em> 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/30777875/">PubMed 30777875</a></li>
+<li>NCT02095132. <a href="https://clinicaltrials.gov/study/NCT02095132">clinicaltrials.gov/study/NCT02095132</a></li>
+<li>Hackathon. <a href="https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/">HF Space</a></li>
+<li>Data. <a href="https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data">HF Dataset</a></li>
 </ul></section>
 
 <section class="slide"><h1>Works Cited (MLA), continued</h1>
 <ul style="font-size:16px;line-height:1.35">
-<li>Weigert, Alexander, and Bernd Hoppe. <em>Frontiers in Pediatrics</em>, vol. 6, 2018, article 98. https://doi.org/10.3389/fped.2018.00098</li>
-<li>Yost, Shawn, et al. <em>Nature Genetics</em>, vol. 49, no. 7, 2017, pp. 1148-51. https://doi.org/10.1038/ng.3883</li>
-<li>Zhang, Na, et al. <em>Nature Aging</em>, vol. 3, 2023, pp. 185-201. https://doi.org/10.1038/s43587-023-00361-w</li>
-<li>Villarroya-Beltri, Carolina, et al. <em>Science Advances</em>, vol. 8, no. 44, 2022, eabq5914. https://doi.org/10.1126/sciadv.abq5914</li>
-<li>Cole, Kristina A., et al. <em>Cancer</em>, vol. 129, no. 14, 2023, pp. 2245-55. https://doi.org/10.1002/cncr.34786</li>
-<li>Open Targets. BUB1B ENSG00000156970. https://platform.opentargets.org/target/ENSG00000156970</li>
-<li>ClinVar. VCV000533901. https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/</li>
-<li>bigbag. mva-hackathon-2026. GitHub. https://github.com/bigbag/mva-hackathon-2026</li>
+<li>Weigert and Hoppe. <em>Front Pediatr</em> 2018. <a href="https://pubmed.ncbi.nlm.nih.gov/29707529/">PubMed 29707529</a></li>
+<li>Yost et al. <em>Nat Genet</em> 2017. <a href="https://pubmed.ncbi.nlm.nih.gov/28553959/">PubMed 28553959</a></li>
+<li>Zhang et al. <em>Nat Aging</em> 2023. <a href="https://pubmed.ncbi.nlm.nih.gov/37118121/">PubMed 37118121</a></li>
+<li>Villarroya-Beltri et al. <em>Sci Adv</em> 2022. <a href="https://pubmed.ncbi.nlm.nih.gov/36322655/">PubMed 36322655</a></li>
+<li>Cole et al. <em>Cancer</em> 2023. <a href="https://pubmed.ncbi.nlm.nih.gov/37081608/">PubMed 37081608</a></li>
+<li>Open Targets BUB1B. <a href="https://platform.opentargets.org/target/ENSG00000156970">ENSG00000156970</a></li>
+<li>ClinVar. <a href="https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/">VCV000533901</a></li>
+<li>Code. <a href="https://github.com/bigbag/mva-hackathon-2026">github.com/bigbag/mva-hackathon-2026</a></li>
 </ul></section>
 
 <section class="slide"><h1>Thank you</h1>
