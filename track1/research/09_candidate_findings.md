@@ -51,3 +51,6 @@ FANCD2 rs73126218 AF 0.459 · novel-labeled del chr3:10046723 AF 0.447 · rs3753
 | E2 PGT/PID in-trans | 52 in-trans PID groups across panel — **all common-variant clusters**; no alternative recessive pair with phase evidence; BUB1B pair has no PID link (10.9 kb apart) | No change; WhatsHap still needed for trans confirmation |
 | E3 BAF mosaic screen (2.89M het SNPs) | All autosomes unimodal BAF≈0.5; **no detectable whole-chrom mosaic aneuploidy ≥~10% cell fraction in blood DNA**; X het:hom 0.07 → male confirmed; chr20/21/22 tail-elevation = mappability noise, no 0.33/0.67 modes | Negative (documented); MoChA HMM queued for segmental <5%; consistent with blood-DNA WGS vs stimulated-culture karyotype discrepancy in MVA (10-32% BUB1B) |
 | E8 SpliceAI (D=1000, unmasked) | c.2679-1026A>G: **all delta scores 0.00** (nearest site 717 bp); p.Leu737Ter AG 0.03; p.Asn1002Lys max 0.02 | **Deep-intronic hedge DEAD** (splice-neutral); both primary alleles mechanism-confirmed (nonsense/missense); draft CSV revised (intronic demoted to 0.20 coverage row) |
+
+## ORACLE RESULT (2026-08-26)
+Submission S1 (bigbag): **100.0 rank points, F-max 1.000, full match at rank 1.** Primary hypothesis confirmed as the clinical ground truth. Track 1 complete; pivot to Track 2 (drug repurposing) where the prize differential lies.
