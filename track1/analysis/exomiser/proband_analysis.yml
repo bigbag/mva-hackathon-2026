@@ -1,0 +1,35 @@
+---
+analysis:
+  genomeAssembly: hg38
+  vcf: /mnt/data/tmp/dev/mva-hackathon-2026/data/WGS_EX2312012_HGWCNDSX7.vcf.gz
+  proband: WGS_EX2312012
+  hpoIds: ['HP:0002859','HP:0000121','HP:0004322','HP:0001508','HP:0003202','HP:0001622','HP:0001518','HP:0200067']
+  inheritanceModes: {
+    AUTOSOMAL_RECESSIVE_HOM_ALT: 0.1,
+    AUTOSOMAL_RECESSIVE_COMP_HET: 2.0,
+    AUTOSOMAL_DOMINANT: 0.1,
+    X_RECESSIVE_HOM_ALT: 0.1,
+    X_RECESSIVE_COMP_HET: 2.0,
+    X_DOMINANT: 0.1,
+    MITOCHONDRIAL: 0.2
+  }
+  analysisMode: PASS_ONLY
+  frequencySources: [ GNOMAD_E_NFE, GNOMAD_E_OTH, GNOMAD_G_NFE, GNOMAD_G_OTH ]
+  pathogenicitySources: [ REVEL, MVP, SPLICE_AI ]
+  steps: [
+    hiPhivePrioritiser: { },
+    priorityScoreFilter: { priorityType: HIPHIVE_PRIORITY, minPriorityScore: 0.501 },
+    failedVariantFilter: { },
+    alleleBalanceFilter: { },
+    regulatoryFeatureFilter: { },
+    frequencyFilter: { maxFrequency: 2.0 },
+    pathogenicityFilter: { keepNonPathogenic: false, target: NON_CODING },
+    inheritanceFilter: { },
+    omimPrioritiser: { }
+  ]
+outputOptions:
+  outputContributingVariantsOnly: false
+  numGenes: 0
+  outputDirectory: /mnt/data/tmp/dev/mva-hackathon-2026/resources/exomiser/exomiser-output
+  outputFileName: PROBAND01_genomewide
+  outputFormats: [ TSV_GENE, TSV_VARIANT, HTML ]

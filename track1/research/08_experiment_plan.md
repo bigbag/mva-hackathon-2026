@@ -55,3 +55,12 @@ Plan approval: submissions are irreversible (6 max). Wave 1-3 work is free; firs
 | E8 SpliceAI + AlphaMissense | **done** | c.2679-1026A>G splice-neutral (hedge dead); N1002K AM 0.9229 LP; coding alleles mechanism-confirmed | `spliceai_out.vcf` |
 | E9 draft ladder | **ready** | 5 rows validated: 100 pts + F1.0 primary; 50 pts alternate. **HUMAN GATE — awaiting review before S1 upload** | `draft_submission_track1.csv` |
 | E4 Exomiser / E5 AI-MARRVEL / E6 alignment+SV+WhatsHap / E7 DeepVariant | pending | next wave; E6 includes in-trans WhatsHap confirmation of the pair | — |
+## Execution log — deep-verification wave (2026-08-26)
+| Exp | Status | Result |
+|---|---|---|
+| E4 Exomiser genome-wide | **done** | 94s runtime; BUB1B rank 1 (AD) + rank 2 (AR, phenScore 0.813); contributing variants = our exact pair; LZTR1 rank 11; FANCD2 rank 3 demoted |
+| Depth/CNV at BUB1B | **done** | mosdepth MAPQ>=30 dedup: all exonic bins diploid 34-75x; no CNV; figure saved |
+| Bayesian trans/cis | **done** | prior 1:1; posterior P(trans)=0.989 conditioning on affected status |
+| ACMG SF sweep | **done** | all common (AF 4-46%); none reportable; LZTR1 remains only incidental |
+| MoChA HMM | superseded | BAF screen + mosdepth cover the detectable range; plugin build deprioritized |
+| DeepVariant 3rd caller | superseded | minimap2 pileup already provides independent concordance (VAF/DP match) |

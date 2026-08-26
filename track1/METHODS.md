@@ -26,3 +26,32 @@ Team bigbag · Proband PROBAND01 · Result: **full match, 100.0 rank points, F-m
 ## Method-design rationale (CAGI lessons applied)
 
 Five-pillar integration per the CAGI6 RGP assessment (Stenton et al. 2024): call quality + population AF + deleteriousness + segregation logic + phenotype match. We submitted the compound-het PAIR on row 1 (wrong-partner = zero in CAGI6), kept single-allele rows for CAGI7-style partial credit, flagged the incidental LZTR1 finding as `secondary`, and normalized representation exactly as the provided VCF (chrN, GRCh38, biallelic SNVs).
+
+## Post-submission deep verification (2026-08-26)
+
+### A. Genome-wide triangulation without the panel (Exomiser 15.1.0)
+
+We ran Exomiser genome-wide on the full 5.0M-variant VCF with only the eight HPO terms (hiPhive, PASS_ONLY, no gene panel). Runtime: 94 seconds.
+
+- **Rank 1: BUB1B (combined 0.650); Rank 2: BUB1B AR (0.550, phenotype score 0.813).** OMIM:257300 matched, including `Premature birth -> Premature chromatid separation` and `Rhabdomyosarcoma -> Embryonal rhabdomyosarcoma`.
+- The contributing variants are exactly our pair: `15-40209701-T-G` (ClinVar whitelist) and `15-40220612-T-G` (variant score 0.85).
+- Rank 3: FANCD2 — the common-polymorphism cluster our scan already excluded (AF 0.45). Rank 11: LZTR1 — our flagged secondary finding, independently surfaced.
+
+Three independent approaches converge: curated-panel reasoning, phenotype-driven genome-wide prioritisation, and clinical databases. Artifacts: `analysis/exomiser/`.
+
+### B. Copy-number and mappability at BUB1B (mosdepth, MAPQ>=30 dedup mini-BAM)
+
+All BUB1B exonic bins sit in the diploid 34-75x band; depth spikes map to repeat elements only (figure `figures/bub1b_depth_profile.png`). No exon-level or whole-gene CNV exists. Both causal alleles sit in uniquely mappable sequence; the two SNVs are the complete allelic story.
+
+### C. Bayesian phase assessment (trans vs cis)
+
+Under linkage equilibrium at the observed allele frequencies, prior odds of trans vs cis are 1:1 — "independent origins imply trans" is wrong on its own. Conditioning on the proband's affected status under a recessive model (penetrance ratio 0.9 : 0.01) gives **posterior P(trans) = 0.989**. The phenotype, not the frequencies, carries the phase information. Read-backed phasing cannot span the 10.9 kb gap (WhatsHap-verified unlinked); parental genotypes or long reads would close it.
+
+### D. Secondary findings sweep (ACMG SF v3.1 subset)
+
+All damaging hets in the 15 SF-panel genes we cover are common polymorphisms (AF 4-46%: rs6180, rs1801195, rs1346044, rs766173, rs1799944). No reportable ACMG secondary finding. The LZTR1 ultra-rare nonsense remains the only incidental flag.
+
+### E. Figures
+
+- `figures/baf_deviation_per_chrom.png` — no aneuploidy mode shift genome-wide (2.89M het SNPs).
+- `figures/bub1b_depth_profile.png` — BUB1B locus depth; exons diploid-normal.
