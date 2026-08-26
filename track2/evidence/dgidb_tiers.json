@@ -1,0 +1,2319 @@
+{
+ "BUB1B": [],
+ "SIRT2": [
+  {
+   "drug": "RO31-8220",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 2.205499562220114
+  },
+  {
+   "drug": "PAULLONE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 8.821998248880455
+  },
+  {
+   "drug": "CHEMBL:CHEMBL589270",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 8.821998248880455
+  },
+  {
+   "drug": "AGK2",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 4.410999124440227
+  },
+  {
+   "drug": "SALERMIDE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 2.205499562220113
+  },
+  {
+   "drug": "CHEMBL:CHEMBL1794051",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 8.821998248880455
+  },
+  {
+   "drug": "COMPOUND 86 [PMID: 26982234]",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 4.410999124440227
+  },
+  {
+   "drug": "PANOBINOSTAT",
+   "approved": true,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1764399649776091
+  },
+  {
+   "drug": "COMPOUND 17 [PMID: 23570514]",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 1.470333041480076
+  },
+  {
+   "drug": "TRICHOSTATIN A",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.6964735459642465
+  },
+  {
+   "drug": "CHEMBL:CHEMBL1945130",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 4.410999124440227
+  },
+  {
+   "drug": "GEFITINIB",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.127855047085224
+  }
+ ],
+ "AURKA": [
+  {
+   "drug": "PACLITAXEL PROTEIN-BOUND",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.01064494509668833
+  },
+  {
+   "drug": "COMPOUND 46 [PMID: 16451062]",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.3113646440781337
+  },
+  {
+   "drug": "AURORA KINASE INHIBITOR II",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.3113646440781337
+  },
+  {
+   "drug": "CENISERTIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2490917152625069
+  },
+  {
+   "drug": "BARASERTIB-HQPA",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.02830587673437579
+  },
+  {
+   "drug": "GSK143",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.3113646440781337
+  },
+  {
+   "drug": "DUBERMATINIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1037882146927112
+  },
+  {
+   "drug": "TOZASERTIB LACTATE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.2075764293854224
+  },
+  {
+   "drug": "PF-03814735",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.6227292881562674
+  },
+  {
+   "drug": "HESPERADIN",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.01556823220390668
+  },
+  {
+   "drug": "ALISERTIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1457451525472115
+  },
+  {
+   "drug": "SNS-314",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.6227292881562675
+  },
+  {
+   "drug": "GSK2334470",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1037882146927112
+  },
+  {
+   "drug": "JUGLONE",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.02965377562648892
+  },
+  {
+   "drug": "BARASERTIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1132235069375031
+  },
+  {
+   "drug": "AMG-900",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.6227292881562674
+  },
+  {
+   "drug": "TTP-607",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2075764293854224
+  },
+  {
+   "drug": "MK-5108",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.6227292881562674
+  },
+  {
+   "drug": "ENMD-2076",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1494550291575042
+  },
+  {
+   "drug": "SNS-314",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.3113646440781337
+  },
+  {
+   "drug": "CYC-116",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.01925966870586394
+  },
+  {
+   "drug": "RG-1530",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0217231147031256
+  },
+  {
+   "drug": "AURORA A KINASE INHIBITOR MK5108",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 1.245458576312534
+  },
+  {
+   "drug": "TOZASERTIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.05337679612768007
+  },
+  {
+   "drug": "AURORA KINASE INHIBITOR AMG 900",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.1556823220390668
+  },
+  {
+   "drug": "DIMETHYLADENINE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.06919214312847416
+  },
+  {
+   "drug": "N-{3-[(4-{[3-(TRIFLUOROMETHYL)PHENYL]AMINO}PYRIMIDIN-2-YL)AMINO]PHENYL}CYCLOPROPANECARBOXAMIDE",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.6227292881562674
+  },
+  {
+   "drug": "TAMOXIFEN",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.02707518644157684
+  },
+  {
+   "drug": "CHEMBL:CHEMBL546797",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.01946029025488335
+  },
+  {
+   "drug": "ILORASERTIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.02372302050119114
+  },
+  {
+   "drug": "AT-9283",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1037882146927112
+  },
+  {
+   "drug": "MLN8054",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.6227292881562674
+  },
+  {
+   "drug": "MLN-8054",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1153202385474569
+  },
+  {
+   "drug": "EUPATORIN",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.1037882146927112
+  },
+  {
+   "drug": "CYC116",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.4670469661172005
+  },
+  {
+   "drug": "PF-562271",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.01197556323377437
+  },
+  {
+   "drug": "PAZOPANIB",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.01270876098278096
+  },
+  {
+   "drug": "ENMD-981693",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.03277522569243513
+  },
+  {
+   "drug": "BETA-CARBOLINE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.1556823220390668
+  },
+  {
+   "drug": "EP-0042",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2075764293854224
+  },
+  {
+   "drug": "XL228",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1779226537589335
+  },
+  {
+   "drug": "VIC 1911",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.9340939322344011
+  },
+  {
+   "drug": "BI-847325",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1556823220390668
+  },
+  {
+   "drug": "VTX-11E",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1245458576312534
+  },
+  {
+   "drug": "SK5527",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.3113646440781337
+  },
+  {
+   "drug": "AT-9283",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1037882146927112
+  },
+  {
+   "drug": "TINENGOTINIB",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.08896132687946677
+  },
+  {
+   "drug": "TAMATINIB",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.007688015903163796
+  },
+  {
+   "drug": "G&OUML; 6976",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.01353759322078842
+  },
+  {
+   "drug": "MK-5108",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2075764293854224
+  },
+  {
+   "drug": "DANUSERTIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.4151528587708449
+  },
+  {
+   "drug": "MK-6592",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2075764293854224
+  },
+  {
+   "drug": "GW441756X",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0095804505870195
+  },
+  {
+   "drug": "KENPAULLONE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.01324955932247377
+  },
+  {
+   "drug": "ZM447439",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.07326226919485498
+  },
+  {
+   "drug": "COMPOUND 38 [PMID: 20817473]",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1556823220390668
+  },
+  {
+   "drug": "XMD-12",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2075764293854224
+  },
+  {
+   "drug": "RHO KINASE INHIBITOR IV",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.3113646440781337
+  },
+  {
+   "drug": "ALISERTIB SODIUM",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.6227292881562674
+  },
+  {
+   "drug": "SORAFENIB",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.006227292881562674
+  },
+  {
+   "drug": "PLATINUM COMPOUND",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.1556823220390668
+  },
+  {
+   "drug": "CDK2 INHIBITOR IV",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.07784116101953342
+  },
+  {
+   "drug": "N-(5-METHYL-1H-PYRAZOL-3-YL)-2-PHENYLQUINAZOLIN-4-AMINE",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2075764293854224
+  },
+  {
+   "drug": "COMPOUND 25 [PMID: 20855207]",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2075764293854224
+  },
+  {
+   "drug": "ENTRECTINIB",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.01092507523081171
+  },
+  {
+   "drug": "KW-2449",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2490917152625069
+  },
+  {
+   "drug": "CP-547632",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0144820764687504
+  },
+  {
+   "drug": "MK-5108",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.2075764293854224
+  },
+  {
+   "drug": "COMPOUND 10 [PMID: 19402633]",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.3113646440781337
+  },
+  {
+   "drug": "AST-487",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.01683052130152074
+  },
+  {
+   "drug": "CENISERTIB",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.01083007457663073
+  },
+  {
+   "drug": "GSK1070916",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2075764293854224
+  },
+  {
+   "drug": "FLUOROURACIL",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.009806760443405787
+  },
+  {
+   "drug": "CISPLATIN",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.0149156715726052
+  },
+  {
+   "drug": "ANACARDIC ACID",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.2490917152625069
+  },
+  {
+   "drug": "GSK2646264",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.07784116101953342
+  },
+  {
+   "drug": "PF-03814735",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.3113646440781337
+  },
+  {
+   "drug": "GSK269962A",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.01353759322078842
+  },
+  {
+   "drug": "COMPOUND 16 [PMID: 18945615]",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1556823220390668
+  },
+  {
+   "drug": "NERVIANO",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.6227292881562674
+  },
+  {
+   "drug": "AT9283",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2264470138750063
+  },
+  {
+   "drug": "NVP-TAE684",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.006045915418992888
+  },
+  {
+   "drug": "SNS-314",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.02965377562648892
+  },
+  {
+   "drug": "JNJ-7706621",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.02395112646754875
+  },
+  {
+   "drug": "CHEMBL:CHEMBL578061",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.02490917152625069
+  }
+ ],
+ "WEE1": [
+  {
+   "drug": "CHEMBL:CHEMBL379975",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.07518748507568569
+  },
+  {
+   "drug": "BMS-986463",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 3.30824934333017
+  },
+  {
+   "drug": "GEMCITABINE",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.08168516897111533
+  },
+  {
+   "drug": "ADAVOSERTIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 4.631549080662238
+  },
+  {
+   "drug": "PD166285",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1225277534566729
+  },
+  {
+   "drug": "AZENOSERTIB",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 3.30824934333017
+  },
+  {
+   "drug": "WITHAFERIN A",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.5513748905550284
+  },
+  {
+   "drug": "CHEMBL:CHEMBL586135",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.367583260370019
+  },
+  {
+   "drug": "COMPOUND 23F [ZHANG ET AL., 2025]",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.8270623358325426
+  },
+  {
+   "drug": "PLATINUM COMPOUND",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.8270623358325426
+  },
+  {
+   "drug": "CHEMBL:CHEMBL505670",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.09452140980943345
+  },
+  {
+   "drug": "CYC-116",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.03410566333330073
+  },
+  {
+   "drug": "CHEMBL:CHEMBL592578",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 3.30824934333017
+  },
+  {
+   "drug": "ADAVOSERTIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.5513748905550284
+  },
+  {
+   "drug": "AZENOSERTIB",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 3.30824934333017
+  },
+  {
+   "drug": "PROTOAPIGENONE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.2363035245235836
+  }
+ ],
+ "MTOR": [
+  {
+   "drug": "CC-115",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1495253940488212
+  },
+  {
+   "drug": "APITOLISIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.05437287056320773
+  },
+  {
+   "drug": "CHEMBL:CHEMBL24983",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0199367192065095
+  },
+  {
+   "drug": "PKI-179",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1495253940488212
+  },
+  {
+   "drug": "BIMIRALISIB",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0598101576195285
+  },
+  {
+   "drug": "EVEROLIMUS",
+   "approved": true,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1965190893213079
+  },
+  {
+   "drug": "DACTOLISIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.05437287056320773
+  },
+  {
+   "drug": "PERPHENAZINE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.0119620315239057
+  },
+  {
+   "drug": "INDOXIMOD",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "activator"
+   ],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "N-OLEOYLDOPAMINE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.01661393267209125
+  },
+  {
+   "drug": "CHEMBL:CHEMBL527620",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "LESTAURTINIB",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.02718643528160386
+  },
+  {
+   "drug": "CANERTINIB",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.0598101576195285
+  },
+  {
+   "drug": "GOSSYPOL",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.007120256859467679
+  },
+  {
+   "drug": "GEDATOLISIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0837342206673399
+  },
+  {
+   "drug": "METFORMIN HYDROCHLORIDE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.0110759551147275
+  },
+  {
+   "drug": "SONOLISIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.01661393267209125
+  },
+  {
+   "drug": "WIN55212-2",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.03738134851220531
+  },
+  {
+   "drug": "PP-121",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.02492089900813687
+  },
+  {
+   "drug": "EBASTINE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.07476269702441063
+  },
+  {
+   "drug": "HALOPERIDOL DECANOATE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.00409658613832387
+  },
+  {
+   "drug": "SAPANISERTIB",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "TAFA-93",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "TEMSIROLIMUS",
+   "approved": true,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1922469352056273
+  },
+  {
+   "drug": "OSI-027",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "CALCIMYCIN",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.01869067425610265
+  },
+  {
+   "drug": "VOXTALISIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.04984179801627375
+  },
+  {
+   "drug": "PF-04691502",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.04984179801627375
+  },
+  {
+   "drug": "COPANLISIB",
+   "approved": true,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.01573951516303381
+  },
+  {
+   "drug": "NEOLYMPHOSTIN A",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.04984179801627375
+  },
+  {
+   "drug": "LY-294002",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.039873438413019
+  },
+  {
+   "drug": "VS-5584",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0598101576195285
+  },
+  {
+   "drug": "SAPANISERTIB",
+   "approved": true,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.04272154115680608
+  },
+  {
+   "drug": "ZANDELISIB",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0598101576195285
+  },
+  {
+   "drug": "COMPOUND 7 [PMID: 31955578]",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "GDC-0349",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "DOXAZOSIN MESYLATE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.04272154115680608
+  },
+  {
+   "drug": "VISTUSERTIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1281646234704182
+  },
+  {
+   "drug": "CHEMBL:CHEMBL600334",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "EMETINE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0598101576195285
+  },
+  {
+   "drug": "CAMPTOTHECIN",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.0199367192065095
+  },
+  {
+   "drug": "PIMOZIDE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.009646799616052984
+  },
+  {
+   "drug": "XL765",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1495253940488212
+  },
+  {
+   "drug": "SAMOTOLISIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.08544308231361215
+  },
+  {
+   "drug": "CHEMBL:CHEMBL601364",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.02300390677674173
+  },
+  {
+   "drug": "AMSACRINE",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.0199367192065095
+  },
+  {
+   "drug": "PF-04691502",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.05607202276830797
+  },
+  {
+   "drug": "TANESPIMYCIN",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.04984179801627375
+  },
+  {
+   "drug": "YUANHUADINE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.119620315239057
+  },
+  {
+   "drug": "AMIODARONE HYDROCHLORIDE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.01424051371893535
+  },
+  {
+   "drug": "SIROLIMUS",
+   "approved": true,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.08394408086951369
+  },
+  {
+   "drug": "SU9516",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0199367192065095
+  },
+  {
+   "drug": "RITANSERIN",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.01359321764080193
+  },
+  {
+   "drug": "WYE-354",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "CAFFEIC ACID PHENETHYL ESTER",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.02136077057840304
+  },
+  {
+   "drug": "OSI-027",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "PI3K/BET INHIBITOR LY294002",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "PI-103",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0199367192065095
+  },
+  {
+   "drug": "PWT-33579",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1495253940488212
+  },
+  {
+   "drug": "MAPROTILINE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.02718643528160386
+  },
+  {
+   "drug": "FENRETINIDE",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.0110759551147275
+  },
+  {
+   "drug": "WORTMANNIN",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.01661393267209125
+  },
+  {
+   "drug": "MTORC1/2 KINASE INHIBITOR BI 860585",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "PAROXETINE HYDROCHLORIDE, HEMIHYDRATE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.01573951516303381
+  },
+  {
+   "drug": "QUINACRINE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.02990507880976425
+  },
+  {
+   "drug": "TORIN 2",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.04272154115680608
+  },
+  {
+   "drug": "BISLEUCONOTHINE A",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.598101576195285
+  },
+  {
+   "drug": "VS-5584",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.0598101576195285
+  },
+  {
+   "drug": "GR 127935",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.01031209614129801
+  },
+  {
+   "drug": "VOXTALISIB",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0332278653441825
+  },
+  {
+   "drug": "PALOMID 529",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "5-QUINOXALIN-6-YLMETHYLENE-THIAZOLIDINE-2,4-DIONE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0598101576195285
+  },
+  {
+   "drug": "SF1126",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.04984179801627375
+  },
+  {
+   "drug": "CHEMBL:CHEMBL429095",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.005981015761952851
+  },
+  {
+   "drug": "RAPALINK-1",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "CHEMBL:CHEMBL582278",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "PWT-33587",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0332278653441825
+  },
+  {
+   "drug": "KU-0063794",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "ONATASERTIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.199367192065095
+  },
+  {
+   "drug": "ONATASERTIB",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "INFIGRATINIB",
+   "approved": true,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.01300220817815837
+  },
+  {
+   "drug": "PANULISIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.04272154115680608
+  },
+  {
+   "drug": "CHEMBL:CHEMBL602127",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.04272154115680608
+  },
+  {
+   "drug": "CHEMBL:CHEMBL578420",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "CHEMBL:CHEMBL597874",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "BIMIRALISIB",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "DEQUALINIUM",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.02492089900813687
+  },
+  {
+   "drug": "CHEMBL:CHEMBL195350",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.1495253940488212
+  },
+  {
+   "drug": "ALPELISIB",
+   "approved": true,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.009062145093867956
+  },
+  {
+   "drug": "VS-5584",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0332278653441825
+  },
+  {
+   "drug": "RG-7603",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "PQR620",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "IDAZOXAN",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0332278653441825
+  },
+  {
+   "drug": "ZOLANTIDINE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "BW723C86",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0598101576195285
+  },
+  {
+   "drug": "CANTHARIDIC_ACID",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.07476269702441063
+  },
+  {
+   "drug": "METFORMIN",
+   "approved": true,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.00553797755736375
+  },
+  {
+   "drug": "(+)-BUTACLAMOL",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.03738134851220531
+  },
+  {
+   "drug": "EPINEPHRINE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.009646799616052984
+  },
+  {
+   "drug": "TORIN 1",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "THAPSIGARGIN",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "CATECHOL",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.01359321764080193
+  },
+  {
+   "drug": "PHENETHYLISOTHIOCYANATE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.07476269702441063
+  },
+  {
+   "drug": "CHEMBL:CHEMBL528712",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "LOPERAMIDE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.0332278653441825
+  },
+  {
+   "drug": "TERFENADINE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.02136077057840304
+  },
+  {
+   "drug": "CZ415",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "ECF309",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.07476269702441063
+  },
+  {
+   "drug": "ISOPROTERENOL",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.0119620315239057
+  },
+  {
+   "drug": "PI3K INHIBITOR BGT226",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "ZOTAROLIMUS",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.1495253940488212
+  },
+  {
+   "drug": "L-741,626",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.02718643528160386
+  },
+  {
+   "drug": "COMPOUND 82 [PMID: 21332118]",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.04272154115680608
+  },
+  {
+   "drug": "PP-242",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.07476269702441063
+  },
+  {
+   "drug": "TYRPHOSTIN A9",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.01424051371893535
+  },
+  {
+   "drug": "PI-103",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.02718643528160386
+  },
+  {
+   "drug": "NOVOLIMUS",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "PANULISIB",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.02990507880976425
+  },
+  {
+   "drug": "CHEMBL:CHEMBL303958",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.1495253940488212
+  },
+  {
+   "drug": "TG-100-115",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "ONATASERTIB",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "IDARUBICIN",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.007476269702441063
+  },
+  {
+   "drug": "SF-1126",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0332278653441825
+  },
+  {
+   "drug": "DS-7423",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0332278653441825
+  },
+  {
+   "drug": "COMPOUND 11J [PMID: 23021994]",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.07476269702441063
+  },
+  {
+   "drug": "COMPOUND 15A [PMID: 32069401]",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0598101576195285
+  },
+  {
+   "drug": "IZORLISIB",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0332278653441825
+  },
+  {
+   "drug": "MIBEFRADIL",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.01869067425610265
+  },
+  {
+   "drug": "NICARDIPINE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.02718643528160386
+  },
+  {
+   "drug": "ME-344",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "CGS 15943",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.02718643528160386
+  },
+  {
+   "drug": "PYRROLIDINE DITHIOCARBAMATE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.02300390677674173
+  },
+  {
+   "drug": "VANDETANIB",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.00534019264460076
+  },
+  {
+   "drug": "SAMOTOLISIB",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0332278653441825
+  },
+  {
+   "drug": "OMIPALISIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.039873438413019
+  },
+  {
+   "drug": "COMPOUND 12B [PMID: 31465220]",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.07476269702441063
+  },
+  {
+   "drug": "MIFEPRISTONE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.01246044950406843
+  },
+  {
+   "drug": "ROTENONE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.04272154115680608
+  },
+  {
+   "drug": "BERZOSERTIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.08544308231361215
+  },
+  {
+   "drug": "SYK INHIBITOR III",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0332278653441825
+  },
+  {
+   "drug": "PROPAFENONE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.0332278653441825
+  },
+  {
+   "drug": "SERABELISIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.0598101576195285
+  },
+  {
+   "drug": "PAZOPANIB",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.0122061546162303
+  },
+  {
+   "drug": "GLASDEGIB",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "STK16-IN-1",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.07476269702441063
+  },
+  {
+   "drug": "PERHEXILINE MALEATE",
+   "approved": true,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.02718643528160386
+  },
+  {
+   "drug": "CHEMBL:CHEMBL591618",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0598101576195285
+  },
+  {
+   "drug": "CHEMBL:CHEMBL2348411",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "SIROLIMUS ALBUMIN-BOUND NANOPARTICLES",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "BGT-226",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.06645573068836501
+  },
+  {
+   "drug": "DISULFIRAM",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.00729392166091811
+  },
+  {
+   "drug": "DS-7423",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.07476269702441063
+  },
+  {
+   "drug": "VANOXERINE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.02718643528160386
+  },
+  {
+   "drug": "RIDAFOROLIMUS",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 1.046677758341748
+  },
+  {
+   "drug": "PAXALISIB",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.02990507880976425
+  },
+  {
+   "drug": "CHEMBL:CHEMBL599088",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.1495253940488212
+  },
+  {
+   "drug": "IFENPRODIL",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.1495253940488212
+  },
+  {
+   "drug": "AZD8055",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.1246044950406843
+  },
+  {
+   "drug": "ISTIRATUMAB",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "PIMECROLIMUS",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "NICLOSAMIDE",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.0110759551147275
+  },
+  {
+   "drug": "CHEMBL:CHEMBL587620",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0598101576195285
+  },
+  {
+   "drug": "PALOMID-529",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "PENTAMIDINE ISETHIONATE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.04984179801627375
+  },
+  {
+   "drug": "BIX-01294",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.03738134851220531
+  },
+  {
+   "drug": "MTOR KINASE INHIBITOR AZD8055",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "SALIRASIB",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.02718643528160386
+  },
+  {
+   "drug": "CHEMBL:CHEMBL528807",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.0996835960325475
+  },
+  {
+   "drug": "(R,S)-INDATRALINE",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.02718643528160386
+  },
+  {
+   "drug": "DS-3078A",
+   "approved": false,
+   "antineo": true,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.598101576195285
+  },
+  {
+   "drug": "CAPIVASERTIB",
+   "approved": true,
+   "antineo": true,
+   "types": [],
+   "score": 0.05437287056320773
+  },
+  {
+   "drug": "XL388",
+   "approved": false,
+   "antineo": false,
+   "types": [
+    "inhibitor"
+   ],
+   "score": 0.2990507880976425
+  },
+  {
+   "drug": "CHEMBL:CHEMBL605077",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.1495253940488212
+  },
+  {
+   "drug": "MTOR INHIBITOR",
+   "approved": false,
+   "antineo": true,
+   "types": [],
+   "score": 0.08544308231361215
+  },
+  {
+   "drug": "O-PHENANTHROLINE",
+   "approved": true,
+   "antineo": false,
+   "types": [],
+   "score": 0.01424051371893535
+  },
+  {
+   "drug": "DIPHENYLENEIODONIUM",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.03738134851220531
+  },
+  {
+   "drug": "TRIFLUPERIDOL",
+   "approved": false,
+   "antineo": false,
+   "types": [],
+   "score": 0.1495253940488212
+  }
+ ]
+}

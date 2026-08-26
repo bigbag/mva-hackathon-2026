@@ -76,3 +76,19 @@ This report is a hypothesis set for follow-up. It is not evidence that any medic
 ## References
 
 Baker DJ et al. Nat Cell Biol 15:96 (2013). Villarroya-Beltri C et al. Sci Adv 8:eabq5914 (2022). Yost S et al. Nat Genet 49:1148 (2017). Malumbres M et al. Nat Rev Genet (2024). NCT02095132 (adavosertib, pediatric). Mossé JM et al. Clin Cancer Res 25:3229 (2019, alisertib). Weigert A, Hoppe B. Front Pediatr 6:98 (2018, nephrocalcinosis). Franz DN et al. EXIST-1 (everolimus). Zhang W et al. Nat Aging (2023, progerin peptide). Open Targets Platform API v4, ENSG00000156970. RepoDB. everycure/matrix-scores (Hugging Face).
+
+## 12. External computational prior (everycure/matrix-scores, fetched 2026-08-26)
+
+We scanned all 39.5 million drug-disease pairs for the proband's indications.
+
+**Rhabdomyosarcoma (MONDO:0005212).** The model ranks docetaxel, cisplatin, etoposide, 5-fluorouracil, and mitoxantrone highest. These are known cytotoxic neighbors. The prior adds no new tumor candidate. It confirms that the tumor arm sits inside standard oncology space.
+
+**MVA syndrome (MONDO:0000141), MVA1/BUB1B (MONDO:0009759), MVA2 (MONDO:0013582).** Three facts stand out.
+
+1. **No strong prior exists.** Top treat-scores reach only ~3.4-3.6 with global ranks near one to three million. The computational world holds no validated drug for MVA. This quantifies the unmet need.
+2. **Vincristine tops the MVA list.** Vincristine already anchors standard rhabdomyosarcoma therapy (VAC/VIT regimens). The model reaches this independently. The tumor arm and the syndrome-level prior therefore triangulate.
+3. **Acetazolamide ranks first for MVA1.** Acetazolamide blocks carbonic anhydrase and alkalinizes urine. This touches the proband's nephrocalcinosis axis. We grade this E4. It is a discussion point for the nephrology team, not a recommendation.
+
+**DGIdb v5 (same day).** BUB1B returns zero drug interactions. MTOR returns 177 interactions with 38 approved drugs, everolimus among them. WEE1 and AURKA return investigational agents only. The database layer supports the tier structure exactly: no direct BUB1B drug exists; the approved lever sits at mTOR; the tumor levers sit in trial space.
+
+Artifacts: `track2/evidence/matrix_scores_matches.csv`, `dgidb_tiers.json`, `ot_bub1b_profile.json`, `chebi_names.json`.
