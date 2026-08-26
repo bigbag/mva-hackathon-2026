@@ -1,0 +1,20 @@
+# --- genomic data: MUST NOT be shared (hackathon rules) ---
+data/
+resources/
+*.fastq.gz
+*.vcf.gz
+*.bam
+*.bam.bai
+*.tbi
+
+# --- environments / caches ---
+.venv/
+.mamba/
+__pycache__/
+*.pyc
+analysis/candidates/.cache/
+.netutil_cache/
+.gradio/
+
+# --- OS ---
+.DS_Store
