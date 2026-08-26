@@ -4,11 +4,11 @@ Team bigbag · Proband PROBAND01 · Result: **full match, 100.0 rank points, F-m
 
 ## Pipeline (all code in `analysis/`, runs on a laptop)
 
-1. **Phenotype → gene prior.** HPO terms from the clinical document matched to the curated MVA gene series ([Malumbres and Villarroya-Beltri, *Nat Rev Genet* 2024](https://pubmed.ncbi.nlm.nih.gov/39169218/): BUB1B, CEP57, TRIP13, CENATAC, SLF2, SMC5, MAD1L1, MAD2L1BP, CEP192, BUB1, TUBGCP4/6) plus a wider 122-gene chromosomal-instability / RMS-predisposition / nephrocalcinosis panel. BUB1B was the only gene carrying both embryonal RMS and universal prenatal growth restriction as signature features with documented compound-heterozygous architecture.
+1. **Phenotype → gene prior.** HPO terms from the clinical document matched to the curated MVA gene series ([Malumbres and Villarroya-Beltri](https://doi.org/10.1038/s41576-024-00762-6): BUB1B, CEP57, TRIP13, CENATAC, SLF2, SMC5, MAD1L1, MAD2L1BP, CEP192, BUB1, TUBGCP4/6) plus a wider 122-gene chromosomal-instability / RMS-predisposition / nephrocalcinosis panel. BUB1B was the only gene carrying both embryonal RMS and universal prenatal growth restriction as signature features with documented compound-heterozygous architecture.
 2. **Exhaustive panel extraction** (`scan_panel2.py`): all variant classes (incl. intronic/synonymous/UTR) across full gene spans ±5 kb from the provided single-sample Sentieon VCF; GENCODE v44 spans; merged-interval bisect lookup; 11,835 non-ref alleles in 11 s.
 3. **Local consequence annotation** (`annotate_panel.py`): MANE-transcript classifier (GTF + GRCh38 no-alt FASTA, pyfaidx) labeling stop-gain/frameshift/splice/missense; VEP-REST cross-verified on every final candidate (canonical ENST00000287598.11).
-4. **Frequency + clinical status** (`af_lookup.py` + `netutil.py`): [gnomAD v4](https://gnomad.broadinstitute.org/variant/15-40209701-T-G?dataset=gnomad_r4), [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/), [AlphaMissense](https://pubmed.ncbi.nlm.nih.gov/37733863/) with a rate-limit-aware client (429/Retry-After/backoff/jitter, response cache).
-5. **Splice assessment**: [SpliceAI](https://pubmed.ncbi.nlm.nih.gov/30661751/) 1.3.1, distance 1000, unmasked — all BUB1B candidates ≤0.03; the novel deep-intronic c.2679-1026A>G scored 0.00.
+4. **Frequency + clinical status** (`af_lookup.py` + `netutil.py`): [Genome Aggregation Database](https://gnomad.broadinstitute.org/variant/15-40209701-T-G?dataset=gnomad_r4), [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/), AlphaMissense ([Cheng et al.](https://doi.org/10.1126/science.adg7492)) with a rate-limit-aware client (429/Retry-After/backoff/jitter, response cache).
+5. **Splice assessment**: SpliceAI 1.3.1 ([Jaganathan et al.](https://doi.org/10.1016/j.cell.2018.12.015)), distance 1000, unmasked — all BUB1B candidates ≤0.03; the novel deep-intronic c.2679-1026A>G scored 0.00.
 6. **Confounder screens**:
    - PGT/PID physical-phasing mining — 52 read-backed in-trans groups genome-wide in-panel, all common-variant clusters; no competing recessive pair.
    - Whole-genome BAF mosaic-aneuploidy screen (`baf_screen.py`, 2.89M het SNPs): all autosomes unimodal BAF≈0.5 → no blood-DNA whole-chromosome mosaicism ≥~10% cell fraction; male karyotype confirmed.
@@ -20,12 +20,12 @@ Team bigbag · Proband PROBAND01 · Result: **full match, 100.0 rank points, F-m
 
 | Allele | Locus (GRCh38) | HGVS (NM_001211.6) | Evidence |
 |---|---|---|---|
-| 1 | chr15:40209701 T>G | c.2210T>G p.Leu737Ter | [ClinVar VCV000533901](https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/) P/LP; [gnomAD](https://gnomad.broadinstitute.org/variant/15-40209701-T-G?dataset=gnomad_r4) AF 7.9e-05 |
-| 2 | chr15:40220612 T>G | c.3006T>G p.Asn1002Lys | gnomAD singleton (1/1.46M); SIFT 0.01; PolyPhen 0.997; [AlphaMissense](https://pubmed.ncbi.nlm.nih.gov/37733863/) 0.9229; BubR1 kinase domain |
+| 1 | chr15:40209701 T>G | c.2210T>G p.Leu737Ter | [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/) P/LP; [gnomAD](https://gnomad.broadinstitute.org/variant/15-40209701-T-G?dataset=gnomad_r4) AF 7.9e-05 |
+| 2 | chr15:40220612 T>G | c.3006T>G p.Asn1002Lys | gnomAD singleton (1/1.46M); SIFT 0.01; PolyPhen 0.997; AlphaMissense 0.9229 ([Cheng et al.](https://doi.org/10.1126/science.adg7492)); BubR1 kinase domain |
 
 ## Method-design rationale (CAGI lessons applied)
 
-Five-pillar integration per the CAGI6 RGP assessment ([Stenton, 2022](https://gregorconsortium.org/node/120)): call quality + population AF + deleteriousness + segregation logic + phenotype match. We submitted the compound-het PAIR on row 1 (wrong-partner = zero in CAGI6), kept single-allele rows for CAGI7-style partial credit, flagged the incidental LZTR1 finding as `secondary`, and normalized representation exactly as the provided VCF (chrN, GRCh38, biallelic SNVs).
+Five-pillar integration per the CAGI6 RGP assessment ([Stenton](https://gregorconsortium.org/node/120)): call quality + population AF + deleteriousness + segregation logic + phenotype match. We submitted the compound-het PAIR on row 1 (wrong-partner = zero in CAGI6), kept single-allele rows for CAGI7-style partial credit, flagged the incidental LZTR1 finding as `secondary`, and normalized representation exactly as the provided VCF (chrN, GRCh38, biallelic SNVs).
 
 ## Post-submission deep verification (2026-08-26)
 
@@ -33,8 +33,8 @@ Five-pillar integration per the CAGI6 RGP assessment ([Stenton, 2022](https://gr
 
 We ran Exomiser genome-wide on the full 5.0M-variant VCF with only the eight HPO terms (hiPhive, PASS_ONLY, no gene panel). Runtime: 94 seconds.
 
-- **Rank 1: BUB1B (combined 0.650); Rank 2: BUB1B AR (0.550, phenotype score 0.813).** [OMIM:257300](https://omim.org/entry/257300) matched, including `Premature birth -> Premature chromatid separation` and `Rhabdomyosarcoma -> Embryonal rhabdomyosarcoma`.
-- The contributing variants are exactly our pair: `15-40209701-T-G` (ClinVar whitelist) and `15-40220612-T-G` (variant score 0.85).
+- **Rank 1: BUB1B (combined 0.650); Rank 2: BUB1B AR (0.550, phenotype score 0.813).** [OMIM](https://omim.org/entry/257300) matched, including `Premature birth -> Premature chromatid separation` and `Rhabdomyosarcoma -> Embryonal rhabdomyosarcoma`.
+- The contributing variants are exactly our pair: `15-40209701-T-G` ([ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/) whitelist) and `15-40220612-T-G` (variant score 0.85).
 - Rank 3: FANCD2 — the common-polymorphism cluster our scan already excluded (AF 0.45). Rank 11: LZTR1 — our flagged secondary finding, independently surfaced.
 
 Three independent approaches converge: curated-panel reasoning, phenotype-driven genome-wide prioritisation, and clinical databases. Artifacts: `analysis/exomiser/`.
@@ -58,24 +58,16 @@ All damaging hets in the 15 SF-panel genes we cover are common polymorphisms (AF
 
 ## Works Cited
 
-Chen, Siwei, et al. "A Genomic Mutational Constraint Map Using Variation in 76,156 Human Genomes." *Nature*, vol. 625, 2024. https://doi.org/10.1038/s41586-023-06045-0. https://pubmed.ncbi.nlm.nih.gov/38057664/.
+Cheng, Jun, et al. "Accurate Proteome-Wide Missense Variant Effect Prediction with AlphaMissense." *Science*, vol. 381, no. 6664, 2023, eadg7492. https://doi.org/10.1126/science.adg7492.
 
-Cheng, Jun, et al. "Accurate Proteome-Wide Missense Variant Effect Prediction with AlphaMissense." *Science*, vol. 381, no. 6664, 2023, eadg7492. https://doi.org/10.1126/science.adg7492. https://pubmed.ncbi.nlm.nih.gov/37733863/.
+ClinVar. "VCV000533901. NM_001211.6(BUB1B):c.2210T>G (p.Leu737Ter)." *ClinVar*, National Center for Biotechnology Information, https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/.
 
-ClinVar. "VCV000533901." NCBI, https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/.
+Genome Aggregation Database. "15-40209701-T-G." *gnomAD*, version 4, Broad Institute, https://gnomad.broadinstitute.org/variant/15-40209701-T-G?dataset=gnomad_r4.
 
-Hanks, Sandra, et al. "Constitutional Aneuploidy and Cancer Predisposition Caused by Biallelic Mutations in BUB1B." *Nature Genetics*, vol. 36, no. 11, 2004, pp. 1159-61. https://doi.org/10.1038/ng1449. https://pubmed.ncbi.nlm.nih.gov/15475955/.
+Jaganathan, Kishore, et al. "Predicting Splicing from Primary Sequence with Deep Learning." *Cell*, vol. 176, no. 3, 2019, pp. 535-48. https://doi.org/10.1016/j.cell.2018.12.015.
 
-Jaganathan, Kishore, et al. "Predicting Splicing from Primary Sequence with Deep Learning." *Cell*, vol. 176, no. 3, 2019, pp. 535-48. https://doi.org/10.1016/j.cell.2018.12.015. https://pubmed.ncbi.nlm.nih.gov/30661751/.
+Malumbres, Marcos, and Carolina Villarroya-Beltri. "Mosaic Variegated Aneuploidy in Development, Ageing and Cancer." *Nature Reviews Genetics*, vol. 25, no. 12, 2024, pp. 864-78. https://doi.org/10.1038/s41576-024-00762-6.
 
-Malumbres, Marcos, and Carolina Villarroya-Beltri. "Mosaic Variegated Aneuploidy in Development, Ageing and Cancer." *Nature Reviews Genetics*, vol. 25, 2024, pp. 864-78. https://doi.org/10.1038/s41576-024-00762-6. https://pubmed.ncbi.nlm.nih.gov/39169218/.
+OMIM. "Mosaic Variegated Aneuploidy Syndrome 1; MVA1." *OMIM*, Johns Hopkins University, https://omim.org/entry/257300.
 
-Rio Frio, Thomas, et al. "Homozygous BUB1B Mutation and Susceptibility to Gastrointestinal Neoplasia." *The New England Journal of Medicine*, vol. 363, no. 27, 2010, pp. 2628-37. https://doi.org/10.1056/NEJMoa1006565. https://pubmed.ncbi.nlm.nih.gov/21190457/.
-
-Sage Bionetworks. "mva-hackathon-2026-data." *Hugging Face Datasets*, 2026, https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data.
-
-Sage Bionetworks. "Rare Disease, Real Kid: MVA Hackathon 2026." *Hugging Face Spaces*, 2026, https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/.
-
-Stenton, Sarah L. "Performance of Diagnostic Methods in Identifying Disease-Causing Variants: Assessment of the Rare Genomes Project CAGI Challenge." GREGoR Consortium / ASHG, 2022, https://gregorconsortium.org/node/120.
-
-Yost, Shawn, et al. "Biallelic TRIP13 Mutations Predispose to Wilms Tumor and Chromosome Missegregation." *Nature Genetics*, vol. 49, no. 7, 2017, pp. 1148-51. https://doi.org/10.1038/ng.3883. https://pubmed.ncbi.nlm.nih.gov/28553959/.
+Stenton, Sarah L. "Performance of Diagnostic Methods in Identifying Disease-Causing Variants: Assessment of the Rare Genomes Project CAGI Challenge." GREGoR Consortium, 2022, https://gregorconsortium.org/node/120.

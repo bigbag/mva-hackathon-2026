@@ -40,19 +40,19 @@
 <img src="fig_mechanism.png" alt="Flow from genotype to three drug tiers"></section>
 
 <section class="slide"><h1>Tier A. Treat the signs that we see today.</h1>
-<div class="tier a"><b>Adavosertib plus irinotecan.</b> A pediatric trial sets the dose (<a href="https://clinicaltrials.gov/study/NCT02095132">NCT02095132</a>). The trial has a rhabdomyosarcoma arm.</div>
-<div class="tier a"><b>Potassium citrate plus a thiazide.</b> Standard care for nephrocalcinosis (<a href="https://pubmed.ncbi.nlm.nih.gov/29707529/">Weigert and Hoppe</a>). Safe in children. Protects bone.</div>
-<div class="tier a"><b>Alisertib.</b> Alternate mitotic drug. COG phase 2 trial <a href="https://pubmed.ncbi.nlm.nih.gov/30777875/">ADVL0921</a>.</div></section>
+<div class="tier a"><b>Adavosertib plus irinotecan.</b> A pediatric trial sets the dose (<a href="https://doi.org/10.1002/cncr.34786">Cole et al.</a>; <a href="https://clinicaltrials.gov/study/NCT02095132">National Cancer Institute</a>). The trial has a rhabdomyosarcoma arm.</div>
+<div class="tier a"><b>Potassium citrate plus a thiazide.</b> Standard care for nephrocalcinosis (<a href="https://doi.org/10.3389/fped.2018.00098">Weigert and Hoppe</a>). Safe in children. Protects bone.</div>
+<div class="tier a"><b>Alisertib.</b> Alternate mitotic drug. COG phase 2 trial (<a href="https://doi.org/10.1158/1078-0432.CCR-18-2675">Mossé et al.</a>).</div></section>
 
 <section class="slide"><h1>Tier B. Decrease the stress.</h1>
 <div class="tier b">Aneuploid cells increase mTOR. These cells release inflammatory signals.</div>
-<div class="tier b"><b>Everolimus</b> decreases that signal. Pediatric safety data are large (<a href="https://pubmed.ncbi.nlm.nih.gov/27351628/">EXIST-1</a>, transplant).</div>
+<div class="tier b"><b>Everolimus</b> decreases that signal. Pediatric safety data are large (<a href="https://doi.org/10.1371/journal.pone.0158476">Franz et al., "Long-Term Use"</a>).</div>
 <div class="tier b">Honest claim: <em>this drug decreases damage. This drug does not repair the checkpoint.</em></div></section>
 
 <section class="slide"><h1>Tier C. Restore the protein.</h1>
-<div class="tier c">In mice, more BubR1 repairs the checkpoint and extends lifespan (<a href="https://pubmed.ncbi.nlm.nih.gov/23242215/">Baker 2013</a>).</div>
+<div class="tier c">In mice, more BubR1 repairs the checkpoint and extends lifespan (<a href="https://doi.org/10.1038/ncb2643">Baker et al.</a>).</div>
 <div class="tier c">This child still makes weakened BubR1 from the missense allele.</div>
-<div class="tier c">Three routes: <b>AAV augmentation. SIRT2-axis stabilization. Peptide rescue.</b></div></section>
+<div class="tier c">Three routes: <b>AAV augmentation. SIRT2-axis stabilization. Peptide rescue (<a href="https://doi.org/10.1038/s43587-023-00361-w">Zhang et al.</a>).</b></div></section>
 
 <section class="slide"><h1>Both alleles change the kinase domain. The scaffold stays.</h1>
 <img src="fig_domainmap.png" alt="BubR1 domain map with both mutations"></section>
@@ -63,7 +63,7 @@
 
 <section class="slide"><h1>Scale. A laptop runs the pipeline.</h1>
 <ul>
-<li>Open Targets. DGIdb. ChEMBL. everycure/matrix-scores (39.5 million pairs). All public APIs.</li>
+<li><a href="https://platform.opentargets.org/target/ENSG00000156970">Open Targets</a>. <a href="https://www.dgidb.org/">DGIdb</a>. <a href="https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491">ChEMBL</a>. <a href="https://huggingface.co/datasets/everycure/matrix-scores">everycure/matrix-scores</a> (39.5 million pairs). All public APIs.</li>
 <li>Full pipeline: about 6 hours and 1 USD of electricity. Genome-wide check: 94 seconds.</li>
 <li>The method applies to other recessive chromosomal-instability disorders.</li>
 <li>Code and evidence: github.com/bigbag/mva-hackathon-2026</li>
@@ -78,28 +78,25 @@
 </ul></section>
 
 <section class="slide"><h1>Works Cited (MLA)</h1>
-<ul style="font-size:16px;line-height:1.35">
-<li>Baker et al. <em>Nat Cell Biol</em> 2013. <a href="https://pubmed.ncbi.nlm.nih.gov/23242215/">PubMed 23242215</a> · <a href="https://doi.org/10.1038/ncb2643">doi:10.1038/ncb2643</a></li>
-<li>Franz et al. EXIST-1. <em>Lancet</em> 2013. <a href="https://pubmed.ncbi.nlm.nih.gov/23158522/">PubMed 23158522</a></li>
-<li>Franz et al. EXIST-1 long-term. <em>PLOS ONE</em> 2016. <a href="https://pubmed.ncbi.nlm.nih.gov/27351628/">PubMed 27351628</a></li>
-<li>Hanks et al. <em>Nat Genet</em> 2004. <a href="https://pubmed.ncbi.nlm.nih.gov/15475955/">PubMed 15475955</a></li>
-<li>Malumbres and Villarroya-Beltri. <em>Nat Rev Genet</em> 2024. <a href="https://pubmed.ncbi.nlm.nih.gov/39169218/">PubMed 39169218</a></li>
-<li>Mossé et al. ADVL0921. <em>Clin Cancer Res</em> 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/30777875/">PubMed 30777875</a></li>
-<li>NCT02095132. <a href="https://clinicaltrials.gov/study/NCT02095132">clinicaltrials.gov/study/NCT02095132</a></li>
-<li>Hackathon. <a href="https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/">HF Space</a></li>
-<li>Data. <a href="https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data">HF Dataset</a></li>
+<ul style="font-size:13px;line-height:1.35">
+<li>Baker, Darren J., et al. "Increased Expression of BubR1 Protects against Aneuploidy and Cancer and Extends Healthy Lifespan." <em>Nature Cell Biology</em>, vol. 15, no. 1, 2013, pp. 96-102. <a href="https://doi.org/10.1038/ncb2643">https://doi.org/10.1038/ncb2643</a>.</li>
+<li>bigbag. "mva-hackathon-2026." <em>GitHub</em>, 2026, <a href="https://github.com/bigbag/mva-hackathon-2026">https://github.com/bigbag/mva-hackathon-2026</a>.</li>
+<li>ChEMBL. "Wee1-like Protein Kinase (CHEMBL5491)." <em>ChEMBL</em>, EMBL-EBI, <a href="https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491">https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491</a>.</li>
+<li>Cole, Kristina A., et al. "Pediatric Phase 2 Trial of a WEE1 Inhibitor, Adavosertib (AZD1775), and Irinotecan for Relapsed Neuroblastoma, Medulloblastoma, and Rhabdomyosarcoma." <em>Cancer</em>, vol. 129, no. 14, 2023, pp. 2245-55. <a href="https://doi.org/10.1002/cncr.34786">https://doi.org/10.1002/cncr.34786</a>.</li>
+<li>DGIdb. <em>The Drug Gene Interaction Database</em>, Washington University School of Medicine, <a href="https://www.dgidb.org/">https://www.dgidb.org/</a>.</li>
+<li>everycure. "matrix-scores." <em>Hugging Face</em>, <a href="https://huggingface.co/datasets/everycure/matrix-scores">https://huggingface.co/datasets/everycure/matrix-scores</a>.</li>
+<li>Franz, David Neal, et al. "Long-Term Use of Everolimus in Patients with Tuberous Sclerosis Complex: Final Results from the EXIST-1 Study." <em>PLOS ONE</em>, vol. 11, no. 6, 2016, e0158476. <a href="https://doi.org/10.1371/journal.pone.0158476">https://doi.org/10.1371/journal.pone.0158476</a>.</li>
 </ul></section>
 
 <section class="slide"><h1>Works Cited (MLA), continued</h1>
-<ul style="font-size:16px;line-height:1.35">
-<li>Weigert and Hoppe. <em>Front Pediatr</em> 2018. <a href="https://pubmed.ncbi.nlm.nih.gov/29707529/">PubMed 29707529</a></li>
-<li>Yost et al. <em>Nat Genet</em> 2017. <a href="https://pubmed.ncbi.nlm.nih.gov/28553959/">PubMed 28553959</a></li>
-<li>Zhang et al. <em>Nat Aging</em> 2023. <a href="https://pubmed.ncbi.nlm.nih.gov/37118121/">PubMed 37118121</a></li>
-<li>Villarroya-Beltri et al. <em>Sci Adv</em> 2022. <a href="https://pubmed.ncbi.nlm.nih.gov/36322655/">PubMed 36322655</a></li>
-<li>Cole et al. <em>Cancer</em> 2023. <a href="https://pubmed.ncbi.nlm.nih.gov/37081608/">PubMed 37081608</a></li>
-<li>Open Targets BUB1B. <a href="https://platform.opentargets.org/target/ENSG00000156970">ENSG00000156970</a></li>
-<li>ClinVar. <a href="https://www.ncbi.nlm.nih.gov/clinvar/variation/533901/">VCV000533901</a></li>
-<li>Code. <a href="https://github.com/bigbag/mva-hackathon-2026">github.com/bigbag/mva-hackathon-2026</a></li>
+<ul style="font-size:13px;line-height:1.35">
+<li>Mossé, Yaël P., et al. "A Phase II Study of Alisertib in Children with Recurrent/Refractory Solid Tumors or Leukemia: Children's Oncology Group Phase I and Pilot Consortium (ADVL0921)." <em>Clinical Cancer Research</em>, vol. 25, no. 11, 2019, pp. 3229-38. <a href="https://doi.org/10.1158/1078-0432.CCR-18-2675">https://doi.org/10.1158/1078-0432.CCR-18-2675</a>.</li>
+<li>National Cancer Institute. "Adavosertib and Irinotecan Hydrochloride in Treating Younger Patients with Relapsed or Refractory Solid Tumors." <em>ClinicalTrials.gov</em>, NCT02095132, U.S. National Library of Medicine, <a href="https://clinicaltrials.gov/study/NCT02095132">https://clinicaltrials.gov/study/NCT02095132</a>.</li>
+<li>Open Targets Platform. "BUB1B (ENSG00000156970)." <em>Open Targets</em>, <a href="https://platform.opentargets.org/target/ENSG00000156970">https://platform.opentargets.org/target/ENSG00000156970</a>.</li>
+<li>Sage Bionetworks. "mva-hackathon-2026-data." <em>Hugging Face Datasets</em>, 2026, <a href="https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data">https://huggingface.co/datasets/SageBio/mva-hackathon-2026-data</a>.</li>
+<li>———. "Rare Disease, Real Kid: MVA Hackathon 2026." <em>Hugging Face Spaces</em>, 2026, <a href="https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/">https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/</a>.</li>
+<li>Weigert, Alexander, and Bernd Hoppe. "Nephrolithiasis and Nephrocalcinosis in Childhood—Risk Factor-Related Current and Future Treatment Options." <em>Frontiers in Pediatrics</em>, vol. 6, 2018, p. 98. <a href="https://doi.org/10.3389/fped.2018.00098">https://doi.org/10.3389/fped.2018.00098</a>.</li>
+<li>Zhang, Na, et al. "Unique Progerin C-Terminal Peptide Ameliorates Hutchinson-Gilford Progeria Syndrome Phenotype by Rescuing BUBR1." <em>Nature Aging</em>, vol. 3, no. 2, 2023, pp. 185-201. <a href="https://doi.org/10.1038/s43587-023-00361-w">https://doi.org/10.1038/s43587-023-00361-w</a>.</li>
 </ul></section>
 
 <section class="slide"><h1>Thank you</h1>

@@ -24,15 +24,15 @@ Tier 1 uses approved drugs. For the cancer we use adavosertib plus irinotecan. A
 
 **[1:20. Slide 5. Tier B. Decrease the stress]**
 
-Tier 2 treats the effects of aneuploid cells. Stressed aneuploid cells turn on mTOR. These cells release inflammatory signals. Everolimus decreases that signal. Infants receive this drug after transplant. Children with tuberous sclerosis take this drug for years. We do not claim that the drug repairs the checkpoint. We claim that the drug decreases the damage around the checkpoint.
+Tier 2 treats the effects of aneuploid cells. Stressed aneuploid cells turn on mTOR. These cells release inflammatory signals. Everolimus decreases that signal. Infants receive this drug after transplant. Children with tuberous sclerosis take this drug for years ([Franz et al., "Long-Term Use"](https://doi.org/10.1371/journal.pone.0158476)). We do not claim that the drug repairs the checkpoint. We claim that the drug decreases the damage around the checkpoint.
 
 **[1:50. Slide 6. Tier C. Restore the protein]**
 
-Tier 3 is the research goal. In mice, more BubR1 repairs the checkpoint. More BubR1 also extends lifespan. This child still makes weakened BubR1 from the missense allele. A small increase in BubR1 level can restore checkpoint function. Three routes exist. The routes are gene augmentation, SIRT2-axis stabilization, and peptide rescue. The goal is one.
+Tier 3 is the research goal. In mice, more BubR1 repairs the checkpoint ([Baker et al.](https://doi.org/10.1038/ncb2643)). More BubR1 also extends lifespan. This child still makes weakened BubR1 from the missense allele. A small increase in BubR1 level can restore checkpoint function. Three routes exist. The routes are gene augmentation, SIRT2-axis stabilization, and peptide rescue ([Zhang et al.](https://doi.org/10.1038/s43587-023-00361-w)). The goal is one.
 
 **[2:15. Slide 7. Rigor and scale]**
 
-Each claim has an evidence grade. The grades go from trial-proven to mechanistic. We ran the full chain through public APIs. The APIs are Open Targets, DGIdb, ChEMBL, L1000, and a 39-million-pair drug-disease prior on Hugging Face. A laptop runs the pipeline. The method applies to other recessive chromosomal-instability disorders.
+Each claim has an evidence grade. The grades go from trial-proven to mechanistic. We ran the full chain through public APIs. The APIs are [Open Targets](https://platform.opentargets.org/target/ENSG00000156970), [DGIdb](https://www.dgidb.org/), [ChEMBL](https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491), and a 39-million-pair drug-disease prior on [Hugging Face](https://huggingface.co/datasets/everycure/matrix-scores). A laptop runs the pipeline. The method applies to other recessive chromosomal-instability disorders.
 
 **[2:40. Slide 8. The request]**
 
@@ -48,16 +48,16 @@ Delivery notes. Speak at about 140 words per minute. Rehearse to 2:55. Keep one 
 
 ## Works Cited
 
-Baker, Darren J., et al. *Nature Cell Biology*, 2013. https://pubmed.ncbi.nlm.nih.gov/23242215/
+Baker, Darren J., et al. "Increased Expression of BubR1 Protects against Aneuploidy and Cancer and Extends Healthy Lifespan." *Nature Cell Biology*, vol. 15, no. 1, 2013, pp. 96-102. https://doi.org/10.1038/ncb2643.
 
-Franz, David Neal, et al. EXIST-1 long-term. *PLOS ONE*, 2016. https://pubmed.ncbi.nlm.nih.gov/27351628/
+ChEMBL. "Wee1-like Protein Kinase (CHEMBL5491)." *ChEMBL*, EMBL-EBI, https://www.ebi.ac.uk/chembl/explore/target/CHEMBL5491.
 
-Mossé, Yaël P., et al. ADVL0921. *Clinical Cancer Research*, 2019. https://pubmed.ncbi.nlm.nih.gov/30777875/
+DGIdb. *The Drug Gene Interaction Database*, Washington University School of Medicine, https://www.dgidb.org/.
 
-National Cancer Institute. NCT02095132. https://clinicaltrials.gov/study/NCT02095132
+everycure. "matrix-scores." *Hugging Face*, https://huggingface.co/datasets/everycure/matrix-scores.
 
-Sage Bionetworks. Rare Disease, Real Kid: MVA Hackathon 2026. https://sagebio-rare-disease-real-kid-mva-hackathon-2026.hf.space/
+Franz, David Neal, et al. "Long-Term Use of Everolimus in Patients with Tuberous Sclerosis Complex: Final Results from the EXIST-1 Study." *PLOS ONE*, vol. 11, no. 6, 2016, e0158476. https://doi.org/10.1371/journal.pone.0158476.
 
-Weigert, Alexander, and Bernd Hoppe. *Frontiers in Pediatrics*, 2018. https://pubmed.ncbi.nlm.nih.gov/29707529/
+Open Targets Platform. "BUB1B (ENSG00000156970)." *Open Targets*, https://platform.opentargets.org/target/ENSG00000156970.
 
-Zhang, Na, et al. *Nature Aging*, 2023. https://pubmed.ncbi.nlm.nih.gov/37118121/
+Zhang, Na, et al. "Unique Progerin C-Terminal Peptide Ameliorates Hutchinson-Gilford Progeria Syndrome Phenotype by Rescuing BUBR1." *Nature Aging*, vol. 3, no. 2, 2023, pp. 185-201. https://doi.org/10.1038/s43587-023-00361-w.
