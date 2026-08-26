@@ -6,8 +6,9 @@ import random
 import time
 import urllib.error
 import urllib.request
-
-CACHE_DIR = os.environ.get("NETUTIL_CACHE", "analysis/candidates/.cache")
+import os as _os
+CACHE_DIR = _os.environ.get("NETUTIL_CACHE") or _os.path.join(
+    _os.path.dirname(_os.path.abspath(__file__)), "candidates", ".cache")
 MIN_INTERVAL = {"default": 1.0, "gnomad.broadinstitute.org": 3.0, "rest.ensembl.org": 0.35}
 _last = {}
 

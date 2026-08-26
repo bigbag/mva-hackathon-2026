@@ -1,0 +1,156 @@
+{
+ "id": "ENSG00000156970",
+ "approvedSymbol": "BUB1B",
+ "functionDescriptions": [
+  "Component of the mitotic checkpoint complex (MCC), which inhibits APC/C and delays chromosome segregation until all chromosomes are properly attached to the mitotic spindle (PubMed:27509861). The MCC, which consists of CDC20, MAD2L1/MAD2, BUB1B/BUBR1 and BUB3, is a key player of the spindle assembly checkpoint (PubMed:11702782, PubMed:14706340, PubMed:15020684, PubMed:27509861). The MCC-bound APC/C complex is inactive and this delays the metaphase/anaphase transition (PubMed:10477750, PubMed:27509861). When the spindle assembly checkpoint is silenced, the MCC-APC/C complex recruits the E2 enzyme UBCH10 and triggers the auto-ubiquitination of CDC20 in the MCC, thereby reactivating APC/C for transition into anaphase (PubMed:27509861). MCC also monitors kinetochore activities that depend on the kinetochore motor CENPE (PubMed:15020684). Required for kinetochore localization of CENPE (PubMed:15020684). Negatively regulates PLK1 activity in interphase cells and suppresses centrosome amplification (PubMed:19503101). May play a role for tumor suppression (By similarity). {ECO:0000250|UniProtKB:Q9Z1S0, ECO:0000269|PubMed:10477750, ECO:0000269|PubMed:11702782, ECO:0000269|PubMed:14706340, ECO:0000269|PubMed:15020684, ECO:0000269|PubMed:19411850, ECO:0000269|PubMed:19503101, ECO:0000269|PubMed:27509861}."
+ ],
+ "tractability": [
+  {
+   "label": "Approved Drug",
+   "modality": "SM"
+  },
+  {
+   "label": "Advanced Clinical",
+   "modality": "SM"
+  },
+  {
+   "label": "Phase 1 Clinical",
+   "modality": "SM"
+  },
+  {
+   "label": "Structure with Ligand",
+   "modality": "SM"
+  },
+  {
+   "label": "High-Quality Ligand",
+   "modality": "SM"
+  },
+  {
+   "label": "High-Quality Pocket",
+   "modality": "SM"
+  },
+  {
+   "label": "Med-Quality Pocket",
+   "modality": "SM"
+  },
+  {
+   "label": "Druggable Family",
+   "modality": "SM"
+  },
+  {
+   "label": "Approved Drug",
+   "modality": "AB"
+  },
+  {
+   "label": "Advanced Clinical",
+   "modality": "AB"
+  },
+  {
+   "label": "Phase 1 Clinical",
+   "modality": "AB"
+  },
+  {
+   "label": "UniProt loc high conf",
+   "modality": "AB"
+  },
+  {
+   "label": "GO CC high conf",
+   "modality": "AB"
+  },
+  {
+   "label": "UniProt loc med conf",
+   "modality": "AB"
+  },
+  {
+   "label": "UniProt SigP or TMHMM",
+   "modality": "AB"
+  },
+  {
+   "label": "GO CC med conf",
+   "modality": "AB"
+  },
+  {
+   "label": "Human Protein Atlas loc",
+   "modality": "AB"
+  },
+  {
+   "label": "Approved Drug",
+   "modality": "PR"
+  },
+  {
+   "label": "Advanced Clinical",
+   "modality": "PR"
+  },
+  {
+   "label": "Phase 1 Clinical",
+   "modality": "PR"
+  },
+  {
+   "label": "Literature",
+   "modality": "PR"
+  },
+  {
+   "label": "UniProt Ubiquitination",
+   "modality": "PR"
+  },
+  {
+   "label": "Database Ubiquitination",
+   "modality": "PR"
+  },
+  {
+   "label": "Half-life Data",
+   "modality": "PR"
+  },
+  {
+   "label": "Small Molecule Binder",
+   "modality": "PR"
+  },
+  {
+   "label": "Approved Drug",
+   "modality": "OC"
+  },
+  {
+   "label": "Advanced Clinical",
+   "modality": "OC"
+  },
+  {
+   "label": "Phase 1 Clinical",
+   "modality": "OC"
+  }
+ ],
+ "drugAndClinicalCandidates": {
+  "rows": []
+ },
+ "pathways": [
+  {
+   "pathway": "Resolution of Sister Chromatid Cohesion"
+  },
+  {
+   "pathway": "Inactivation of APC/C via direct inhibition of the APC/C complex"
+  },
+  {
+   "pathway": "RHO GTPases Activate Formins"
+  },
+  {
+   "pathway": "Mitotic Prometaphase"
+  },
+  {
+   "pathway": "Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal"
+  },
+  {
+   "pathway": "APC-Cdc20 mediated degradation of Nek2A"
+  },
+  {
+   "pathway": "APC/C:Cdc20 mediated degradation of mitotic proteins"
+  },
+  {
+   "pathway": "EML4 and NUDC in mitotic spindle formation"
+  },
+  {
+   "pathway": "Cdc20:Phospho-APC/C mediated degradation of Cyclin A"
+  },
+  {
+   "pathway": "Separation of Sister Chromatids"
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##contig=<ID=chr15,length=230001>
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##commandline="(whatshap 2.8) phase -o /mnt/data/tmp/dev/mva-hackathon-2026/track1/analysis/phasing/phased.vcf --reference /mnt/data/tmp/dev/mva-hackathon-2026/track1/analysis/phasing/miniref.fa /mnt/data/tmp/dev/mva-hackathon-2026/track1/analysis/phasing/bub1b_variants.miniref.vcf /mnt/data/tmp/dev/mva-hackathon-2026/track1/analysis/phasing/PROBAND_miniref.bam"
+##FORMAT=<ID=PS,Number=1,Type=Integer,Description="Phase set identifier">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	PROBAND
+chr15	159702	.	T	G	708.77	PASS	.	GT	0/1
+chr15	166471	.	A	G	383.77	PASS	.	GT	0/1
+chr15	166569	rs57676380	TA	T	789.73	PASS	.	GT	1/1
+chr15	166571	rs200074915	TA	T	789.73	PASS	.	GT	1/1
+chr15	170613	.	T	G	344.77	PASS	.	GT	0/1
+chr15	171422	rs28521889	G	C	298.77	PASS	.	GT	0/1
