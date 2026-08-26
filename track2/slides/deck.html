@@ -1,0 +1,85 @@
+#!/usr/bin/env python3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MVA Hackathon 2026 — bigbag pitch deck</title>
+<style>
+  body { margin:0; font-family: 'Segoe UI', system-ui, sans-serif; background:#111; color:#eee; }
+  .slide { width:1280px; height:720px; margin:20px auto; background:#1a1a2e; border-radius:12px;
+           padding:60px 80px; box-sizing:border-box; display:flex; flex-direction:column; }
+  h1 { font-size:44px; margin:0 0 24px; color:#7cc4ff; }
+  li { font-size:26px; margin:14px 0; line-height:1.4; }
+  img { max-width:100%; max-height:520px; margin:auto; border-radius:8px; }
+  .cap { color:#9ab; font-size:16px; text-align:center; margin-top:12px; font-style:italic; }
+  .tier { border-left:6px solid; padding:14px 20px; margin:16px 0; background:#222244; border-radius:6px; }
+  .a { border-color:#4caf50; } .b { border-color:#2196f3; } .c { border-color:#ff9800; }
+  em { color:#ffd54f; }
+</style>
+</head>
+<body>
+
+<section class="slide"><h1>A real kid. A broken checkpoint. A three-tier plan.</h1>
+<ul>
+<li>Mosaic Variegated Aneuploidy (MVA) — chromosomes lost and gained cell by cell</li>
+<li>Embryonal rhabdomyosarcoma survivor · severe growth failure · nephrocalcinosis</li>
+<li>Team bigbag — Rare Disease, Real Kid: MVA Hackathon 2026</li>
+</ul></section>
+
+<section class="slide"><h1>The cause — confirmed</h1>
+<img src="fig_evidence.png" alt="evidence card">
+<div class="cap">100.0 rank points / F-max 1.000 — full match, Track 1</div></section>
+
+<section class="slide"><h1>The hard truth</h1>
+<ul>
+<li>No approved drug raises BubR1.</li>
+<li>We cannot poison the checkpoint further — it is already broken.</li>
+<li>So we map three attack surfaces: <em>the tumor, the stress, the protein.</em></li>
+</ul></section>
+
+<section class="slide"><h1>Mechanism: genotype to drug</h1>
+<img src="fig_mechanism.png" alt="mechanism diagram"></section>
+
+<section class="slide"><h1>Tier A — treat what we see today</h1>
+<div class="tier a"><b>Adavosertib + irinotecan</b> — pediatric trial defines the dose (NCT02095132), rhabdomyosarcoma arm</div>
+<div class="tier a"><b>Potassium citrate + thiazide</b> — standard, safe, bone-protective for nephrocalcinosis</div>
+<div class="tier a"><b>Alisertib</b> — alternate mitotic driver (COG ADVL0921)</div></section>
+
+<section class="slide"><h1>Tier B — buffer the stress</h1>
+<div class="tier b">Aneuploid cells turn on mTOR and pour out inflammatory signals.</div>
+<div class="tier b"><b>Everolimus</b> quiets that axis — deepest pediatric safety record (EXIST-1, transplant).</div>
+<div class="tier b">Honest claim: <em>lowers the fire, does not fix the checkpoint.</em></div></section>
+
+<section class="slide"><h1>Tier C — restore the protein (innovation)</h1>
+<div class="tier c">In mice, BubR1 overexpression repairs the checkpoint and extends lifespan (Baker 2013).</div>
+<div class="tier c">This child still makes weakened BubR1 from his missense allele.</div>
+<div class="tier c">Three routes: <b>AAV augmentation · SIRT2-axis stabilization · peptide rescue</b></div></section>
+
+<section class="slide"><h1>Rigor: three independent methods agree</h1>
+<img src="fig_exomiser.png" alt="exomiser top genes">
+<div class="cap">Panel scan · Exomiser genome-wide (94 s, no panel) · clinical databases — all point to BUB1B</div></section>
+
+<section class="slide"><h1>Scalability — a laptop runs it</h1>
+<ul>
+<li>Open Targets · DGIdb · ChEMBL · everycure/matrix-scores (39.5M pairs) — all public APIs</li>
+<li>Full pipeline: ~6 h + $1 of electricity; genome-wide check: 94 s</li>
+<li>Generalizes to any recessive chromosomal-instability disorder</li>
+<li>Code and evidence: github.com/bigbag/mva-hackathon-2026</li>
+</ul></section>
+
+<section class="slide"><h1>The ask</h1>
+<ul>
+<li>Standard symptom care <em>now</em></li>
+<li>Trial-governed cancer options when needed</li>
+<li>A serious research push on BubR1 restoration</li>
+<li>This family shared their child's genome with the world — give them a path.</li>
+</ul></section>
+
+<section class="slide"><h1>Thank you</h1>
+<ul>
+<li>Team bigbag · github.com/bigbag/mva-hackathon-2026</li>
+<li>Organized by Sage Bionetworks · MVA Society · Hugging Face · BEACON; sponsored by AWS and Anthropic — and above all, <em>the family</em>.</li>
+</ul></section>
+
+</body>
+</html>
