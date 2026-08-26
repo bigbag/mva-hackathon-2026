@@ -110,3 +110,27 @@ Artifacts: `evidence/pdb/` (5JJA, 6TLJ, 5KHU, AlphaFold model, distance computat
 ## 14. Registered RMS trial landscape (Open Targets, 2026-08-26)
 
 The platform lists 95 drug or clinical candidates for rhabdomyosarcoma. Late-stage entries include vinorelbine (phase 3), ifosfamide (phase 3), filgrastim (phase 3), and eribulin (phase 2). Targeted entries include crizotinib, sorafenib, imatinib, and tacrolimus. Our Tier-A picks (adavosertib plus irinotecan; alisertib) do not appear in this indication list yet. They enter through pediatric solid-tumor and relapsed-RMS trials instead (NCT02095132; ADVL0921). Artifact: `evidence/ot_rms_drugs.json`.
+
+## 15. Nephrocalcinosis management protocol (Tier A3, operationalized)
+
+The protocol targets hypercalciuria-driven deposits in a former 32-week preterm infant.
+
+1. **Measure first.** Obtain a spot urine calcium-to-creatinine ratio on two mornings. Obtain serum calcium, phosphate, magnesium, vitamin D (25-OH), and PTH. Obtain a renal ultrasound every six to twelve months.
+2. **Citrate first.** Give potassium citrate 0.1-0.2 g/kg/day in divided doses. Target urine citrate rise and neutral-to-alkaline urine pH. Watch serum potassium.
+3. **Add thiazide when hypercalciuria persists.** Give hydrochlorothiazide 0.5-1 mg/kg/day in two doses. Expect a urine-calcium drop near 30 percent. Monitor potassium and magnesium; replace as needed.
+4. **Amiloride as third step** if hypokalemia limits the thiazide.
+5. **Acetazolamide stays a discussion point only.** It ranked first for MVA1 in the matrix-scores prior. It also alkalinizes urine and can worsen calcium-phosphate deposition. Grade E4. The nephrology team decides.
+6. **Bone side.** Thiazide improves bone mineral density in hypercalciuric children. This helps a growth-restricted child.
+
+Reference anchors: Weigert & Hoppe, Front Pediatr 6:98 (2018); pediatric hypercalciuria reviews cited in Section 10.
+
+## 16. Tumor-arm eligibility: a biomarker gate (new)
+
+We propose testing the tumor before any Tier-A mitotic drug.
+
+1. **WEE1 arm (adavosertib + irinotecan).** Test tumor RB1 and TP53 status first. WEE1 dependence arises when G1 checkpoints fail. Intact RB1/p53 lowers the expected benefit and raises toxicity. Evidence: NCT02095132 enrichment logic.
+2. **AURKA arm (alisertib).** AURKA dependence rises in Rb-pathway-defective cells. The same RB1 test gates this arm.
+3. **Chemical-feasibility anchor (ChEMBL, verified today).** Adavosertib inhibits WEE1 with IC50 0.6-1.7 nM (CHEMBL5491). Pediatric RP2D 85 mg/m² reaches plasma levels far above this. The drug engages its target at safe pediatric doses. Everolimus and alisertib potencies are single-digit nanomolar in published assays; the ChEMBL REST service returned no usable rows for them today, so we grade those two cells E2 from literature.
+4. **Surveillance stays unchanged** regardless of arm: abdominal ultrasound every three months to age seven; blood counts for leukemia/MDS watch; minimal radiation.
+
+Artifact: `evidence/chembl_feasibility.json`.
