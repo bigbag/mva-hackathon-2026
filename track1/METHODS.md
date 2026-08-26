@@ -1,4 +1,4 @@
-# Track 1 — Full Methods Record (for judging)
+# Track 1. Full Methods Record
 
 Team bigbag · Proband PROBAND01 · Result: **full match, 100.0 rank points, F-max 1.000** (2026-08-26 03:13 UTC)
 
@@ -53,5 +53,5 @@ All damaging hets in the 15 SF-panel genes we cover are common polymorphisms (AF
 
 ### E. Figures
 
-- `figures/baf_deviation_per_chrom.png` — no aneuploidy mode shift genome-wide (2.89M het SNPs).
-- `figures/bub1b_depth_profile.png` — BUB1B locus depth; exons diploid-normal.
+- `figures/baf_deviation_per_chrom.png`. Whole-genome BAF deviation. No aneuploidy mode shift. 2.89 million heterozygous SNPs.
+- `figures/bub1b_depth_profile.png`. BUB1B locus depth. Exons sit in the diploid band. Depth spikes map to repeat elements.

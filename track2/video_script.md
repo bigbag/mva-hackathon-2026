@@ -1,45 +1,47 @@
-# 3-Minute Pitch Video Script — Track 2 (BUB1B-MVA Drug Repurposing)
+# 3-Minute Pitch Video Script. Track 2. BUB1B-MVA Drug Repurposing
 
-Team bigbag · Target length 3:00 · Format: slides + voiceover. Slide cues in [brackets].
+Team bigbag. Target length 3:00. Format: slides plus voiceover. Slide cues are in [brackets].
+
+This script uses Simplified Technical English. Each sentence holds one idea.
 
 ---
 
-**[0:00 — Slide 1: title + child's drawing motif]**
+**[0:00. Slide 1. Title]**
 
-This is a real child. He has Mosaic Variegated Aneuploidy. His cells lose and gain whole chromosomes. He fought rhabdomyosarcoma. He weighs far below normal. His kidneys hold calcium deposits.
+This is a real child. He has Mosaic Variegated Aneuploidy. His cells lose and gain whole chromosomes. He had rhabdomyosarcoma. His weight is far below the normal range. His kidneys hold calcium deposits.
 
-**[0:15 — Slide 2: the cause]**
+**[0:15. Slide 2. The cause]**
 
-We found the cause. Two faulty copies of BUB1B. One copy stops the protein early. One copy weakens its kinase domain. The spindle assembly checkpoint fails. Cells divide before chromosomes attach. That is the engine of this disease.
+We found the cause. He has two faulty copies of BUB1B. One copy stops the protein early. One copy decreases kinase function. The spindle assembly checkpoint fails. Cells divide before chromosomes attach. This process causes the disease.
 
-**[0:35 — Slide 3: the problem]**
+**[0:35. Slide 3. The constraint]**
 
-Here is the hard truth. No approved drug raises BubR1. And we cannot poison the checkpoint further — the checkpoint is already broken. So we mapped the disease onto three attack surfaces: the tumor, the stress, and the protein.
+No approved drug increases BubR1. We must not decrease checkpoint function more. The checkpoint already does not work. We map the disease to three target groups. The groups are the tumor, the stress, and the protein.
 
-**[0:55 — Slide 4: Tier A — treat what we see today]**
+**[0:55. Slide 4. Tier A. Treat the signs that we see today]**
 
-Tier one uses approved drugs. For his cancer: adavosertib plus irinotecan — a pediatric trial defines the exact dose, with a rhabdomyosarcoma arm. For his kidneys: potassium citrate plus a thiazide — standard, safe, and bone-protective.
+Tier 1 uses approved drugs. For the cancer we use adavosertib plus irinotecan. A pediatric trial sets the dose. The trial has a rhabdomyosarcoma arm. For the kidneys we use potassium citrate plus a thiazide. These drugs are standard. These drugs are safe. These drugs protect bone.
 
-**[1:20 — Slide 5: Tier B — buffer the stress]**
+**[1:20. Slide 5. Tier B. Decrease the stress]**
 
-Tier two addresses what aneuploid cells cause. Stressed aneuploid cells turn on mTOR and pour out inflammatory signals. Everolimus quiets that axis. It has among the deepest pediatric safety records of any systemic option — infants receive it after transplant, and children with tuberous sclerosis take it for years. We do not claim it fixes the checkpoint. We claim it lowers the fire around it.
+Tier 2 treats the effects of aneuploid cells. Stressed aneuploid cells turn on mTOR. These cells release inflammatory signals. Everolimus decreases that signal. Infants receive this drug after transplant. Children with tuberous sclerosis take this drug for years. We do not claim that the drug repairs the checkpoint. We claim that the drug decreases the damage around the checkpoint.
 
-**[1:50 — Slide 6: Tier C — restore the protein]**
+**[1:50. Slide 6. Tier C. Restore the protein]**
 
-Tier three is our innovation. In mice, BubR1 overexpression repairs the checkpoint and extends lifespan. This child still makes weakened BubR1 from his missense allele. Small increases in BubR1 level may restore real checkpoint fidelity. Gene augmentation, SIRT2-axis stabilization, peptide rescue — three concrete routes, one goal.
+Tier 3 is the research goal. In mice, more BubR1 repairs the checkpoint. More BubR1 also extends lifespan. This child still makes weakened BubR1 from the missense allele. A small increase in BubR1 level can restore checkpoint function. Three routes exist. The routes are gene augmentation, SIRT2-axis stabilization, and peptide rescue. The goal is one.
 
-**[2:15 — Slide 7: rigor and scalability]**
+**[2:15. Slide 7. Rigor and scale]**
 
-Every claim carries an evidence grade, from trial-proven to mechanistic. We ran the full chain through public APIs — Open Targets, DGIdb, ChEMBL, L1000, a 39-million-pair drug-disease prior on Hugging Face. A laptop runs it. The method generalizes to any recessive chromosomal-instability disorder.
+Each claim has an evidence grade. The grades go from trial-proven to mechanistic. We ran the full chain through public APIs. The APIs are Open Targets, DGIdb, ChEMBL, L1000, and a 39-million-pair drug-disease prior on Hugging Face. A laptop runs the pipeline. The method applies to other recessive chromosomal-instability disorders.
 
-**[2:40 — Slide 8: the ask]**
+**[2:40. Slide 8. The request]**
 
-We ask for three things. Standard symptom care now. Trial-governed cancer options when needed. And a serious research push on BubR1 restoration. This family shared their child's genome with the world. The least we can do is give them a path.
+We ask for three things. Give standard symptom care now. Use trial-controlled cancer options when needed. Start a research program on BubR1 restoration. This family shared the genome of their child. We give them a clear plan.
 
-**[2:55 — End card: team, repo link, acknowledgement]**
+**[2:55. End card. Team, repository, acknowledgement]**
 
 Thank you.
 
 ---
 
-*Delivery notes: ~140 words/min; rehearse to 2:55; keep slides to one visual idea each; end on the acknowledgement required by the rules.*
+Delivery notes. Speak at about 140 words per minute. Rehearse to 2:55. Keep one visual idea on each slide. End with the acknowledgement that the rules require.
